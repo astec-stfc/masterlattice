@@ -191,8 +191,8 @@ elements:
   CLA-FEA-DIA-COL-03-MASK:
     type: rcollimator
     length: 0.0
-    horizontal_size: 0.0005
-    vertical_size: 0.0005
+    horizontal_size: 1
+    vertical_size: 1
     output_filename: '"CLA-FEA-DIA-SCR-03-MASK.SDDS"'
     global_rotation: [0, 0, -0.2443460953]
     position_end: [3.29597, 0, 57.7567]

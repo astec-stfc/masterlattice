@@ -340,12 +340,12 @@
 			"position_end":[
 				3.680751,
 				0,
-				6.76225e1
+				6.762103e1
 			],
 			"position_start":[
 				3.680751,
 				0,
-				6.74725e1
+				6.747103e1
 			]
 		},
 		"CLA-FEH-FOCUS-01-START":{
@@ -459,12 +459,12 @@
 			"position_end":[
 				3.680751,
 				0,
-				6.98375e1
+				6.983604e1
 			],
 			"position_start":[
 				3.680751,
 				0,
-				6.96875e1
+				6.968604e1
 			]
 		},
 		"CLA-FEH-MAG-QUAD-03-CORR":{
@@ -787,12 +787,12 @@
 			"position_end":[
 				3.680751,
 				0,
-				7.25525e1
+				7.255103e1
 			],
 			"position_start":[
 				3.680751,
 				0,
-				7.24025e1
+				7.240103e1
 			]
 		},
 		"CLA-FEH-FOCUS-02-START":{
@@ -864,12 +864,12 @@
 			"position_end":[
 				3.680751,
 				0,
-				7.47675e1
+				7.476601e1
 			],
 			"position_start":[
 				3.680751,
 				0,
-				7.46175e1
+				7.461601e1
 			]
 		},
 		"CLA-FEH-MAG-QUAD-07-CORR":{
@@ -1039,12 +1039,12 @@
 			"position_end":[
 				3.680751,
 				0,
-				7.789589e1
+				7.78799e1
 			],
 			"position_start":[
 				3.680751,
 				0,
-				7.757589e1
+				7.75599e1
 			]
 		},
 		"CLA-FED-MAG-QUAD-02":{
@@ -1108,7 +1108,7 @@
 		"CLA-FED-DIA-SCR-01-OTR":{
 			"type":"screen",
 			"length":0.15,
-			"output_filename":"\"CLA-FED-DIA-SCR-09.SDDS\"",
+			"output_filename":"\"CLA-FED-DIA-SCR-01-OTR.SDDS\"",
 			"global_rotation":[
 				0,
 				0,
@@ -1117,12 +1117,12 @@
 			"position_end":[
 				3.680751,
 				0,
-				7.9025e1
+				7.900501e1
 			],
 			"position_start":[
 				3.680751,
 				0,
-				7.8875e1
+				7.885501e1
 			]
 		},
 		"CLA-FED-MAG-DIP-01":{
@@ -1189,21 +1189,21 @@
 		"CLA-FED-DIA-SCR-02-WIDE":{
 			"type":"screen",
 			"length":0.15,
-			"output_filename":"\"CLA-FED-DIA-SCR-10-WIDE.SDDS\"",
+			"output_filename":"\"CLA-FED-DIA-SCR-02-WIDE.SDDS\"",
 			"global_rotation":[
 				0,
 				0,
 				0.3490658504
 			],
 			"position_end":[
-				2.858206,
+				2.907847,
 				0,
-				8.1892635e1
+				8.1756248e1
 			],
 			"position_start":[
-				2.909509,
+				2.95915,
 				0,
-				8.1751681e1
+				8.1615294e1
 			]
 		},
 		"CLA-FED-DUMP-01-START":{
@@ -1215,14 +1215,14 @@
 				0.3490658504
 			],
 			"position_end":[
-				2.68563,
+				2.691232,
 				0,
-				8.23668e1
+				8.2351408e1
 			],
 			"position_start":[
-				2.68563,
+				2.691232,
 				0,
-				8.23668e1
+				8.2351408e1
 			]
 		}
 	}

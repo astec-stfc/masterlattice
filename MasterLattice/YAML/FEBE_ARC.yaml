@@ -185,9 +185,9 @@ elements:
   CLA-FEA-PREMASK:
     type: marker
     fit_point: 1.0
-    global_rotation: [0, 0, 0]
-    position_end: [3.29597, 0, 57.7566]
-    position_start: [3.29597, 0, 57.7566]
+    global_rotation: [0, 0, -0.2443460953]
+    position_end: [3.294942, 0, 57.752576]
+    position_start: [3.294942, 0, 57.752576]
   CLA-FEA-DIA-COL-03-MASK:
     type: rcollimator
     length: 0.0
@@ -195,15 +195,15 @@ elements:
     vertical_size: 1
     output_filename: '"CLA-FEA-DIA-SCR-03-MASK.SDDS"'
     global_rotation: [0, 0, -0.2443460953]
-    position_end: [3.29597, 0, 57.7567]
-    position_start: [3.29597, 0, 57.7567]
+    position_end: [3.294942, 0, 57.752576]
+    position_start: [3.294942, 0, 57.752576]
   CLA-FEA-DIA-SCR-03-MASK:
     type: screen
     length: 0.2
     output_filename: '"CLA-FEA-DIA-SCR-03-MASK.SDDS"'
     global_rotation: [0, 0, -0.2443460953]
-    position_end: [3.344354, 0, 57.950759]
-    position_start: [3.29597, 0, 57.7567]
+    position_end: [3.343326, 0, 57.946635]
+    position_start: [3.294942, 0, 57.752576]
   CLA-FEA-MAG-QUAD-11:
     type: quadrupole
     length: 0.21
@@ -276,8 +276,8 @@ elements:
     length: 0.2
     output_filename: '"CLA-FEA-DIA-SCR-04-CTR.SDDS"'
     global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 61.330479]
-    position_start: [3.680751, 0, 61.130479]
+    position_end: [3.680751, 0, 61.308709]
+    position_start: [3.680751, 0, 61.108709]
   CLA-FEA-MAG-HVCOR-04:
     type: kicker
     length: 0.2

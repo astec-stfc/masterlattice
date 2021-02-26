@@ -31,7 +31,7 @@ elements:
     global_rotation: [0, 0, 0]
     position_end: [3.680751, 0, 63.2]
     position_start: [3.680751, 0, 63.1]
-  CLA-FEH-DIA-BPM-09:
+  CLA-FEA-DIA-BPM-09:
     type: beam_position_monitor
     length: 0.21
     global_rotation: [0, 0, 0]

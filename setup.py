@@ -1,5 +1,5 @@
 from setuptools import setup, find_packages
-# import os
+import versioneer
 # from glob import glob
 
 # base_data_files=glob('MasterLattice/*/*', recursive=True)
@@ -18,7 +18,8 @@ requirements = []
 
 setup(
     name="MasterLattice",
-    version="0.0.1",
+    version=versioneer.get_version(),
+    cmdclass=versioneer.get_cmdclass(),
     author="James Jones",
     author_email="james.jones@stfc.ac.uk",
     description="Files defining the CLARA lattice",

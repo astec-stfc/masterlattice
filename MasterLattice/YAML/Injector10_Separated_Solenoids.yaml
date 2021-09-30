@@ -177,8 +177,8 @@ elements:
         field_amplitude: 0.05
         field_definition: $master_lattice_location$Data_Files/SwissFEL_linac_sols.dat
         field_definition_gdf: $master_lattice_location$Data_Files/SwissFEL_linac_sols.gdf
-        position_end: [0, 0, 2.2]
-        position_start: [0, 0, 1.70]
+        position_end: [0, 0, 2.11365]
+        position_start: [0, 0, 1.38673]
         field_integral_coefficients: [0.911580969, -0.0374385376, 0.00106926073, -1.64644381e-05, 1.01769629e-07, 0, 0, 0.37651102,
                       0.12171419]
       CLA-L01-MAG-SOL-02:
@@ -187,7 +187,7 @@ elements:
         field_amplitude: -0.05
         field_definition: $master_lattice_location$Data_Files/SwissFEL_linac_sols.dat
         field_definition_gdf: $master_lattice_location$Data_Files/SwissFEL_linac_sols.gdf
-        position_end: [0, 0, 3.2]
-        position_start: [0, 0, 2.70]
+        position_end: [0, 0, 3.03374]
+        position_start: [0, 0, 2.30682]
         field_integral_coefficients: [0.847688880, -0.0653499119, 0.00243270133, -4.29020066e-05, 2.87019853e-07, 0, 0, 0.37651102,
                       0.12171419]

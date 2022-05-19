@@ -101,7 +101,7 @@ elements:
     n_cells: 61
     field_amplitude: 21000000.0
     frequency: 2998500000.0
-    phase: -16
+    phase: 16
     crest: 155
     longitudinal_wakefield_sdds: $master_lattice_location$Data_Files/Sz5um10mm.sdds
     transverse_wakefield_sdds: $master_lattice_location$Data_Files/Sx5um10mm.sdds

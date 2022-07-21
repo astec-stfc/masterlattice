@@ -108,7 +108,7 @@ elements:
     length: 0.500037
     angle: 1.0472
     half_gap: 0.005
-    edge_field_integral: 0.4
+    edge_field_integral: 0
     csr_bins: 20.0
     sr_enable: true
     isr_enable: true
@@ -139,11 +139,11 @@ elements:
     type: watch_point
     output_filename: EBT-BA1-DIA-YAG-03.SDDS
     global_rotation: [0, 0, 1.0472]
-    position_end: [-3.11688, 0, 29.9073]
-    position_start: [-3.11688, 0, 29.9073]
+    position_end: [-2.91336, 0, 29.7898]
+    position_start: [-2.91336, 0, 29.7898]
   EBT-BA1-DIA-FCUP-01:
     type: watch_point
     output_filename: EBT-BA1-DIA-FCUP-01.SDDS
     global_rotation: [0, 0, 1.0472]
-    position_end: [-3.32732, 0, 30.0288]
-    position_start: [-3.32732, 0, 30.0288]
+    position_end: [-3.12986, 0, 29.9148]
+    position_start: [-3.12986, 0, 29.9148]

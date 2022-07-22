@@ -63,10 +63,10 @@ elements:
   CLA-FEA-MAG-SEXT-01:
     type: sextupole
     length: 0.1
-    k2l: 25.225
+    k2l: 22.6172
     global_rotation: [0, 0, -0.2443460953]
-    position_end: [0.724676, 0, 51.3048]
-    position_start: [0.700484, 0, 51.2078]
+    position_end: [0.718628, 0, 51.2806]
+    position_start: [0.694436, 0, 51.1835]
   CLA-FEA-MAG-QUAD-04:
     type: quadrupole
     length: 0.21
@@ -221,10 +221,10 @@ elements:
   CLA-FEA-MAG-SEXT-02:
     type: sextupole
     length: 0.1
-    k2l: -25.225
+    k2l: -22.6172
     global_rotation: [0, 0, -0.2443460953]
-    position_end: [3.47137, 0, 58.4602]
-    position_start: [3.44718, 0, 58.3632]
+    position_end: [3.46532, 0, 58.4359]
+    position_start: [3.44113, 0, 58.3389]
   CLA-FEA-MAG-QUAD-12:
     type: quadrupole
     length: 0.21

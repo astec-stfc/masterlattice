@@ -65,8 +65,8 @@ elements:
     length: 0.1
     k2l: 22.6172
     global_rotation: [0, 0, -0.2443460953]
-    position_end: [0.718628, 0, 51.2806]
-    position_start: [0.694436, 0, 51.1835]
+    position_end: [0.722376, 0, 51.295565]
+    position_start: [0.698184, 0, 51.198535]
   CLA-FEA-MAG-QUAD-04:
     type: quadrupole
     length: 0.21
@@ -223,8 +223,8 @@ elements:
     length: 0.1
     k2l: -22.6172
     global_rotation: [0, 0, -0.2443460953]
-    position_end: [3.46532, 0, 58.4359]
-    position_start: [3.44113, 0, 58.3389]
+    position_end: [3.466561, 0, 58.4409]
+    position_start: [3.442369, 0, 58.34387]
   CLA-FEA-MAG-QUAD-12:
     type: quadrupole
     length: 0.21

@@ -51,7 +51,7 @@ elements:
     global_rotation: [0, 0, 0]
     position_end: [0.162009, 0, 28.8793]
     position_start: [0.162009, 0, 28.3993]
-  CLA-VBC-DIA-SCR-01-W:
+  CLA-VBC-DIA-SCR-01:
     type: screen
     output_filename: '"CLA-VBC-DIA-SCR-01.SDDS"'
     global_rotation: [0, 0, 0]

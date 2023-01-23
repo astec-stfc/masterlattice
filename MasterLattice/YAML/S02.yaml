@@ -174,8 +174,8 @@ elements:
     Controller_Name: BPM02
     PV: CLA-S02-DIA-BPM-02
     global_rotation: [0, 0, 0]
-    position_end: [0, 0, 6.542]
-    position_start: [0, 0, 6.49065]
+    position_end: [0, 0, 6.5413]
+    position_start: [0, 0, 6.48995]
   CLA-S02-DIA-SCR-03:
     type: screen
     output_filename: CLA-S02-DIA-SCR-03.SDDS
@@ -184,8 +184,8 @@ elements:
     buffer_start_length: 0.033333
     buffer_end_length: 0.076667
     global_rotation: [0, 0, 0]
-    position_end: [0, 0, 6.58343]
-    position_start: [0, 0, 6.58343]
+    position_end: [0, 0, 6.58455]
+    position_start: [0, 0, 6.58455]
   CLA-S02-MAG-HVCOR-04:
     type: kicker
     length: 0.0574
@@ -197,5 +197,5 @@ elements:
     field_integral_coefficients_horizontal: [0.299132052459495,0.00869167241506522]
     field_integral_coefficients_vertical: [0.299132052459495,0.00869167241506522]
     global_rotation: [0, 0, 0]
-    position_end: [0, 0, 6.7175]
-    position_start: [0, 0, 6.6601]
+    position_end: [0, 0, 6.7797]
+    position_start: [0, 0, 6.72230]

@@ -60,7 +60,7 @@ elements:
     global_rotation: [0, 0, 0]
     position_end: [0, 0, 17.1002]
     position_start: [0, 0, 16.9382]
-  CLA-S04-DIA-SCR-01-W:
+  CLA-S04-DIA-SCR-01:
     type: screen
     output_filename: CLA-S04-DIA-SCR-01.SDDS
     global_rotation: [0, 0, 0]
@@ -107,7 +107,7 @@ elements:
     global_rotation: [0, 0, 0]
     position_end: [0, 0, 18.3752]
     position_start: [0, 0, 18.3252]
-  CLA-S04-DIA-SCR-02-W:
+  CLA-S04-DIA-SCR-02:
     type: screen
     output_filename: CLA-S04-DIA-SCR-02.SDDS
     buffer_start: [0, 0, 18.4102]
@@ -150,7 +150,7 @@ elements:
     global_rotation: [0, 0, 0.0001]
     position_end: [-4.5e-05, 0, 19.1402]
     position_start: [-4.0e-05, 0, 19.0402]
-  CLA-S04-DIA-SCR-03-W:
+  CLA-S04-DIA-SCR-03:
     type: screen
     output_filename: CLA-S04-DIA-SCR-03.SDDS
     buffer_start: [4.5e-05, 0, 19.1902]
@@ -199,7 +199,7 @@ elements:
     global_rotation: [0, 0, 0]
     position_end: [-4.5e-05, 0, 20.4452]
     position_start: [-4.5e-05, 0, 20.2352]
-  CLA-S04-DIA-SCR-04-W:
+  CLA-S04-DIA-SCR-04:
     type: screen
     output_filename: CLA-S04-DIA-SCR-04.SDDS
     buffer_start: [4.5e-05, 0, 20.4452]
@@ -242,7 +242,7 @@ elements:
     global_rotation: [0, 0, -0.0001]
     position_end: [0, 0, 21.1652]
     position_start: [-5.0e-06, 0, 21.0652]
-  CLA-S04-DIA-SCR-05-W:
+  CLA-S04-DIA-SCR-05:
     type: screen
     output_filename: CLA-S04-DIA-SCR-05.SDDS
     buffer_start: [0, 0, 21.2719]

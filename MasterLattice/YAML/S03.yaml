@@ -36,7 +36,7 @@ elements:
     global_rotation: [0, 0, 0]
     position_end: [0, 0, 11.8224]
     position_start: [0, 0, 11.7724]
-  CLA-S03-DIA-SCR-01-W:
+  CLA-S03-DIA-SCR-01:
     type: screen
     output_filename: CLA-S03-DIA-SCR-01.SDDS
     buffer_start: [0, 0, 11.8674]

@@ -79,7 +79,7 @@ elements:
     global_rotation: [0, 0, 0]
     position_end: [0, 0, 50.4968]
     position_start: [0, 0, 50.4968]
-  CLA-FMS-DIA-SCR-01-W:
+  CLA-FMS-DIA-SCR-01:
     type: marker
     fit_point: 1.0
     buffer_start: [0, 0, 50.4968]
@@ -363,7 +363,7 @@ elements:
     global_rotation: [0, 0, -2.0e-06]
     position_end: [-2.67174e-05, 0, 53.6321]
     position_start: [-2.67734e-05, 0, 53.6041]
-  CLA-FMS-DIA-SCR-03-W:
+  CLA-FMS-DIA-SCR-03:
     type: marker
     fit_point: 1.0
     buffer_start: [2.66174e-05, 0, 53.6821]
@@ -582,7 +582,7 @@ elements:
     global_rotation: [0, 0, 0]
     position_end: [0, 0, 54.8271]
     position_start: [0, 0, 54.8104]
-  CLA-FMS-DIA-SCR-04-W:
+  CLA-FMS-DIA-SCR-04:
     type: marker
     fit_point: 1.0
     buffer_start: [0, 0, 54.8421]
@@ -630,7 +630,7 @@ elements:
     global_rotation: [0, 0, -0.010004]
     position_end: [0, 0, 55.4421]
     position_start: [-0.000396099, 0, 55.3671]
-  CLA-FMS-DIA-SCR-05-W:
+  CLA-FMS-DIA-SCR-05:
     type: marker
     fit_point: 1.0
     buffer_start: [0, 0, 55.4421]

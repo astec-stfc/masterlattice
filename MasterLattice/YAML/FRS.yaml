@@ -11919,7 +11919,7 @@ elements:
     global_rotation: [0, 0, 0]
     position_end: [0, 0, 76.4221]
     position_start: [0, 0, 76.4221]
-  CLA-FRS-R17-DIASCR01-W:
+  CLA-FRS-R17-DIASCR01:
     type: marker
     fit_point: 1.0
     buffer_start: [0, 0, 76.6221]

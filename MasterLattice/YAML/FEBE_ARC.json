@@ -22,9 +22,9 @@
 		"CLA-FEA-MAG-DIP-01":{
 			"type":"dipole",
 			"length":0.2,
-			"angle":0.2443460953,
-			"entrance_edge_angle":0.1221730476,
-			"exit_edge_angle":0.1221730476,
+			"angle":-0.2443460953,
+			"entrance_edge_angle":-0.1221730476,
+			"exit_edge_angle":-0.1221730476,
 			"global_rotation":[
 				0,
 				0,
@@ -178,6 +178,26 @@
 				5.0955507e1
 			]
 		},
+		"CLA-FEA-MAG-SEXT-01":{
+			"type":"sextupole",
+			"length":0.1,
+			"k2l":2.26172e1,
+			"global_rotation":[
+				0,
+				0,
+				-0.2443460953
+			],
+			"position_end":[
+				0.722376,
+				0,
+				5.1295565e1
+			],
+			"position_start":[
+				0.698184,
+				0,
+				5.1198535e1
+			]
+		},
 		"CLA-FEA-MAG-QUAD-04":{
 			"type":"quadrupole",
 			"length":0.21,
@@ -220,9 +240,9 @@
 		"CLA-FEA-MAG-DIP-02":{
 			"type":"dipole",
 			"length":0.2,
-			"angle":0.2443460953,
-			"entrance_edge_angle":0.1221730476,
-			"exit_edge_angle":0.1221730476,
+			"angle":-0.2443460953,
+			"entrance_edge_angle":-0.1221730476,
+			"exit_edge_angle":-0.1221730476,
 			"global_rotation":[
 				0,
 				0,
@@ -418,9 +438,9 @@
 		"CLA-FEA-MAG-DIP-03":{
 			"type":"dipole",
 			"length":0.2,
-			"angle":-0.2443460953,
-			"entrance_edge_angle":-0.1221730476,
-			"exit_edge_angle":-0.1221730476,
+			"angle":0.2443460953,
+			"entrance_edge_angle":0.1221730476,
+			"exit_edge_angle":0.1221730476,
 			"global_rotation":[
 				0,
 				0,
@@ -534,6 +554,47 @@
 				5.74171e1
 			]
 		},
+		"CLA-FEA-PREMASK":{
+			"type":"marker",
+			"fit_point":1.0,
+			"global_rotation":[
+				0,
+				0,
+				-0.2443460953
+			],
+			"position_end":[
+				3.294942,
+				0,
+				5.7752576e1
+			],
+			"position_start":[
+				3.294942,
+				0,
+				5.7752576e1
+			]
+		},
+		"CLA-FEA-DIA-COL-03-MASK":{
+			"type":"rcollimator",
+			"length":0.0,
+			"horizontal_size":1,
+			"vertical_size":1,
+			"output_filename":"\"CLA-FEA-DIA-SCR-03-MASK.SDDS\"",
+			"global_rotation":[
+				0,
+				0,
+				-0.2443460953
+			],
+			"position_end":[
+				3.294942,
+				0,
+				5.7752576e1
+			],
+			"position_start":[
+				3.294942,
+				0,
+				5.7752576e1
+			]
+		},
 		"CLA-FEA-DIA-SCR-03-MASK":{
 			"type":"screen",
 			"length":0.2,
@@ -572,6 +633,26 @@
 				3.384275,
 				0,
 				5.8110882e1
+			]
+		},
+		"CLA-FEA-MAG-SEXT-02":{
+			"type":"sextupole",
+			"length":0.1,
+			"k2l":-2.26172e1,
+			"global_rotation":[
+				0,
+				0,
+				-0.2443460953
+			],
+			"position_end":[
+				3.466561,
+				0,
+				5.84409e1
+			],
+			"position_start":[
+				3.442369,
+				0,
+				5.834387e1
 			]
 		},
 		"CLA-FEA-MAG-QUAD-12":{
@@ -616,9 +697,9 @@
 		"CLA-FEA-MAG-DIP-04":{
 			"type":"dipole",
 			"length":0.2,
-			"angle":-0.2443460953,
-			"entrance_edge_angle":-0.1221730476,
-			"exit_edge_angle":-0.1221730476,
+			"angle":0.2443460953,
+			"entrance_edge_angle":0.1221730476,
+			"exit_edge_angle":0.1221730476,
 			"global_rotation":[
 				0,
 				0,

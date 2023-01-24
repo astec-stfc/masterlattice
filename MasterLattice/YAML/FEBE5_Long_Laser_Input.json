@@ -97,7 +97,7 @@
 				6.31e1
 			]
 		},
-		"CLA-FEH-DIA-BPM-09":{
+		"CLA-FEA-DIA-BPM-09":{
 			"type":"beam_position_monitor",
 			"length":0.21,
 			"global_rotation":[
@@ -116,7 +116,7 @@
 				6.323e1
 			]
 		},
-		"CLA-FEA-SHUT-01":{
+		"CLA-FEA-PS-SHTR-01":{
 			"type":"shutter",
 			"length":0.32,
 			"fit_point":1.0,
@@ -174,7 +174,7 @@
 				6.545184e1
 			]
 		},
-		"CLA-FEH-LAS-ENTR-01-START":{
+		"CLA-FMB1-START":{
 			"type":"marker",
 			"fit_point":1.0,
 			"global_rotation":[
@@ -193,7 +193,7 @@
 				6.564e1
 			]
 		},
-		"CLA-FEH-LAS-ENTR-01-MIRROR":{
+		"CLA-FMB1-MIRROR":{
 			"type":"marker",
 			"fit_point":1.0,
 			"global_rotation":[
@@ -212,7 +212,7 @@
 				6.588e1
 			]
 		},
-		"CLA-FEH-LAS-ENTR-01-END":{
+		"CLA-FMB1-END":{
 			"type":"marker",
 			"fit_point":1.0,
 			"global_rotation":[
@@ -348,7 +348,7 @@
 				6.747103e1
 			]
 		},
-		"CLA-FEH-FOCUS-01-START":{
+		"CLA-FEC1-START":{
 			"type":"marker",
 			"fit_point":1.0,
 			"global_rotation":[
@@ -367,7 +367,7 @@
 				6.77345e1
 			]
 		},
-		"CLA-FEH-ECOLL-01":{
+		"CLA-FEC1-ECOLL-01":{
 			"type":"aperture",
 			"horizontal_size":1.0,
 			"vertical_size":1.0,
@@ -388,7 +388,7 @@
 				6.86425e1
 			]
 		},
-		"CLA-FEH-FOCUS-01":{
+		"CLA-FEC1-FOCUS":{
 			"type":"marker",
 			"fit_point":1.0,
 			"global_rotation":[
@@ -407,7 +407,7 @@
 				6.8655e1
 			]
 		},
-		"CLA-FEH-ECOLL-02":{
+		"CLA-FEC1-ECOLL-02":{
 			"type":"aperture",
 			"horizontal_size":1.0,
 			"vertical_size":1.0,
@@ -428,7 +428,7 @@
 				6.86625e1
 			]
 		},
-		"CLA-FEH-FOCUS-01-END":{
+		"CLA-FEC1-END":{
 			"type":"marker",
 			"fit_point":1.0,
 			"global_rotation":[
@@ -564,7 +564,7 @@
 				7.0445e1
 			]
 		},
-		"CLA-FEH-LAS-EXIT-01-START":{
+		"CLA-FMB2-START":{
 			"type":"marker",
 			"fit_point":1.0,
 			"global_rotation":[
@@ -602,7 +602,7 @@
 				7.112e1
 			]
 		},
-		"CLA-FEH-LAS-EXIT-01-MIDDLE":{
+		"CLA-FMB2-MIDDLE":{
 			"type":"marker",
 			"fit_point":1.0,
 			"global_rotation":[
@@ -621,7 +621,7 @@
 				7.11825e1
 			]
 		},
-		"CLA-FEH-LAS-EXIT-01-MIRROR":{
+		"CLA-FMB2-MIRROR":{
 			"type":"marker",
 			"fit_point":1.0,
 			"global_rotation":[
@@ -640,7 +640,7 @@
 				7.145e1
 			]
 		},
-		"CLA-FEH-LAS-EXIT-01-END":{
+		"CLA-FMB2-END":{
 			"type":"marker",
 			"fit_point":1.0,
 			"global_rotation":[
@@ -795,7 +795,7 @@
 				7.240103e1
 			]
 		},
-		"CLA-FEH-FOCUS-02-START":{
+		"CLA-FEC2-START":{
 			"type":"marker",
 			"fit_point":1.0,
 			"global_rotation":[
@@ -814,7 +814,7 @@
 				7.26645e1
 			]
 		},
-		"CLA-FEH-FOCUS-02":{
+		"CLA-FEC2-FOCUS":{
 			"type":"marker",
 			"fit_point":1.0,
 			"global_rotation":[
@@ -833,7 +833,7 @@
 				7.3585e1
 			]
 		},
-		"CLA-FEH-FOCUS-02-END":{
+		"CLA-FEC2-END":{
 			"type":"marker",
 			"fit_point":1.0,
 			"global_rotation":[
@@ -1027,7 +1027,7 @@
 				7.7216195e1
 			]
 		},
-		"CLA-FED-SHUT-01":{
+		"CLA-FED-PS-SHTR-01":{
 			"type":"shutter",
 			"length":0.32,
 			"fit_point":1.0,
@@ -1128,9 +1128,9 @@
 		"CLA-FED-MAG-DIP-01":{
 			"type":"dipole",
 			"length":0.5,
-			"angle":-0.3490658504,
-			"entrance_edge_angle":-0.1745329252,
-			"exit_edge_angle":-0.1745329252,
+			"angle":0.3490658504,
+			"entrance_edge_angle":0.1745329252,
+			"exit_edge_angle":0.1745329252,
 			"global_rotation":[
 				0,
 				0,

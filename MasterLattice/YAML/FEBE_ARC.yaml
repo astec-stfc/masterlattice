@@ -8,9 +8,9 @@ elements:
   CLA-FEA-MAG-DIP-01:
     type: dipole
     length: 0.2
-    angle: 0.2443460953
-    entrance_edge_angle: 0.1221730476
-    exit_edge_angle: 0.1221730476
+    angle: -0.2443460953
+    entrance_edge_angle: -0.1221730476
+    exit_edge_angle: -0.1221730476
     global_rotation: [0, 0, 0]
     position_end: [0.024313, 0, 48.495816]
     position_start: [0, 0, 48.2978]
@@ -83,9 +83,9 @@ elements:
   CLA-FEA-MAG-DIP-02:
     type: dipole
     length: 0.2
-    angle: 0.2443460953
-    entrance_edge_angle: 0.1221730476
-    exit_edge_angle: 0.1221730476
+    angle: -0.2443460953
+    entrance_edge_angle: -0.1221730476
+    exit_edge_angle: -0.1221730476
     global_rotation: [0, 0, -0.2443460953]
     position_end: [0.981242, 0, 52.233342]
     position_start: [0.909747, 0, 52.04709]
@@ -151,9 +151,9 @@ elements:
   CLA-FEA-MAG-DIP-03:
     type: dipole
     length: 0.2
-    angle: -0.2443460953
-    entrance_edge_angle: -0.1221730476
-    exit_edge_angle: -0.1221730476
+    angle: 0.2443460953
+    entrance_edge_angle: 0.1221730476
+    exit_edge_angle: 0.1221730476
     global_rotation: [0, 0, -0.4886921906]
     position_end: [2.771004, 0, 55.651182]
     position_start: [2.699509, 0, 55.46493]
@@ -241,9 +241,9 @@ elements:
   CLA-FEA-MAG-DIP-04:
     type: dipole
     length: 0.2
-    angle: -0.2443460953
-    entrance_edge_angle: -0.1221730476
-    exit_edge_angle: -0.1221730476
+    angle: 0.2443460953
+    entrance_edge_angle: 0.1221730476
+    exit_edge_angle: 0.1221730476
     global_rotation: [0, 0, -0.2443460953]
     position_end: [3.680751, 0, 59.40048]
     position_start: [3.656438, 0, 59.202464]

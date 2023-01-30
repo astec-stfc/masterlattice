@@ -18,9 +18,6 @@ elements:
     length: 0.05
     sr_enable: true
     isr_enable: true
-    buffer_start: [0, 0, 16.3102]
-    buffer_start_length: 0.025
-    buffer_end_length: 0.01
     global_rotation: [0, 0, 0]
     position_end: [0, 0, 16.3852]
     position_start: [0, 0, 16.3352]
@@ -30,9 +27,6 @@ elements:
     k1l: 0.100731
     sr_enable: true
     isr_enable: true
-    buffer_start: [0, 0, 16.3952]
-    buffer_start_length: 0.023
-    buffer_end_length: 0.024
     global_rotation: [0, 0, 0]
     position_end: [0, 0, 16.5802]
     position_start: [0, 0, 16.4182]
@@ -54,9 +48,6 @@ elements:
     k1l: 0.0269461
     sr_enable: true
     isr_enable: true
-    buffer_start: [0, 0, 16.9152]
-    buffer_start_length: 0.023
-    buffer_end_length: 0.035
     global_rotation: [0, 0, 0]
     position_end: [0, 0, 17.1002]
     position_start: [0, 0, 16.9382]
@@ -72,9 +63,6 @@ elements:
     k1l: -0.0628161
     sr_enable: true
     isr_enable: true
-    buffer_start: [0, 0, 17.4152]
-    buffer_start_length: 0.023
-    buffer_end_length: 0.035
     global_rotation: [0, 0, 0]
     position_end: [0, 0, 17.6002]
     position_start: [0, 0, 17.4382]
@@ -90,9 +78,6 @@ elements:
     k1l: -0.033758
     sr_enable: true
     isr_enable: true
-    buffer_start: [0, 0, 17.9202]
-    buffer_start_length: 0.018
-    buffer_end_length: 0.03
     global_rotation: [0, 0, 0]
     position_end: [0, 0, 18.1002]
     position_start: [0, 0, 17.9382]
@@ -101,18 +86,12 @@ elements:
     length: 0.05
     sr_enable: true
     isr_enable: true
-    buffer_start: [0, 0, 18.3002]
-    buffer_start_length: 0.025
-    buffer_end_length: 0.025
     global_rotation: [0, 0, 0]
     position_end: [0, 0, 18.3752]
     position_start: [0, 0, 18.3252]
   CLA-S04-DIA-SCR-02:
     type: screen
     output_filename: CLA-S04-DIA-SCR-02.SDDS
-    buffer_start: [0, 0, 18.4102]
-    buffer_start_length: 0.043333
-    buffer_end_length: 0.076667
     global_rotation: [0, 0, 0]
     position_end: [0, 0, 18.4536]
     position_start: [0, 0, 18.4536]
@@ -120,16 +99,13 @@ elements:
     type: dipole
     length: 0.1
     angle: 0.0001
-    exit_edge_angle: 0.0001
+    exit_edge_angle: angle
     half_gap: 0.005
     edge_field_integral: 0.4
     # csr_bins: 20.0
     sr_enable: true
     isr_enable: true
     csr_output_filename: CLA-S04-MAG-DIP-01.CSR
-    buffer_start: [0, 0, 18.5302]
-    buffer_start_length: 0.06
-    buffer_end_length: 0.05
     global_rotation: [0, 0, 0]
     position_end: [-5.0e-06, 0, 18.6902]
     position_start: [0, 0, 18.5902]
@@ -137,25 +113,19 @@ elements:
     type: dipole
     length: 0.1
     angle: -0.0001
-    entrance_edge_angle: -0.0001
+    entrance_edge_angle: angle
     half_gap: 0.005
     edge_field_integral: 0.4
     # csr_bins: 20.0
     sr_enable: true
     isr_enable: true
     csr_output_filename: CLA-S04-MAG-DIP-02.CSR
-    buffer_start: [3.5e-05, 0, 18.9902]
-    buffer_start_length: 0.05
-    buffer_end_length: 0.05
     global_rotation: [0, 0, 0.0001]
     position_end: [-4.5e-05, 0, 19.1402]
     position_start: [-4.0e-05, 0, 19.0402]
   CLA-S04-DIA-SCR-03:
     type: screen
     output_filename: CLA-S04-DIA-SCR-03.SDDS
-    buffer_start: [4.5e-05, 0, 19.1902]
-    buffer_start_length: 0.043333
-    buffer_end_length: 0.076667
     global_rotation: [0, 0, 0]
     position_end: [-4.5e-05, 0, 19.2336]
     position_start: [-4.5e-05, 0, 19.2336]
@@ -164,9 +134,6 @@ elements:
     length: 0.05
     sr_enable: true
     isr_enable: true
-    buffer_start: [4.5e-05, 0, 19.3102]
-    buffer_start_length: 0.075
-    buffer_end_length: 0.05
     global_rotation: [0, 0, 0]
     position_end: [-4.5e-05, 0, 19.4352]
     position_start: [-4.5e-05, 0, 19.3852]
@@ -202,9 +169,6 @@ elements:
   CLA-S04-DIA-SCR-04:
     type: screen
     output_filename: CLA-S04-DIA-SCR-04.SDDS
-    buffer_start: [4.5e-05, 0, 20.4452]
-    buffer_start_length: 0.043333
-    buffer_end_length: 0.076667
     global_rotation: [0, 0, 0]
     position_end: [-4.5e-05, 0, 20.4886]
     position_start: [-4.5e-05, 0, 20.4886]
@@ -212,16 +176,13 @@ elements:
     type: dipole
     length: 0.1
     angle: -0.0001
-    exit_edge_angle: -0.0001
+    exit_edge_angle: angle
     half_gap: 0.005
     edge_field_integral: 0.4
     # csr_bins: 20.0
     sr_enable: true
     isr_enable: true
     csr_output_filename: CLA-S04-MAG-DIP-03.CSR
-    buffer_start: [4.5e-05, 0, 20.5652]
-    buffer_start_length: 0.05
-    buffer_end_length: 0.05
     global_rotation: [0, 0, 0]
     position_end: [-4.0e-05, 0, 20.7152]
     position_start: [-4.5e-05, 0, 20.6152]
@@ -229,16 +190,13 @@ elements:
     type: dipole
     length: 0.1
     angle: 0.0001
-    entrance_edge_angle: 0.0001
+    entrance_edge_angle: angle
     half_gap: 0.005
     edge_field_integral: 0.4
     # csr_bins: 20.0
     sr_enable: true
     isr_enable: true
     csr_output_filename: CLA-S04-MAG-DIP-04.CSR
-    buffer_start: [1.0e-05, 0, 21.0152]
-    buffer_start_length: 0.05
-    buffer_end_length: 0.05
     global_rotation: [0, 0, -0.0001]
     position_end: [0, 0, 21.1652]
     position_start: [-5.0e-06, 0, 21.0652]

@@ -92,7 +92,7 @@ files:
       end_element: CLA-L4H-APER
     groups:
       laser-heater:
-        dipoleangle: 0.0001
+        dipoleangle: 0.0000
         width: 0.2
         gap: 0.02
   L4H:

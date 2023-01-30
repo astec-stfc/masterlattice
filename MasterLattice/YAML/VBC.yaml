@@ -25,7 +25,7 @@ elements:
     isr_enable: true
     csr_output_filename: '"VBC-MAG-DIP-02.CSR"'
     global_rotation: [0, 0, -0.095]
-    position_end: [0.162009, 0, 27.9664]
+    position_end: [0.162009, 0, 27.9664] 
     position_start: [0.15247, 0, 27.7658]
   CLA-VBC-MAG-VCOR-01:
     type: kicker

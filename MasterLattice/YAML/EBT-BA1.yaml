@@ -127,7 +127,7 @@ elements:
     position_end: [-1.25, 0, 27.7998]
     position_start: [-1.25, 0, 27.7498]
     field_integral_coefficients: [1.58624, 0.00451]
-  EBT-BA1-MAG-HVCOR-03:
+  EBT-BA1-MAG-HVCOR-04:
     type: kicker
     length: 0.05
     sr_enable: true

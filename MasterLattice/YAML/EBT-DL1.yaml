@@ -1,0 +1,66 @@
+elements:
+  CLA-C2V-MAG-DIP-02:
+    type: dipole
+    length: 0.4
+    angle: 0.785398
+    design_angle: 0.785398
+    strength: 0
+    half_gap: 0.02
+    deltaL: 0.0001
+    edge_field_integral: 0.5
+    sr_enable: true
+    isr_enable: true
+    csr_output_filename: '"C2V-MAG-DIP-01-D.CSR"'
+    field_integral_coefficients: [0.142064204721245,0.00344016005203196]
+    PV: CLA-C2V-MAG-DIP-02
+    global_rotation: [0, 0, 0]
+    position_end: [-1.39917, 0.0, 7.48693]
+    position_start: [-1.25, 0, 7.1268]
+  EBT-INJ-DIA-BPM-03:
+    type: beam_position_monitor
+    length: 0.07
+    global_rotation: [0, 0, 0.785398]
+    position_end: [-1.67883, 0.0, 7.76659]
+    position_start: [-1.62933, 0.0, 7.71709]
+  EBT-INJ-MAG-HVCOR-05:
+    type: kicker
+    length: 0.05
+    #Controller_Name: COR6
+    sr_enable: true
+    isr_enable: true
+    global_rotation: [0, 0, 0.785398]
+    position_end: [-1.71419, 0.0, 7.80194]
+    position_start: [-1.67883, 0.0, 7.76659]
+  EBT-INJ-MAG-QUAD-05:
+    type: quadrupole
+    length: 0.1
+    k1l: -1.597658628810405
+    sr_enable: true
+    isr_enable: true
+    global_rotation: [0, 0, 0.785398]
+    position_end: [-1.86621, 0.0, 7.95397]
+    position_start: [-1.7955, 0.0, 7.88326]
+    field_integral_coefficients: [-3.06357099595939E-05, 0.000442533546326552, 0.101577009522434, 0.00146589509380893]
+  EBT-INJ-MAG-QUAD-06:
+    type: quadrupole
+    length: 0.1
+    k1l: -1.597658628810405
+    sr_enable: true
+    isr_enable: true
+    global_rotation: [0, 0, 0.785398]
+    position_end: [-2.07835, 0.0, 8.1661]
+    position_start: [-2.00763, 0.0, 8.09539]
+    field_integral_coefficients: [-3.06357099595939E-05, 0.000442533546326552, 0.101577009522434, 0.00146589509380893]
+  EBT-INJ-DIA-SCR-04:
+    type: screen
+    output_filename: '"EBT-INJ-DIA-SCR-02.SDDS"'
+    camera_PV: EBT-INJ-DIA-CAM-03
+    global_rotation: [0, 0, 0.785398]
+    position_end: [-2.75505, 0.0, 8.8428]
+    position_start: [-2.75505, 0.0, 8.8428]
+  EBT-INJ-DIA-FCUP-01:
+    type: marker
+    fit_point: 1.0
+    global_rotation: [0, 0, 0.785398]
+    position_end: [-2.82434, 0.0, 8.9121]
+    position_start: [-2.82434, 0.0, 8.9121]

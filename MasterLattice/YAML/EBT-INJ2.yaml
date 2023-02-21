@@ -1,7 +1,6 @@
 elements:
   EBT-INJ-DIA-YAG-05:
     type: watch_point
-    Controller_Name: YAG05
     output_filename: '"EBT-INJ-DIA-YAG-05.SDDS"'
     global_rotation: [0, 0, 0]
     position_end: [-1.25, 0, 7.83179]
@@ -9,7 +8,6 @@ elements:
   EBT-INJ-MAG-HVCOR-06:
     type: kicker
     length: 0.064
-    #Controller_Name: COR6
     sr_enable: true
     isr_enable: true
     global_rotation: [0, 0, 0]
@@ -18,14 +16,12 @@ elements:
   EBT-INJ-MAG-QUAD-07:
     type: quadrupole
     length: 0.1253
-    #Controller_Name: QUAD-07
     k1l: 1.653747009525063
     sr_enable: true
     isr_enable: true
     global_rotation: [0, 0, 0]
     position_end: [-1.25, 0, 8.27544]
     position_start: [-1.25, 0, 8.15014]
-    field_integral_coefficients: [-1.51802828278694E-05, 0.000208236492203741, 0.102224127676636, 0.00205656183129602]
   EBT-INJ-MAG-QUAD-08:
     type: quadrupole
     length: 0.125276
@@ -35,7 +31,6 @@ elements:
     global_rotation: [0, 0, 0]
     position_end: [-1.25, 0, 8.545428]
     position_start: [-1.25, 0, 8.420152]
-    field_integral_coefficients: [-3.06357099595939E-05, 0.000442533546326552, 0.101577009522434, 0.00146589509380893]
   EBT-INJ-DIA-YAG-06:
     type: watch_point
     output_filename: '"EBT-INJ-DIA-YAG-06.SDDS"'
@@ -43,8 +38,7 @@ elements:
     position_end: [-1.25, 0, 9.53979]
     position_start: [-1.25, 0, 9.53979]
   EBT-INJ-DIA-FCUP-02:
-    type: watch_point
-    output_filename: '"EBT-INJ-DIA-FCUP-02.SDDS"'
+    type: marker
     global_rotation: [0, 0, 0]
     position_end: [-1.25, 0, 9.8698]
     position_start: [-1.25, 0, 9.8698]
@@ -57,7 +51,6 @@ elements:
     global_rotation: [0, 0, 0]
     position_end: [-1.25, 0, 10.1822]
     position_start: [-1.25, 0, 10.1118]
-    field_integral_coefficients: [0.111939163037871, -0.00132252769474545]
   EBT-INJ-MAG-HVCOR-07:
     type: kicker
     length: 0.092
@@ -95,7 +88,6 @@ elements:
     global_rotation: [0, 0, 0]
     position_end: [-1.25, 0, 12.8582]
     position_start: [-1.25, 0, 12.7878]
-    field_integral_coefficients: [0.111966157109812, -0.00170732356716569]
   EBT-INJ-DIA-BPM-05:
     type: beam_position_monitor
     length: 0.2
@@ -111,7 +103,6 @@ elements:
     global_rotation: [0, 0, 0]
     position_end: [-1.25, 0, 15.5342]
     position_start: [-1.25, 0, 15.4638]
-    field_integral_coefficients: [0.112072763436341, -0.00182025848896622]
   EBT-INJ-DIA-YAG-08:
     type: watch_point
     output_filename: '"EBT-INJ-DIA-YAG-08.SDDS"'
@@ -147,15 +138,14 @@ elements:
     global_rotation: [0, 0, 0]
     position_end: [-1.25, 0, 18.2102]
     position_start: [-1.25, 0, 18.1398]
-    field_integral_coefficients: [0.111954754, -0.001381788]
   EBT-INJ-PSS-SHUT-02:
     type: marker
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     position_end: [-1.25, 0, 18.7184]
     position_start: [-1.25, 0, 18.7184]
-  EBT-INJ-END-01:
+  EBT-INJ-END:
     type: watch_point
-    output_filename: '"EBT-INJ-END-01.SDDS"'
+    output_filename: '"EBT-INJ-END.SDDS"'
     position_end: [-1.25, 0, 19.0218]
     position_start: [-1.25, 0, 19.0218]

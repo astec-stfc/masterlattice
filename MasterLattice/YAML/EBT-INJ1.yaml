@@ -1,10 +1,9 @@
 elements:
-  EBT-INJ-APER-01:
-    type: watch_point
-    output_filename: '"EBT-INJ-APER-01.SDDS"'
+  EBT-INJ-START:
+    type: marker
     global_rotation: [0, 0, 0]
-    position_end: [-1.25, 0, 3.2898]
-    position_start: [-1.25, 0, 3.2898]
+    position_end: [-1.25, 0, 3.61462]
+    position_start: [-1.25, 0, 3.61462]
   EBT-INJ-MAG-HVCOR-01:
     type: kicker
     length: 0.05
@@ -66,7 +65,7 @@ elements:
   EBT-INJ-MAG-QUAD-03:
     type: quadrupole
     length: 0.1
-    k1l: -1.597658628810405
+    k1l: 1.653747009525063
     sr_enable: true
     isr_enable: true
     global_rotation: [0, 0, 0]

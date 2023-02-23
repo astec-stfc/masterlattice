@@ -1,0 +1,37 @@
+elements:
+  EBT-HRG1-CATHODE:
+    type: marker
+    position_end: [-1.25, 0, 3.2898]
+    position_start: [-1.25, 0, 3.2898]
+  EBT-HRG1-GUN-CAV:
+    type: cavity
+    length: 0.32482
+    n_cells: 1.5
+    Structure_Type: 'StandingWave'
+    Controller_Name: GUN400
+    field_amplitude: 120000000.0
+    frequency: 2998500000.0
+    phase: -9
+    crest: 145.789
+    field_definition: $master_lattice_location$Data_Files/HRRG_1D_RF.dat
+    field_definition_gdf: $master_lattice_location$Data_Files/HRRG_1D_RF.gdf
+    lsc_cutoff_high: [0, 0]
+    position_end: [-1.25, 0, 3.61462]
+    position_start: [-1.25, 0, 3.2898]
+    sub_elements:
+      EBT-HRG1-GUN-SOL:
+        type: solenoid
+        Controller_Name: SOL1
+        length: 0.32482
+        field_amplitude: 0.345
+        field_definition: $master_lattice_location$Data_Files/HRRG_combined_sols_100mm_onaxis.dat
+        field_definition_gdf: $master_lattice_location$Data_Files/HRRG_combined_sols_100mm_onaxis.gdf
+        position_end: [-1.25, 0, 3.61462]
+        position_start: [-1.25, 0, 3.2898]
+  EBT-HRG1-APER-01:
+    type: marker
+    shape: rectangular
+    horizontal_size: 0.017
+    vertical_size: 0.017
+    position_end: [-1.25, 0, 3.61462]
+    position_start: [-1.25, 0, 3.61462]

@@ -1,4 +1,10 @@
 elements:
+  EBT-SP1-START:
+    type: marker
+    fit_point: 1.0
+    global_rotation: [0, 0, 0]
+    position_end: [-1.25, 0, 7.1268]
+    position_start: [-1.25, 0, 7.1268]
   CLA-C2V-MAG-DIP-02:
     type: dipole
     length: 0.4

@@ -57,8 +57,8 @@ elements:
     sr_enable: true
     isr_enable: true
     global_rotation: [0, 0, 0.785398]
-    position_end: [-0.46292, 0, 6.50075]
-    position_start: [-0.376958, 0, 6.41479]
+    position_end: [-0.463464, 0, 6.50129]
+    position_start: [-0.377502, 0, 6.41533]
     field_integral_coefficients: [-1.30185900474931E-11, 5.70352698264348E-09, -9.08937880373639E-07, 6.03053164909332E-05,
                     0.014739040805921, 1.37593271780352E-02]
   CLA-C2V-MAG-QUAD-02:
@@ -68,8 +68,8 @@ elements:
     sr_enable: true
     isr_enable: true
     global_rotation: [0, 0, 0.785398]
-    position_end: [-0.667961, 0, 6.70579]
-    position_start: [-0.582039, 0, 6.61987]
+    position_end: [-0.668238, 0, 6.70606]
+    position_start: [-0.582316, 0, 6.62014]
     field_integral_coefficients: [-1.30779403854705E-11, 5.72293796261772E-09, -9.08645007418186E-07, 5.97762384752619E-05,
                     1.47596073775721E-02, 1.58516912403471E-02]
   CLA-C2V-MAG-QUAD-03:

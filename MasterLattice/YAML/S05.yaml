@@ -55,8 +55,8 @@ elements:
     type: beam_arrival_monitor
     length: 0.080
     global_rotation: [0, 0, 0]
-    position_end: [0, 0, 25.3312]
-    position_start: [0, 0, 25.2513]
+    position_end: [0, 0, 25.2963]
+    position_start: [0, 0, 25.2163]
   CLA-S05-MAG-QUAD-02:
     type: quadrupole
     length: 0.162

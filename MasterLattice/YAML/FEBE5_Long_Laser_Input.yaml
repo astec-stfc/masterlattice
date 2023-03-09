@@ -397,8 +397,8 @@ elements:
     length: 0.15
     output_filename: '"CLA-FED-DIA-SCR-02-WIDE.SDDS"'
     global_rotation: [0, 0, 0.3490658504]
-    position_end: [2.907847, 0, 81.756248]
-    position_start: [2.95915, 0, 81.615294]
+    position_end: [2.913559, 0, 81.740555]
+    position_start: [2.964862, 0, 81.599601]
   CLA-FED-DUMP-01-START:
     type: marker
     fit_point: 1.0

@@ -46,8 +46,8 @@ elements:
     type: beam_arrival_monitor
     length: 0.08
     global_rotation: [0, 0, 0]
-    position_end: [0, 0, 32.1286]
-    position_start: [0, 0, 32.0486]
+    position_end: [0, 0, 32.133160]
+    position_start: [0, 0, 32.053160]
   CLA-S06-DIA-EOM-01:
     type: beam_arrival_monitor
     length: 0.2885

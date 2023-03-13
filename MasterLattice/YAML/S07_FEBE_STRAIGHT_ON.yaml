@@ -379,27 +379,27 @@ elements:
     length: 0.21
     k1l: 1.59249
     global_rotation: [0, 0, 0]
-    position_end: [0, 0, 49.593521]
-    position_start: [0, 0, 49.383521]
+    position_end: [0, 0, 49.5695]
+    position_start: [0, 0, 49.3595]
   CLA-S07-MAG-HVCOR-08:
     type: kicker
     length: 0.2
     global_rotation: [0, 0, 0]
-    position_end: [0, 0, 49.954201]
-    position_start: [0, 0, 49.754201]
+    position_end: [0, 0, 49.9007]
+    position_start: [0, 0, 49.7007]
   CLA-S07-DIA-BPM-08:
     type: beam_position_monitor
     length: 0.2
     global_rotation: [0, 0, 0]
-    position_end: [0, 0, 50.152201]
-    position_start: [0, 0, 49.952201]
+    position_end: [0, 0, 50.1571]
+    position_start: [0, 0, 49.9571]
   CLA-S07-DIA-SCR-05:
     type: screen
     length: 0.13
     output_filename: '"CLA-S07-DIA-SCR-05.SDDS"'
     global_rotation: [0, 0, 0]
-    position_end: [0, 0, 50.282201]
-    position_start: [0, 0, 50.152201]
+    position_end: [0, 0, 50.2005]
+    position_start: [0, 0, 50.0705]
   CLA-S07-DUMP-01-START:
     type: marker
     fit_point: 1.0

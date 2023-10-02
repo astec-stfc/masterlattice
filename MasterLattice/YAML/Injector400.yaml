@@ -31,54 +31,54 @@ elements:
         field_definition_gdf: $master_lattice_location$Data_Files/HRRG_combined_sols_100mm_onaxis.gdf
         position_end: [0, 0, 0.32482]
         position_start: [0, 0, 0]
-      CLA-GUN-DIA-SCR-01:
-        type: screen
-        output_filename: '"CLA-GUN-DIA-SCR-01.SDDS"'
-        camera_PV: CLA-S01-DIA-CAM-01
-        position_end: [0, 0, 0.01]
-        position_start: [0, 0, 0.01]
-      CLA-GUN-DIA-SCR-02:
-        type: screen
-        output_filename: '"CLA-GUN-DIA-SCR-02.SDDS"'
-        camera_PV: CLA-S01-DIA-CAM-01
-        position_end: [0, 0, 0.06]
-        position_start: [0, 0, 0.06]
-      CLA-GUN-DIA-SCR-03:
-        type: screen
-        output_filename: '"CLA-GUN-DIA-SCR-03.SDDS"'
-        camera_PV: CLA-S01-DIA-CAM-01
-        position_end: [0, 0, 0.11]
-        position_start: [0, 0, 0.11]
-      CLA-GUN-DIA-SCR-04:
-        type: screen
-        output_filename: '"CLA-GUN-DIA-SCR-04.SDDS"'
-        camera_PV: CLA-S01-DIA-CAM-01
-        position_end: [0, 0, 0.16]
-        position_start: [0, 0, 0.16]
-      CLA-GUN-DIA-SCR-05:
-        type: screen
-        output_filename: '"CLA-GUN-DIA-SCR-05.SDDS"'
-        camera_PV: CLA-S01-DIA-CAM-01
-        position_end: [0, 0, 0.21]
-        position_start: [0, 0, 0.21]
-      CLA-GUN-DIA-SCR-06:
-        type: screen
-        output_filename: '"CLA-GUN-DIA-SCR-06.SDDS"'
-        camera_PV: CLA-S01-DIA-CAM-01
-        position_end: [0, 0, 0.26]
-        position_start: [0, 0, 0.26]
-      CLA-GUN-DIA-SCR-07:
-        type: screen
-        output_filename: '"CLA-GUN-DIA-SCR-07.SDDS"'
-        camera_PV: CLA-S01-DIA-CAM-01
-        position_end: [0, 0, 0.31]
-        position_start: [0, 0, 0.31]
-      CLA-GUN-DIA-SCR-08:
-        type: screen
-        output_filename: '"CLA-GUN-DIA-SCR-08.SDDS"'
-        camera_PV: CLA-S01-DIA-CAM-01
-        position_end: [0, 0, 0.324]
-        position_start: [0, 0, 0.324]
+      # CLA-GUN-DIA-SCR-01:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-DIA-SCR-01.SDDS"'
+      #   camera_PV: CLA-S01-DIA-CAM-01
+      #   position_end: [0, 0, 0.01]
+      #   position_start: [0, 0, 0.01]
+      # CLA-GUN-DIA-SCR-02:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-DIA-SCR-02.SDDS"'
+      #   camera_PV: CLA-S01-DIA-CAM-01
+      #   position_end: [0, 0, 0.06]
+      #   position_start: [0, 0, 0.06]
+      # CLA-GUN-DIA-SCR-03:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-DIA-SCR-03.SDDS"'
+      #   camera_PV: CLA-S01-DIA-CAM-01
+      #   position_end: [0, 0, 0.11]
+      #   position_start: [0, 0, 0.11]
+      # CLA-GUN-DIA-SCR-04:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-DIA-SCR-04.SDDS"'
+      #   camera_PV: CLA-S01-DIA-CAM-01
+      #   position_end: [0, 0, 0.16]
+      #   position_start: [0, 0, 0.16]
+      # CLA-GUN-DIA-SCR-05:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-DIA-SCR-05.SDDS"'
+      #   camera_PV: CLA-S01-DIA-CAM-01
+      #   position_end: [0, 0, 0.21]
+      #   position_start: [0, 0, 0.21]
+      # CLA-GUN-DIA-SCR-06:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-DIA-SCR-06.SDDS"'
+      #   camera_PV: CLA-S01-DIA-CAM-01
+      #   position_end: [0, 0, 0.26]
+      #   position_start: [0, 0, 0.26]
+      # CLA-GUN-DIA-SCR-07:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-DIA-SCR-07.SDDS"'
+      #   camera_PV: CLA-S01-DIA-CAM-01
+      #   position_end: [0, 0, 0.31]
+      #   position_start: [0, 0, 0.31]
+      # CLA-GUN-DIA-SCR-08:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-DIA-SCR-08.SDDS"'
+      #   camera_PV: CLA-S01-DIA-CAM-01
+      #   position_end: [0, 0, 0.324]
+      #   position_start: [0, 0, 0.324]
   CLA-S01-APER:
     type: aperture
     shape: rectangular
@@ -198,108 +198,108 @@ elements:
         field_definition_gdf: $master_lattice_location$Data_Files/SwissFEL_linac_sols.gdf
         position_end: [0, 0, 3.2]
         position_start: [0, 0, 2.70]
-      CLA-L01-DIA-SCR-01:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-01.SDDS"'
-        position_end: [0, 0, 1.2]
-        position_start: [0, 0, 1.2]
-      CLA-L01-DIA-SCR-02:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-02.SDDS"'
-        position_end: [0, 0, 1.3]
-        position_start: [0, 0, 1.3]
-      CLA-L01-DIA-SCR-03:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-03.SDDS"'
-        position_end: [0, 0, 1.4]
-        position_start: [0, 0, 1.4]
-      CLA-L01-DIA-SCR-04:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-04.SDDS"'
-        position_end: [0, 0, 1.5]
-        position_start: [0, 0, 1.5]
-      CLA-L01-DIA-SCR-05:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-05.SDDS"'
-        position_end: [0, 0, 1.6]
-        position_start: [0, 0, 1.6]
-      CLA-L01-DIA-SCR-06:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-06.SDDS"'
-        position_end: [0, 0, 1.7]
-        position_start: [0, 0, 1.7]
-      CLA-L01-DIA-SCR-07:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-07.SDDS"'
-        position_end: [0, 0, 1.8]
-        position_start: [0, 0, 1.8]
-      CLA-L01-DIA-SCR-08:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-08.SDDS"'
-        position_end: [0, 0, 1.9]
-        position_start: [0, 0, 1.9]
-      CLA-L01-DIA-SCR-09:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-09.SDDS"'
-        position_end: [0, 0, 2.]
-        position_start: [0, 0, 2.]
-      CLA-L01-DIA-SCR-010:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-010.SDDS"'
-        position_end: [0, 0, 2.1]
-        position_start: [0, 0, 2.1]
-      CLA-L01-DIA-SCR-011:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-011.SDDS"'
-        position_end: [0, 0, 2.2]
-        position_start: [0, 0, 2.2]
-      CLA-L01-DIA-SCR-012:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-012.SDDS"'
-        position_end: [0, 0, 2.3]
-        position_start: [0, 0, 2.3]
-      CLA-L01-DIA-SCR-013:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-013.SDDS"'
-        position_end: [0, 0, 2.4]
-        position_start: [0, 0, 2.4]
-      CLA-L01-DIA-SCR-014:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-014.SDDS"'
-        position_end: [0, 0, 2.5]
-        position_start: [0, 0, 2.5]
-      CLA-L01-DIA-SCR-015:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-015.SDDS"'
-        position_end: [0, 0, 2.6]
-        position_start: [0, 0, 2.6]
-      CLA-L01-DIA-SCR-016:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-016.SDDS"'
-        position_end: [0, 0, 2.7]
-        position_start: [0, 0, 2.7]
-      CLA-L01-DIA-SCR-017:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-017.SDDS"'
-        position_end: [0, 0, 2.8]
-        position_start: [0, 0, 2.8]
-      CLA-L01-DIA-SCR-018:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-018.SDDS"'
-        position_end: [0, 0, 2.9]
-        position_start: [0, 0, 2.9]
-      CLA-L01-DIA-SCR-019:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-019.SDDS"'
-        position_end: [0, 0, 3.]
-        position_start: [0, 0, 3.]
-      CLA-L01-DIA-SCR-020:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-020.SDDS"'
-        position_end: [0, 0, 3.1]
-        position_start: [0, 0, 3.1]
-      CLA-L01-DIA-SCR-021:
-        type: screen
-        output_filename: '"CLA-GUN-L01-SCR-021.SDDS"'
-        position_end: [0, 0, 3.2]
-        position_start: [0, 0, 3.2]
+      # CLA-L01-DIA-SCR-01:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-01.SDDS"'
+      #   position_end: [0, 0, 1.2]
+      #   position_start: [0, 0, 1.2]
+      # CLA-L01-DIA-SCR-02:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-02.SDDS"'
+      #   position_end: [0, 0, 1.3]
+      #   position_start: [0, 0, 1.3]
+      # CLA-L01-DIA-SCR-03:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-03.SDDS"'
+      #   position_end: [0, 0, 1.4]
+      #   position_start: [0, 0, 1.4]
+      # CLA-L01-DIA-SCR-04:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-04.SDDS"'
+      #   position_end: [0, 0, 1.5]
+      #   position_start: [0, 0, 1.5]
+      # CLA-L01-DIA-SCR-05:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-05.SDDS"'
+      #   position_end: [0, 0, 1.6]
+      #   position_start: [0, 0, 1.6]
+      # CLA-L01-DIA-SCR-06:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-06.SDDS"'
+      #   position_end: [0, 0, 1.7]
+      #   position_start: [0, 0, 1.7]
+      # CLA-L01-DIA-SCR-07:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-07.SDDS"'
+      #   position_end: [0, 0, 1.8]
+      #   position_start: [0, 0, 1.8]
+      # CLA-L01-DIA-SCR-08:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-08.SDDS"'
+      #   position_end: [0, 0, 1.9]
+      #   position_start: [0, 0, 1.9]
+      # CLA-L01-DIA-SCR-09:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-09.SDDS"'
+      #   position_end: [0, 0, 2.]
+      #   position_start: [0, 0, 2.]
+      # CLA-L01-DIA-SCR-010:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-010.SDDS"'
+      #   position_end: [0, 0, 2.1]
+      #   position_start: [0, 0, 2.1]
+      # CLA-L01-DIA-SCR-011:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-011.SDDS"'
+      #   position_end: [0, 0, 2.2]
+      #   position_start: [0, 0, 2.2]
+      # CLA-L01-DIA-SCR-012:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-012.SDDS"'
+      #   position_end: [0, 0, 2.3]
+      #   position_start: [0, 0, 2.3]
+      # CLA-L01-DIA-SCR-013:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-013.SDDS"'
+      #   position_end: [0, 0, 2.4]
+      #   position_start: [0, 0, 2.4]
+      # CLA-L01-DIA-SCR-014:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-014.SDDS"'
+      #   position_end: [0, 0, 2.5]
+      #   position_start: [0, 0, 2.5]
+      # CLA-L01-DIA-SCR-015:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-015.SDDS"'
+      #   position_end: [0, 0, 2.6]
+      #   position_start: [0, 0, 2.6]
+      # CLA-L01-DIA-SCR-016:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-016.SDDS"'
+      #   position_end: [0, 0, 2.7]
+      #   position_start: [0, 0, 2.7]
+      # CLA-L01-DIA-SCR-017:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-017.SDDS"'
+      #   position_end: [0, 0, 2.8]
+      #   position_start: [0, 0, 2.8]
+      # CLA-L01-DIA-SCR-018:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-018.SDDS"'
+      #   position_end: [0, 0, 2.9]
+      #   position_start: [0, 0, 2.9]
+      # CLA-L01-DIA-SCR-019:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-019.SDDS"'
+      #   position_end: [0, 0, 3.]
+      #   position_start: [0, 0, 3.]
+      # CLA-L01-DIA-SCR-020:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-020.SDDS"'
+      #   position_end: [0, 0, 3.1]
+      #   position_start: [0, 0, 3.1]
+      # CLA-L01-DIA-SCR-021:
+      #   type: screen
+      #   output_filename: '"CLA-GUN-L01-SCR-021.SDDS"'
+      #   position_end: [0, 0, 3.2]
+      #   position_start: [0, 0, 3.2]

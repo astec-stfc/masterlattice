@@ -140,6 +140,12 @@ elements:
     global_rotation: [0, 0, 0]
     position_end: [0, 0, 41.5578]
     position_start: [0, 0, 41.4078]
+  CLA-S07-DIA-SPM-01:
+    type: screen
+    output_filename: CLA-S07-DIA-SPM-01.SDDS
+    global_rotation: [0, 0, 0]
+    position_end: [0, 0, 41.8578]
+    position_start: [0, 0, 41.8578]
   CLA-S07-MAG-QUAD-04:
     type: quadrupole
     length: 0.15

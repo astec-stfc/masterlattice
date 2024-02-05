@@ -1,66 +1,64 @@
 elements:
   EBT-SP1-START:
-    type: marker
+    centre: [-1.25, 0.0, 7.1268]
+    datum: [-1.25, 0.0, 7.1268]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [-1.25, 0, 7.1268]
-    position_start: [-1.25, 0, 7.1268]
+    type: marker
   CLA-C2V-MAG-DIP-02:
-    type: dipole
-    length: 0.4
     angle: 0.785398
-    design_angle: 0.785398
-    strength: 0
-    half_gap: 0.02
+    centre: [-1.25, 0.0, 7.337757]
+    datum: [-1.399169, 0.0, 7.486927]
     deltaL: 0.0001
+    design_angle: 0.785398
     edge_field_integral: 0.5
-    sr_enable: true
-    isr_enable: true
-    csr_output_filename: '"C2V-MAG-DIP-02.CSR"'
     global_rotation: [0, 0, 0]
-    position_end: [-1.39917, 0.0, 7.48693]
-    position_start: [-1.25, 0, 7.1268]
+    half_gap: 0.02
+    isr_enable: true
+    length: 0.4
+    sr_enable: true
+    strength: 0
+    type: dipole
   EBT-INJ-DIA-BPM-03:
-    type: beam_position_monitor
-    length: 0.07
+    centre: [-1.654079, 0.0, 7.741839]
+    datum: [-1.678827, 0.0, 7.766587]
     global_rotation: [0, 0, 0.785398]
-    position_end: [-1.67883, 0.0, 7.76659]
-    position_start: [-1.62933, 0.0, 7.71709]
+    length: 0.07
+    type: beam_position_monitor
   EBT-INJ-MAG-HVCOR-05:
-    type: kicker
+    centre: [-1.696508, 0.0, 7.784268]
+    datum: [-1.714185, 0.0, 7.801945]
+    global_rotation: [0, 0, 0.785398]
+    isr_enable: true
     length: 0.05
     sr_enable: true
-    isr_enable: true
-    global_rotation: [0, 0, 0.785398]
-    position_end: [-1.71419, 0.0, 7.80194]
-    position_start: [-1.67883, 0.0, 7.76659]
+    type: kicker
   EBT-INJ-MAG-QUAD-05:
-    type: quadrupole
-    length: 0.1
-    k1l: -1.597658628810405
-    sr_enable: true
-    isr_enable: true
+    centre: [-1.830855, 0.0, 7.918615]
+    datum: [-1.866211, 0.0, 7.953971]
     global_rotation: [0, 0, 0.785398]
-    position_end: [-1.86621, 0.0, 7.95397]
-    position_start: [-1.7955, 0.0, 7.88326]
+    isr_enable: true
+    k1l: -1.597658628810405
+    length: 0.1
+    sr_enable: true
+    type: quadrupole
   EBT-INJ-MAG-QUAD-06:
-    type: quadrupole
-    length: 0.1
-    k1l: -1.597658628810405
-    sr_enable: true
+    centre: [-2.042985, 0.0, 8.130745]
+    datum: [-2.078341, 0.0, 8.166101]
+    global_rotation: [0, 0, 0.785398]
     isr_enable: true
-    global_rotation: [0, 0, 0.785398]
-    position_end: [-2.07835, 0.0, 8.1661]
-    position_start: [-2.00763, 0.0, 8.09539]
+    k1l: -1.597658628810405
+    length: 0.1
+    sr_enable: true
+    type: quadrupole
   EBT-INJ-DIA-YAG-04:
-    type: screen
-    output_filename: '"EBT-INJ-DIA-YAG-04.SDDS"'
+    centre: [-2.75505, 0.0, 8.8428]
+    datum: [-2.75505, 0.0, 8.8428]
     global_rotation: [0, 0, 0.785398]
-    position_end: [-2.75505, 0.0, 8.8428]
-    position_start: [-2.75505, 0.0, 8.8428]
+    type: screen
   EBT-INJ-DIA-FCUP-01:
-    type: marker
+    centre: [-2.82434, 0.0, 8.9121]
+    datum: [-2.82434, 0.0, 8.9121]
     fit_point: 1.0
     global_rotation: [0, 0, 0.785398]
-    position_end: [-2.82434, 0.0, 8.9121]
-    position_start: [-2.82434, 0.0, 8.9121]
+    type: marker

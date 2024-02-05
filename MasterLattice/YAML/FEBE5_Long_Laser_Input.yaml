@@ -1,407 +1,401 @@
 elements:
   CLA-FEA-MAG-QUAD-15:
-    type: quadrupole
-    length: 0.21
+    centre: [3.680751, 0.0, 61.840479]
+    datum: [3.680751, 0.0, 61.840479]
+    global_rotation: [0, 0, 0]
     k1l: 1.547866
-    global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 61.945479]
-    position_start: [3.680751, 0, 61.735479]
+    length: 0.21
+    type: quadrupole
   CLA-FEA-DIA-BPM-08:
-    type: beam_position_monitor
+    centre: [3.680751, 0.0, 62.115479]
+    datum: [3.680751, 0.0, 62.045779]
+    global_rotation: [0, 0, 0]
     length: 0.2
-    global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 62.215479]
-    position_start: [3.680751, 0, 62.015479]
+    type: beam_position_monitor
   CLA-FEA-MAG-QUAD-16:
-    type: quadrupole
-    length: 0.21
+    centre: [3.680751, 0.0, 62.390479]
+    datum: [3.680751, 0.0, 62.390479]
+    global_rotation: [0, 0, 0]
     k1l: -0.853439
-    global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 62.495479]
-    position_start: [3.680751, 0, 62.285479]
+    length: 0.21
+    type: quadrupole
   CLA-FEA-MAG-HVCOR-05:
-    type: kicker
-    length: 0.1
+    centre: [3.680751, 0.0, 62.595479]
+    datum: [3.680751, 0.0, 62.595479]
     global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 62.645479]
-    position_start: [3.680751, 0, 62.545479]
+    length: 0.1
+    type: kicker
   CLA-FEA-MAG-HVCOR-06:
-    type: kicker
-    length: 0.1
+    centre: [3.680751, 0.0, 63.15]
+    datum: [3.680751, 0.0, 63.15]
     global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 63.2]
-    position_start: [3.680751, 0, 63.1]
+    length: 0.1
+    type: kicker
   CLA-FEA-DIA-BPM-09:
-    type: beam_position_monitor
-    length: 0.21
+    centre: [3.680751, 0.0, 63.335]
+    datum: [3.680751, 0.0, 63.2653]
     global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 63.44]
-    position_start: [3.680751, 0, 63.23]
+    length: 0.21
+    type: beam_position_monitor
   CLA-FEA-PS-SHTR-01:
-    type: shutter
-    length: 0.32
+    centre: [3.680751, 0.0, 63.6708]
+    datum: [3.680751, 0.0, 63.6708]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 63.8308]
-    position_start: [3.680751, 0, 63.5108]
+    length: 0.32
+    type: shutter
   CLA-FEH-WALL-01-START:
-    type: marker
+    centre: [3.680751, 0.0, 63.86084]
+    datum: [3.680751, 0.0, 63.86084]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 63.86084]
-    position_start: [3.680751, 0, 63.86084]
+    type: marker
   CLA-FEH-WALL-01-END:
-    type: marker
+    centre: [3.680751, 0.0, 65.45184]
+    datum: [3.680751, 0.0, 65.45184]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 65.45184]
-    position_start: [3.680751, 0, 65.45184]
+    type: marker
   CLA-FMB1-START:
-    type: marker
+    centre: [3.68075, 0.0, 65.64]
+    datum: [3.68075, 0.0, 65.64]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 65.64]
-    position_start: [3.68075, 0, 65.64]
+    type: marker
   CLA-FMB1-MIRROR:
-    type: marker
+    centre: [3.68075, 0.0, 65.88]
+    datum: [3.68075, 0.0, 65.88]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 65.88]
-    position_start: [3.68075, 0, 65.88]
+    type: marker
   CLA-FMB1-END:
-    type: marker
+    centre: [3.68075, 0.0, 66.62]
+    datum: [3.68075, 0.0, 66.62]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 66.62]
-    position_start: [3.68075, 0, 66.62]
+    type: marker
   CLA-FEH-DIA-BPM-01:
-    type: beam_position_monitor
-    length: 0.21
+    centre: [3.68075, 0.0, 66.775]
+    datum: [3.68075, 0.0, 66.7053]
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 66.88]
-    position_start: [3.68075, 0, 66.67]
+    length: 0.21
+    type: beam_position_monitor
   CLA-FEH-MAG-QUAD-01-CORR:
-    type: quadrupole
-    length: 0.277
-    k1l: -1.736535
+    centre: [3.68075, 0.0, 67.0275]
+    datum: [3.68075, 0.0, 67.0275]
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 67.166]
-    position_start: [3.68075, 0, 66.889]
+    k1l: -1.736535
+    length: 0.277
+    type: quadrupole
   CLA-FEH-MAG-HVCOR-01:
-    type: kicker
-    length: 0.0
+    centre: [3.68075, 0.0, 67.166]
+    datum: [3.68075, 0.0, 67.166]
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 67.166]
-    position_start: [3.68075, 0, 67.166]
+    length: 0.0
+    type: kicker
   CLA-FEH-MAG-QUAD-02-CORR:
-    type: quadrupole
-    length: 0.277
-    k1l: 2.160786
+    centre: [3.68075, 0.0, 67.33]
+    datum: [3.68075, 0.0, 67.33]
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 67.4685]
-    position_start: [3.68075, 0, 67.1915]
+    k1l: 2.160786
+    length: 0.277
+    type: quadrupole
   CLA-FEH-MAG-HVCOR-02:
-    type: kicker
-    length: 0.0
+    centre: [3.68075, 0.0, 67.4685]
+    datum: [3.68075, 0.0, 67.4685]
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 67.4685]
-    position_start: [3.68075, 0, 67.4685]
+    length: 0.0
+    type: kicker
   CLA-FEH-DIA-SCR-01:
-    type: screen
-    length: 0.15
-    output_filename: '"CLA-FED-DIA-SCR-05.SDDS"'
+    centre: [3.680751, 0.0, 67.54603]
+    datum: [3.680751, 0.0, 67.52933]
     global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 67.62103]
-    position_start: [3.680751, 0, 67.47103]
+    length: 0.15
+    type: screen
   CLA-FEC1-START:
-    type: marker
+    centre: [3.68075, 0.0, 67.7345]
+    datum: [3.68075, 0.0, 67.7345]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 67.7345]
-    position_start: [3.68075, 0, 67.7345]
+    type: marker
   CLA-FEC1-ECOLL-01:
-    type: aperture
-    horizontal_size: 1.0
-    vertical_size: 1.0
+    centre: [3.68075, 0.0, 68.6425]
+    datum: [3.68075, 0.0, 68.6425]
     elliptical: true
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 68.6425]
-    position_start: [3.68075, 0, 68.6425]
+    horizontal_size: 1.0
+    type: aperture
+    vertical_size: 1.0
   CLA-FEC1-FOCUS:
-    type: marker
+    centre: [3.68075, 0.0, 68.655]
+    datum: [3.68075, 0.0, 68.655]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 68.655]
-    position_start: [3.68075, 0, 68.655]
+    type: marker
   CLA-FEC1-ECOLL-02:
-    type: aperture
-    horizontal_size: 1.0
-    vertical_size: 1.0
+    centre: [3.68075, 0.0, 68.6625]
+    datum: [3.68075, 0.0, 68.6625]
     elliptical: true
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 68.6625]
-    position_start: [3.68075, 0, 68.6625]
+    horizontal_size: 1.0
+    type: aperture
+    vertical_size: 1.0
   CLA-FEC1-END:
-    type: marker
+    centre: [3.68075, 0.0, 69.5755]
+    datum: [3.68075, 0.0, 69.5755]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 69.5755]
-    position_start: [3.68075, 0, 69.5755]
+    type: marker
   CLA-FEH-DIA-SCR-02:
-    type: screen
-    length: 0.15
-    output_filename: '"CLA-FED-DIA-SCR-06.SDDS"'
+    centre: [3.680751, 0.0, 69.76104]
+    datum: [3.680751, 0.0, 69.74434]
     global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 69.83604]
-    position_start: [3.680751, 0, 69.68604]
+    length: 0.15
+    type: screen
   CLA-FEH-MAG-QUAD-03-CORR:
-    type: quadrupole
-    length: 0.277
-    k1l: 2.160786
+    centre: [3.68075, 0.0, 69.98]
+    datum: [3.68075, 0.0, 69.98]
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 70.1185]
-    position_start: [3.68075, 0, 69.8415]
+    k1l: 2.160786
+    length: 0.277
+    type: quadrupole
   CLA-FEH-MAG-HVCOR-03:
-    type: kicker
-    length: 0.0
+    centre: [3.68075, 0.0, 70.1185]
+    datum: [3.68075, 0.0, 70.1185]
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 70.1185]
-    position_start: [3.68075, 0, 70.1185]
+    length: 0.0
+    type: kicker
   CLA-FEH-MAG-QUAD-04-CORR:
-    type: quadrupole
-    length: 0.277
-    k1l: -1.736535
+    centre: [3.68075, 0.0, 70.2825]
+    datum: [3.68075, 0.0, 70.2825]
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 70.421]
-    position_start: [3.68075, 0, 70.144]
+    k1l: -1.736535
+    length: 0.277
+    type: quadrupole
   CLA-FEH-MAG-HVCOR-04:
-    type: kicker
-    length: 0.0
+    centre: [3.68075, 0.0, 70.421]
+    datum: [3.68075, 0.0, 70.421]
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 70.421]
-    position_start: [3.68075, 0, 70.421]
+    length: 0.0
+    type: kicker
   CLA-FEH-DIA-BPM-02:
-    type: beam_position_monitor
-    length: 0.21
+    centre: [3.68075, 0.0, 70.55]
+    datum: [3.68075, 0.0, 70.4803]
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 70.655]
-    position_start: [3.68075, 0, 70.445]
+    length: 0.21
+    type: beam_position_monitor
   CLA-FMB2-START:
-    type: marker
+    centre: [3.68075, 0.0, 70.695]
+    datum: [3.68075, 0.0, 70.695]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 70.695]
-    position_start: [3.68075, 0, 70.695]
+    type: marker
   CLA-FEH-MID-01:
-    type: marker
+    centre: [3.68075, 0.0, 71.12]
+    datum: [3.68075, 0.0, 71.12]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 71.12]
-    position_start: [3.68075, 0, 71.12]
+    type: marker
   CLA-FMB2-MIDDLE:
-    type: marker
+    centre: [3.68075, 0.0, 71.1825]
+    datum: [3.68075, 0.0, 71.1825]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 71.1825]
-    position_start: [3.68075, 0, 71.1825]
+    type: marker
   CLA-FMB2-MIRROR:
-    type: marker
+    centre: [3.68075, 0.0, 71.45]
+    datum: [3.68075, 0.0, 71.45]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 71.45]
-    position_start: [3.68075, 0, 71.45]
+    type: marker
   CLA-FMB2-END:
-    type: marker
+    centre: [3.68075, 0.0, 71.695]
+    datum: [3.68075, 0.0, 71.695]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 71.695]
-    position_start: [3.68075, 0, 71.695]
+    type: marker
   CLA-FEH-DIA-ICT-01:
-    type: integrated_current_transformer
+    centre: [3.68075, 0.0, 71.7352]
+    datum: [3.68075, 0.0, 71.7352]
+    global_rotation: [0, 0, 0]
     length: 0.04
-    global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 71.7552]
-    position_start: [3.68075, 0, 71.7152]
+    type: integrated_current_transformer
   CLA-FEH-DIA-BPM-03-INSIDE:
-    type: beam_position_monitor
+    centre: [3.68075, 0.0, 71.7895]
+    datum: [3.68075, 0.0, 71.7953]
+    global_rotation: [0, 0, 0]
     length: 0.059
-    global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 71.819]
-    position_start: [3.68075, 0, 71.76]
+    type: beam_position_monitor
   CLA-FEH-MAG-QUAD-05-CORR:
-    type: quadrupole
-    length: 0.277
+    centre: [3.68075, 0.0, 71.9575]
+    datum: [3.68075, 0.0, 71.9575]
+    global_rotation: [0, 0, 0]
     k1l: -1.736535
-    global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 72.096]
-    position_start: [3.68075, 0, 71.819]
+    length: 0.277
+    type: quadrupole
   CLA-FEH-MAG-HVCOR-05:
-    type: kicker
-    length: 0.0
+    centre: [3.68075, 0.0, 72.096]
+    datum: [3.68075, 0.0, 72.096]
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 72.096]
-    position_start: [3.68075, 0, 72.096]
+    length: 0.0
+    type: kicker
   CLA-FEH-MAG-QUAD-06-CORR:
-    type: quadrupole
-    length: 0.277
+    centre: [3.68075, 0.0, 72.26]
+    datum: [3.68075, 0.0, 72.26]
+    global_rotation: [0, 0, 0]
     k1l: 2.160786
-    global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 72.3985]
-    position_start: [3.68075, 0, 72.1215]
+    length: 0.277
+    type: quadrupole
   CLA-FEH-MAG-HVCOR-06:
-    type: kicker
-    length: 0.0
+    centre: [3.68075, 0.0, 72.3985]
+    datum: [3.68075, 0.0, 72.3985]
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 72.3985]
-    position_start: [3.68075, 0, 72.3985]
+    length: 0.0
+    type: kicker
   CLA-FEH-DIA-SCR-03:
-    type: screen
-    length: 0.15
-    output_filename: '"CLA-FED-DIA-SCR-07.SDDS"'
+    centre: [3.680751, 0.0, 72.47603]
+    datum: [3.680751, 0.0, 72.45933]
     global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 72.55103]
-    position_start: [3.680751, 0, 72.40103]
+    length: 0.15
+    type: screen
   CLA-FEC2-START:
-    type: marker
+    centre: [3.68075, 0.0, 72.6645]
+    datum: [3.68075, 0.0, 72.6645]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 72.6645]
-    position_start: [3.68075, 0, 72.6645]
+    type: marker
   CLA-FEC2-FOCUS:
-    type: marker
+    centre: [3.68075, 0.0, 73.585]
+    datum: [3.68075, 0.0, 73.585]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 73.585]
-    position_start: [3.68075, 0, 73.585]
+    type: marker
   CLA-FEC2-END:
-    type: marker
+    centre: [3.68075, 0.0, 74.5055]
+    datum: [3.68075, 0.0, 74.5055]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 74.5055]
-    position_start: [3.68075, 0, 74.5055]
+    type: marker
   CLA-FEH-DIA-SCR-04:
-    type: screen
-    length: 0.15
-    output_filename: '"CLA-FED-DIA-SCR-08.SDDS"'
+    centre: [3.680751, 0.0, 74.69101]
+    datum: [3.680751, 0.0, 74.67431]
     global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 74.76601]
-    position_start: [3.680751, 0, 74.61601]
+    length: 0.15
+    type: screen
   CLA-FEH-MAG-QUAD-07-CORR:
-    type: quadrupole
-    length: 0.277
+    centre: [3.68075, 0.0, 74.91]
+    datum: [3.68075, 0.0, 74.91]
+    global_rotation: [0, 0, 0]
     k1l: 2.232481
-    global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 75.0485]
-    position_start: [3.68075, 0, 74.7715]
-  CLA-FEH-MAG-HVCOR-07:
-    type: kicker
-    length: 0.0
-    global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 75.0485]
-    position_start: [3.68075, 0, 75.0485]
-  CLA-FEH-MAG-QUAD-08-CORR:
-    type: quadrupole
     length: 0.277
-    k1l: -1.777059
+    type: quadrupole
+  CLA-FEH-MAG-HVCOR-07:
+    centre: [3.68075, 0.0, 75.0485]
+    datum: [3.68075, 0.0, 75.0485]
     global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 75.351]
-    position_start: [3.68075, 0, 75.074]
-  CLA-FEH-MAG-HVCOR-08:
-    type: kicker
     length: 0.0
-    global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 75.351]
-    position_start: [3.68075, 0, 75.351]
-  CLA-FEH-DIA-BPM-04-INSIDE:
-    type: beam_position_monitor
-    length: 0.096345
-    global_rotation: [0, 0, 0]
-    position_end: [3.68075, 0, 75.546845]
-    position_start: [3.68075, 0, 75.4505]
-  CLA-FEH-WALL-02-START:
-    type: marker
-    fit_point: 1.0
-    global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 75.546845]
-    position_start: [3.680751, 0, 75.546845]
-  CLA-FEH-WALL-02-END:
-    type: marker
-    fit_point: 1.0
-    global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 77.13784]
-    position_start: [3.680751, 0, 77.13784]
-  CLA-FED-MAG-QUAD-01:
-    type: quadrupole
-    length: 0.21
-    k1l: -0.4306395
-    global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 77.426195]
-    position_start: [3.680751, 0, 77.216195]
-  CLA-FED-PS-SHTR-01:
-    type: shutter
-    length: 0.32
-    fit_point: 1.0
-    global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 77.8799]
-    position_start: [3.680751, 0, 77.5599]
-  CLA-FED-MAG-QUAD-02:
-    type: quadrupole
-    length: 0.21
-    k1l: 0.5156186
-    global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 78.38]
-    position_start: [3.680751, 0, 78.17]
-  CLA-FED-MAG-HVCOR-01:
     type: kicker
-    length: 0.1
+  CLA-FEH-MAG-QUAD-08-CORR:
+    centre: [3.68075, 0.0, 75.2125]
+    datum: [3.68075, 0.0, 75.2125]
     global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 78.52]
-    position_start: [3.680751, 0, 78.42]
-  CLA-FED-DIA-BPM-01:
+    k1l: -1.777059
+    length: 0.277
+    type: quadrupole
+  CLA-FEH-MAG-HVCOR-08:
+    centre: [3.68075, 0.0, 75.351]
+    datum: [3.68075, 0.0, 75.351]
+    global_rotation: [0, 0, 0]
+    length: 0.0
+    type: kicker
+  CLA-FEH-DIA-BPM-04-INSIDE:
+    centre: [3.68075, 0.0, 75.498673]
+    datum: [3.68075, 0.0, 75.4858]
+    global_rotation: [0, 0, 0]
+    length: 0.096345
     type: beam_position_monitor
+  CLA-FEH-WALL-02-START:
+    centre: [3.680751, 0.0, 75.546845]
+    datum: [3.680751, 0.0, 75.546845]
+    fit_point: 1.0
+    global_rotation: [0, 0, 0]
+    type: marker
+  CLA-FEH-WALL-02-END:
+    centre: [3.680751, 0.0, 77.13784]
+    datum: [3.680751, 0.0, 77.13784]
+    fit_point: 1.0
+    global_rotation: [0, 0, 0]
+    type: marker
+  CLA-FED-MAG-QUAD-01:
+    centre: [3.680751, 0.0, 77.321195]
+    datum: [3.680751, 0.0, 77.321195]
+    global_rotation: [0, 0, 0]
+    k1l: -0.4306395
     length: 0.21
+    type: quadrupole
+  CLA-FED-PS-SHTR-01:
+    centre: [3.680751, 0.0, 77.7199]
+    datum: [3.680751, 0.0, 77.7199]
+    fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 78.7718]
-    position_start: [3.680751, 0, 78.5618]
+    length: 0.32
+    type: shutter
+  CLA-FED-MAG-QUAD-02:
+    centre: [3.680751, 0.0, 78.275]
+    datum: [3.680751, 0.0, 78.275]
+    global_rotation: [0, 0, 0]
+    k1l: 0.5156186
+    length: 0.21
+    type: quadrupole
+  CLA-FED-MAG-HVCOR-01:
+    centre: [3.680751, 0.0, 78.47]
+    datum: [3.680751, 0.0, 78.47]
+    global_rotation: [0, 0, 0]
+    length: 0.1
+    type: kicker
+  CLA-FED-DIA-BPM-01:
+    centre: [3.680751, 0.0, 78.6668]
+    datum: [3.680751, 0.0, 78.5971]
+    global_rotation: [0, 0, 0]
+    length: 0.21
+    type: beam_position_monitor
   CLA-FED-DIA-SCR-01-OTR:
-    type: screen
-    length: 0.15
-    output_filename: '"CLA-FED-DIA-SCR-01-OTR.SDDS"'
+    centre: [3.680751, 0.0, 78.93001]
+    datum: [3.680751, 0.0, 78.91331]
     global_rotation: [0, 0, 0]
-    position_end: [3.680751, 0, 79.00501]
-    position_start: [3.680751, 0, 78.85501]
+    length: 0.15
+    type: screen
   CLA-FED-MAG-DIP-01:
-    type: dipole
-    length: 0.5
     angle: 0.3490658504
+    centre: [3.680751, 0.0, 79.63267]
+    datum: [3.680751, 0.0, 79.63267]
     entrance_edge_angle: 0.1745329252
     exit_edge_angle: 0.1745329252
     global_rotation: [0, 0, 0]
-    position_end: [3.594367, 0, 79.87]
-    position_start: [3.680751, 0, 79.3801]
+    length: 0.5
+    type: dipole
   CLA-FED-DIA-BPM-02:
-    type: beam_position_monitor
+    centre: [3.454914, 0.0, 80.25315]
+    datum: [3.478753, 0.0, 80.187653]
+    global_rotation: [0, 0, 0.3490658504]
     length: 0.21
-    global_rotation: [0, 0, 0.3490658504]
-    position_end: [3.419002, 0, 80.351817]
-    position_start: [3.490826, 0, 80.154482]
+    type: beam_position_monitor
   CLA-FED-MAG-QUAD-03:
-    type: quadrupole
-    length: 0.277
+    centre: [3.279877, 0.0, 80.734101]
+    datum: [3.279877, 0.0, 80.734101]
+    global_rotation: [0, 0, 0.3490658504]
     k1l: 0.3542677
-    global_rotation: [0, 0, 0.3490658504]
-    position_end: [3.232507, 0, 80.864249]
-    position_start: [3.327247, 0, 80.603954]
+    length: 0.277
+    type: quadrupole
   CLA-FED-DIA-SCR-02-WIDE:
-    type: screen
-    length: 0.15
-    output_filename: '"CLA-FED-DIA-SCR-02-WIDE.SDDS"'
+    centre: [2.93921, 0.0, 81.670078]
+    datum: [2.93921, 0.0, 81.670078]
     global_rotation: [0, 0, 0.3490658504]
-    position_end: [2.913559, 0, 81.740555]
-    position_start: [2.964862, 0, 81.599601]
+    length: 0.15
+    type: screen
   CLA-FED-DUMP-01-START:
-    type: marker
+    centre: [2.691232, 0.0, 82.351408]
+    datum: [2.691232, 0.0, 82.351408]
     fit_point: 1.0
     global_rotation: [0, 0, 0.3490658504]
-    position_end: [2.691232, 0, 82.351408]
-    position_start: [2.691232, 0, 82.351408]
+    type: marker

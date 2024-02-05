@@ -1,110 +1,90 @@
 elements:
   CLA-S06-MARK-01:
-    type: marker
+    centre: [0.0, 0.0, 31.2678]
+    datum: [0.0, 0.0, 31.2678]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [0, 0, 31.2678]
-    position_start: [0, 0, 31.2678]
+    type: marker
   CLA-S06-APER:
-    type: aperture
-    shape: rectangular
+    centre: [0.0, 0.0, 31.2678]
+    datum: [0.0, 0.0, 31.2678]
+    global_rotation: [0, 0, 0]
     horizontal_size: 0.017
+    shape: rectangular
+    type: aperture
     vertical_size: 0.017
-    global_rotation: [0, 0, 0]
-    position_end: [0, 0, 31.2678]
-    position_start: [0, 0, 31.2678]
   CLA-S06-MAG-HVCOR-01:
-    type: kicker
+    centre: [0.0, 0.0, 31.6078]
+    datum: [0.0, 0.0, 31.6328]
+    global_rotation: [0, 0, 0]
+    isr_enable: true
     length: 0.05
     sr_enable: true
-    isr_enable: true
-    buffer_start: [0, 0, 31.5578]
-    buffer_start_length: 0.025
-    buffer_end_length: 0.025
-    global_rotation: [0, 0, 0]
-    position_end: [0, 0, 31.6328]
-    position_start: [0, 0, 31.5828]
+    type: kicker
   CLA-S06-DIA-BPM-01:
-    type: beam_position_monitor
+    centre: [0.0, 0.0, 31.6678]
+    datum: [0.0, 0.0, 31.6778]
+    global_rotation: [0, 0, 0]
     length: 0.02
-    global_rotation: [0, 0, 0]
-    position_end: [0, 0, 31.6778]
-    position_start: [0, 0, 31.6578]
+    type: beam_position_monitor
   CLA-S06-MAG-QUAD-01:
-    type: quadrupole
-    length: 0.15
-    k1l: 0.157575
-    sr_enable: true
+    centre: [0.0, 0.0, 31.8528]
+    datum: [0.0, 0.0, 31.9278]
+    global_rotation: [0, 0, 0]
     isr_enable: true
-    buffer_start: [0, 0, 31.6778]
-    buffer_start_length: 0.1
-    buffer_end_length: 0.1
-    global_rotation: [0, 0, 0]
-    position_end: [0, 0, 31.9278]
-    position_start: [0, 0, 31.7778]
+    k1l: 0.157575
+    length: 0.15
+    sr_enable: true
+    type: quadrupole
   CLA-S06-DIA-BAM-01:
-    type: beam_arrival_monitor
-    length: 0.08
+    centre: [0.0, 0.0, 32.09316]
+    datum: [0.0, 0.0, 32.13316]
     global_rotation: [0, 0, 0]
-    position_end: [0, 0, 32.133160]
-    position_start: [0, 0, 32.053160]
-  CLA-S06-DIA-EOM-01:
+    length: 0.08
     type: beam_arrival_monitor
-    length: 0.2885
+  CLA-S06-DIA-EOM-01:
+    centre: [0.0, 0.0, 32.39355]
+    datum: [0.0, 0.0, 32.5378]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [0, 0, 32.5378]
-    position_start: [0, 0, 32.2493]
+    length: 0.2885
+    type: beam_arrival_monitor
   CLA-S06-MAG-QUAD-02:
-    type: quadrupole
-    length: 0.15
-    k1l: -0.0616258
-    sr_enable: true
+    centre: [0.0, 0.0, 32.7128]
+    datum: [0.0, 0.0, 32.7878]
+    global_rotation: [0, 0, 0]
     isr_enable: true
-    buffer_start: [0, 0, 32.5378]
-    buffer_start_length: 0.1
-    buffer_end_length: 0.1
-    global_rotation: [0, 0, 0]
-    position_end: [0, 0, 32.7878]
-    position_start: [0, 0, 32.6378]
+    k1l: -0.0616258
+    length: 0.15
+    sr_enable: true
+    type: quadrupole
   CLA-S06-DIA-SCR-01:
-    type: screen
-    output_filename: CLA-S06-DIA-SCR-01.SDDS
-    buffer_start: [0, 0, 32.8878]
-    buffer_start_length: 0.043333
-    buffer_end_length: 0.076667
+    centre: [0.0, 0.0, 32.9311]
+    datum: [0.0, 0.0, 32.9311]
     global_rotation: [0, 0, 0]
-    position_end: [0, 0, 32.9311]
-    position_start: [0, 0, 32.9311]
+    type: screen
   CLA-S06-MAG-HVCOR-02:
-    type: kicker
+    centre: [0.0, 0.0, 33.843]
+    datum: [0.0, 0.0, 33.868]
+    global_rotation: [0, 0, 0]
+    isr_enable: true
     length: 0.05
     sr_enable: true
-    isr_enable: true
-    buffer_start: [0, 0, 33.775]
-    buffer_start_length: 0.043
-    buffer_end_length: 0.007
-    global_rotation: [0, 0, 0]
-    position_end: [0, 0, 33.868]
-    position_start: [0, 0, 33.818]
+    type: kicker
   CLA-S06-DIA-BPM-02:
-    type: beam_position_monitor
+    centre: [0.0, 0.0, 33.9293]
+    datum: [0.0, 0.0, 33.9418]
+    global_rotation: [0, 0, 0]
     length: 0.025
-    global_rotation: [0, 0, 0]
-    position_end: [0, 0, 33.9418]
-    position_start: [0, 0, 33.9168]
+    type: beam_position_monitor
   CLA-S06-DIA-SCR-02:
-    type: screen
-    output_filename: CLA-S06-DIA-SCR-02.SDDS
-    buffer_start: [0, 0, 33.9418]
-    buffer_start_length: 0.043333
-    buffer_end_length: 0.076667
+    centre: [0.0, 0.0, 33.9851]
+    datum: [0.0, 0.0, 33.9851]
     global_rotation: [0, 0, 0]
-    position_end: [0, 0, 33.9851]
-    position_start: [0, 0, 33.9851]
+    type: screen
   CLA-S06-MARK-02:
-    type: marker
+    centre: [0.0, 0.0, 34.118]
+    datum: [0.0, 0.0, 34.118]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
-    position_end: [0, 0, 34.118]
-    position_start: [0, 0, 34.118]
+    type: marker

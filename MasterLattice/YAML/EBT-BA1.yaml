@@ -151,9 +151,9 @@ elements:
     type: watch_point
   EBT-BA1-MAG-DIP-01:
     angle: 1.0472
-    centre: [-1.25, 0.0, 28.716485]
+    centre: [-1.25, 0.0, 28.71648498]
     csr_bins: 20.0
-    datum: [-1.488751, 0.0, 28.854327]
+    datum: [-1.48875054, 0.0, 28.85432689]
     edge_field_integral: 0
     global_rotation: [0, 0, 0]
     half_gap: 0.005
@@ -162,8 +162,8 @@ elements:
     sr_enable: true
     type: dipole
   EBT-BA1-MAG-QUAD-07:
-    centre: [-1.900108, 0.0, 29.09185]
-    datum: [-1.984545, 0.0, 29.1406]
+    centre: [-1.9001076, 0.0, 29.09184979]
+    datum: [-1.98454519, 0.0, 29.14059959]
     global_rotation: [0, 0, 1.0472]
     isr_enable: true
     k1l: 1.360338937783752
@@ -171,8 +171,8 @@ elements:
     sr_enable: true
     type: quadrupole
   EBT-BA1-DIA-BPM-04:
-    centre: [-2.218378, 0.0, 29.27555]
-    datum: [-2.320136, 0.0, 29.3343]
+    centre: [-2.21837813, 0.0, 29.27554975]
+    datum: [-2.32013626, 0.0, 29.3342995]
     global_rotation: [0, 0, 1.0472]
     length: 0.235
     type: beam_position_monitor

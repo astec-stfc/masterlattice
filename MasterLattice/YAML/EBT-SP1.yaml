@@ -7,8 +7,8 @@ elements:
     type: marker
   CLA-C2V-MAG-DIP-02:
     angle: 0.785398
-    centre: [-1.25, 0.0, 7.337757]
-    datum: [-1.399169, 0.0, 7.486927]
+    centre: [-1.25, 0.0, 7.33775723]
+    datum: [-1.39916926, 0.0, 7.48692654]
     deltaL: 0.0001
     design_angle: 0.785398
     edge_field_integral: 0.5
@@ -20,22 +20,22 @@ elements:
     strength: 0
     type: dipole
   EBT-INJ-DIA-BPM-03:
-    centre: [-1.654079, 0.0, 7.741839]
-    datum: [-1.678827, 0.0, 7.766587]
+    centre: [-1.65407873, 0.0, 7.74183874]
+    datum: [-1.67882747, 0.0, 7.76658748]
     global_rotation: [0, 0, 0.785398]
     length: 0.07
     type: beam_position_monitor
   EBT-INJ-MAG-HVCOR-05:
-    centre: [-1.696508, 0.0, 7.784268]
-    datum: [-1.714185, 0.0, 7.801945]
+    centre: [-1.69650767, 0.0, 7.78426767]
+    datum: [-1.71418533, 0.0, 7.80194534]
     global_rotation: [0, 0, 0.785398]
     isr_enable: true
     length: 0.05
     sr_enable: true
     type: kicker
   EBT-INJ-MAG-QUAD-05:
-    centre: [-1.830855, 0.0, 7.918615]
-    datum: [-1.866211, 0.0, 7.953971]
+    centre: [-1.83085533, 0.0, 7.91861534]
+    datum: [-1.86621067, 0.0, 7.95397069]
     global_rotation: [0, 0, 0.785398]
     isr_enable: true
     k1l: -1.597658628810405
@@ -43,8 +43,8 @@ elements:
     sr_enable: true
     type: quadrupole
   EBT-INJ-MAG-QUAD-06:
-    centre: [-2.042985, 0.0, 8.130745]
-    datum: [-2.078341, 0.0, 8.166101]
+    centre: [-2.04298533, 0.0, 8.13074534]
+    datum: [-2.07834067, 0.0, 8.16610069]
     global_rotation: [0, 0, 0.785398]
     isr_enable: true
     k1l: -1.597658628810405

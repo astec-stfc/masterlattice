@@ -10,7 +10,7 @@ elements:
   CLA-S02-MAG-HVCOR-01:
     Horizontal_PV: CLA-S02-MAG-HCOR-01
     Vertical_PV: CLA-S02-MAG-VCOR-01
-    centre: [0.0, 0.0, 3.409774]
+    centre: [0.0, 0.0, 3.4097735]
     datum: [0.0, 0.0, 3.448077]
     global_rotation: [0, 0, 0]
     isr_enable: true
@@ -18,8 +18,8 @@ elements:
     sr_enable: true
     type: kicker
   CLA-S02-MAG-QUAD-01:
-    centre: [0.0, 0.0, 3.527152]
-    datum: [0.0, 0.0, 3.591495]
+    centre: [0.0, 0.0, 3.52715239]
+    datum: [0.0, 0.0, 3.59149478]
     field_integral_coefficients: [-2.23133410405682e-10, 4.5196171252132e-08, -3.46208258004659e-06,
       0.000111195870210961, 0.0238129337415767, 0.00981229429460256]
     global_rotation: [0, 0, 0]
@@ -36,7 +36,7 @@ elements:
     length: 0.04528
     type: beam_position_monitor
   CLA-S02-MAG-QUAD-02:
-    centre: [0.0, 0.0, 3.927148]
+    centre: [0.0, 0.0, 3.9271485]
     datum: [0.0, 0.0, 3.990557]
     field_integral_coefficients: [-4.69068497199892e-10, 7.81236692669882e-08, -4.99557108021749e-06,
       0.000139687166906618, 0.0232819099224878, 0.00977695097574923]

@@ -41,8 +41,8 @@ elements:
     global_rotation: [0, 0, 0]
     type: marker
   EBT-INJ-MAG-QUAD-09:
-    centre: [-1.25, 0.0, 10.147012]
-    datum: [-1.25, 0.0, 10.182224]
+    centre: [-1.25, 0.0, 10.1470118]
+    datum: [-1.25, 0.0, 10.1822236]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: 0.3920095459041216
@@ -77,8 +77,8 @@ elements:
     sr_enable: true
     type: kicker
   EBT-INJ-MAG-QUAD-10:
-    centre: [-1.25, 0.0, 12.823012]
-    datum: [-1.25, 0.0, 12.858224]
+    centre: [-1.25, 0.0, 12.8230118]
+    datum: [-1.25, 0.0, 12.8582236]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: -0.3922879907823872
@@ -92,8 +92,8 @@ elements:
     length: 0.2
     type: beam_position_monitor
   EBT-INJ-MAG-QUAD-11:
-    centre: [-1.25, 0.0, 15.499012]
-    datum: [-1.25, 0.0, 15.534224]
+    centre: [-1.25, 0.0, 15.4990118]
+    datum: [-1.25, 0.0, 15.5342236]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: 0.16851104048712628
@@ -125,8 +125,8 @@ elements:
     global_rotation: [0, 0, 0]
     type: watch_point
   EBT-INJ-MAG-QUAD-15:
-    centre: [-1.25, 0.0, 18.175012]
-    datum: [-1.25, 0.0, 18.210224]
+    centre: [-1.25, 0.0, 18.1750118]
+    datum: [-1.25, 0.0, 18.2102236]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: 0.12208077087083297

@@ -309,7 +309,7 @@ elements:
     length: 0.0
     type: kicker
   CLA-FEH-DIA-BPM-04-INSIDE:
-    centre: [3.68075, 0.0, 75.498673]
+    centre: [3.68075, 0.0, 75.4986725]
     datum: [3.68075, 0.0, 75.4858]
     global_rotation: [0, 0, 0]
     length: 0.096345
@@ -367,29 +367,29 @@ elements:
     type: screen
   CLA-FED-MAG-DIP-01:
     angle: 0.3490658504
-    centre: [3.680751, 0.0, 79.63267]
-    datum: [3.680751, 0.0, 79.63267]
+    centre: [3.680751, 0.0, 79.6326698]
+    datum: [3.680751, 0.0, 79.6326698]
     entrance_edge_angle: 0.1745329252
     exit_edge_angle: 0.1745329252
     global_rotation: [0, 0, 0]
     length: 0.5
     type: dipole
   CLA-FED-DIA-BPM-02:
-    centre: [3.454914, 0.0, 80.25315]
-    datum: [3.478753, 0.0, 80.187653]
+    centre: [3.45491388, 0.0, 80.25314973]
+    datum: [3.4787527, 0.0, 80.1876531]
     global_rotation: [0, 0, 0.3490658504]
     length: 0.21
     type: beam_position_monitor
   CLA-FED-MAG-QUAD-03:
-    centre: [3.279877, 0.0, 80.734101]
-    datum: [3.279877, 0.0, 80.734101]
+    centre: [3.27987721, 0.0, 80.73410143]
+    datum: [3.27987721, 0.0, 80.73410143]
     global_rotation: [0, 0, 0.3490658504]
     k1l: 0.3542677
     length: 0.277
     type: quadrupole
   CLA-FED-DIA-SCR-02-WIDE:
-    centre: [2.93921, 0.0, 81.670078]
-    datum: [2.93921, 0.0, 81.670078]
+    centre: [2.93921049, 0.0, 81.67007795]
+    datum: [2.93921049, 0.0, 81.67007795]
     global_rotation: [0, 0, 0.3490658504]
     length: 0.15
     type: screen

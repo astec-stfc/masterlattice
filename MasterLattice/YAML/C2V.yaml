@@ -9,8 +9,8 @@ elements:
   CLA-C2V-MAG-DIP-01:
     PV: CLA-C2V-MAG-DIP-01
     angle: 0.785398
-    centre: [0.0, 0.0, 6.037824]
-    datum: [-0.148877, 0.0, 6.186701]
+    centre: [0.0, 0.0, 6.03782375]
+    datum: [-0.14887689, 0.0, 6.18670069]
     deltaL: 0.0001
     design_angle: 0.785398
     edge_field_integral: 0.5
@@ -25,8 +25,8 @@ elements:
   CLA-C2V-MAG-HVCOR-01:
     Horizontal_PV: CLA-C2V-MAG-HCOR-01
     Vertical_PV: CLA-C2V-MAG-VCOR-01
-    centre: [-0.294166, 0.0, 6.331996]
-    datum: [-0.368412, 0.0, 6.406242]
+    centre: [-0.2941662, 0.0, 6.33199622]
+    datum: [-0.3684124, 0.0, 6.40624245]
     field_integral_coefficients_horizontal: [0.139019971762932, 0.00336644233663128]
     field_integral_coefficients_vertical: [0.142064204721245, 0.00344016005203196]
     global_rotation: [0, 0, 0.785398]
@@ -41,8 +41,8 @@ elements:
     global_rotation: [0, 0, 0.785398]
     type: beam_position_monitor
   CLA-C2V-MAG-QUAD-01:
-    centre: [-0.420482, 0.0, 6.45831]
-    datum: [-0.463463, 0.0, 6.501291]
+    centre: [-0.42048242, 0.0, 6.45831043]
+    datum: [-0.46346284, 0.0, 6.50129086]
     field_integral_coefficients: [-1.30185900474931e-11, 5.70352698264348e-09, -9.08937880373639e-07,
       6.03053164909332e-05, 0.014739040805921, 0.0137593271780352]
     global_rotation: [0, 0, 0.785398]
@@ -52,8 +52,8 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-C2V-MAG-QUAD-02:
-    centre: [-0.625277, 0.0, 6.663101]
-    datum: [-0.668238, 0.0, 6.706062]
+    centre: [-0.62527697, 0.0, 6.66310099]
+    datum: [-0.66823795, 0.0, 6.70606197]
     field_integral_coefficients: [-1.30779403854705e-11, 5.72293796261772e-09, -9.08645007418186e-07,
       5.97762384752619e-05, 0.0147596073775721, 0.0158516912403471]
     global_rotation: [0, 0, 0.785398]
@@ -63,8 +63,8 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-C2V-MAG-QUAD-03:
-    centre: [-0.830061, 0.0, 6.867895]
-    datum: [-0.873036, 0.0, 6.91087]
+    centre: [-0.83006076, 0.0, 6.86789478]
+    datum: [-0.87303552, 0.0, 6.91086955]
     field_integral_coefficients: [-1.31651924239548e-11, 5.76805215137824e-09, -9.16843633799561e-07,
       6.036266595182e-05, 0.0147634437187611, 0.013343693771224]
     global_rotation: [0, 0, 0.785398]
@@ -82,8 +82,8 @@ elements:
   CLA-C2V-MAG-DIP-02:
     PV: CLA-C2V-MAG-DIP-03
     angle: -0.785398
-    centre: [-1.250001, 0.0, 7.287831]
-    datum: [-1.250001, 0.0, 7.497603]
+    centre: [-1.25000093, 0.0, 7.28783098]
+    datum: [-1.25000093, 0.0, 7.49760263]
     deltaL: -0.0001
     edge_field_integral: 0.5
     field_integral_coefficients: [-9.5201e-07, 0.000151557, 0.894506059, 0.126202232]

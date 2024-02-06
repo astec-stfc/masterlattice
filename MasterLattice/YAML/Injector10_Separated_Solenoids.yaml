@@ -153,8 +153,8 @@ elements:
         scale_kick: 1
         type: longitudinal_wakefield
       CLA-L01-MAG-SOL-01:
-        centre: [0.0, 0.0, 1.750189]
-        datum: [0.0, 0.0, 2.113648]
+        centre: [0.0, 0.0, 1.7501891]
+        datum: [0.0, 0.0, 2.11364821]
         field_amplitude: 0.05
         field_definition: $master_lattice_location$Data_Files/SwissFEL_linac_sols.dat
         field_definition_gdf: $master_lattice_location$Data_Files/SwissFEL_linac_sols.gdf
@@ -164,8 +164,8 @@ elements:
         length: 0.726918205128205
         type: solenoid
       CLA-L01-MAG-SOL-02:
-        centre: [0.0, 0.0, 2.670279]
-        datum: [0.0, 0.0, 3.033738]
+        centre: [0.0, 0.0, 2.6702791]
+        datum: [0.0, 0.0, 3.03373821]
         field_amplitude: -0.05
         field_definition: $master_lattice_location$Data_Files/SwissFEL_linac_sols.dat
         field_definition_gdf: $master_lattice_location$Data_Files/SwissFEL_linac_sols.gdf

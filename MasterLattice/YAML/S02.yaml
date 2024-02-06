@@ -10,7 +10,7 @@ elements:
   CLA-S02-MAG-HVCOR-01:
     Horizontal_PV: CLA-S02-MAG-HCOR-01
     Vertical_PV: CLA-S02-MAG-VCOR-01
-    centre: [0.0, 0.0, 3.409774]
+    centre: [0.0, 0.0, 3.4097735]
     datum: [0.0, 0.0, 3.448077]
     field_integral_coefficients_horizontal: [0.299132052459495, 0.00869167241506522]
     field_integral_coefficients_vertical: [0.299132052459495, 0.00869167241506522]
@@ -145,7 +145,7 @@ elements:
   CLA-S02-MAG-HVCOR-04:
     Horizontal_PV: CLA-S02-MAG-HCOR-04
     Vertical_PV: CLA-S02-MAG-VCOR-04
-    centre: [0.0, 0.0, 6.700663]
+    centre: [0.0, 0.0, 6.7006635]
     datum: [0.0, 0.0, 6.738967]
     field_integral_coefficients_horizontal: [0.299132052459495, 0.00869167241506522]
     field_integral_coefficients_vertical: [0.299132052459495, 0.00869167241506522]

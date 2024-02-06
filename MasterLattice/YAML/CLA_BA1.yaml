@@ -109,7 +109,7 @@ elements:
   CLA-S02-MAG-HVCOR-01:
     Horizontal_PV: CLA-S02-MAG-HCOR-01
     Vertcal_PV: CLA-S02-MAG-VCOR-01
-    centre: [0.0, 0.0, 3.409774]
+    centre: [0.0, 0.0, 3.4097735]
     datum: [0.0, 0.0, 3.448077]
     global_rotation: [0, 0, 0]
     isr_enable: true
@@ -217,9 +217,9 @@ elements:
   CLA-C2V-MAG-DIP-01:
     PV: CLA-C2V-MAG-DIP-01
     angle: 0.785398
-    centre: [0.0, 0.0, 6.037829]
+    centre: [0.0, 0.0, 6.03782881]
     csr_bins: 20.0
-    datum: [-0.14917, 0.0, 6.186999]
+    datum: [-0.14917038, 0.0, 6.18699924]
     edge_field_integral: 0.4
     global_rotation: [0, 0, 0]
     half_gap: 0.005
@@ -230,8 +230,8 @@ elements:
   CLA-C2V-MAG-HVCOR-01:
     Horizontal_PV: CLA-C2V-MAG-HCOR-01
     Vertcal_PV: CLA-C2V-MAG-VCOR-01
-    centre: [-0.294166, 0.0, 6.331996]
-    datum: [-0.368412, 0.0, 6.406242]
+    centre: [-0.2941662, 0.0, 6.33199622]
+    datum: [-0.3684124, 0.0, 6.40624245]
     global_rotation: [0, 0, 0.785398]
     isr_enable: true
     length: 0.21
@@ -245,8 +245,8 @@ elements:
     type: beam_position_monitor
   CLA-C2V-MAG-QUAD-01:
     PV: CLA-C2V-MAG-QUAD-01
-    centre: [-0.419939, 0.0, 6.457773]
-    datum: [-0.455542, 0.0, 6.493376]
+    centre: [-0.41993882, 0.0, 6.45777283]
+    datum: [-0.45554164, 0.0, 6.49337566]
     global_rotation: [0, 0, 0.785398]
     isr_enable: true
     k1: 55.9853
@@ -255,8 +255,8 @@ elements:
     type: quadrupole
   CLA-C2V-MAG-QUAD-02:
     PV: CLA-C2V-MAG-QUAD-02
-    centre: [-0.625, 0.0, 6.662833]
-    datum: [-0.660603, 0.0, 6.698436]
+    centre: [-0.62499982, 0.0, 6.66283283]
+    datum: [-0.66060264, 0.0, 6.69843566]
     global_rotation: [0, 0, 0.785398]
     isr_enable: true
     k1: -50.2792
@@ -265,8 +265,8 @@ elements:
     type: quadrupole
   CLA-C2V-MAG-QUAD-03:
     PV: CLA-C2V-MAG-QUAD-03
-    centre: [-0.830061, 0.0, 6.867893]
-    datum: [-0.865664, 0.0, 6.903496]
+    centre: [-0.83006082, 0.0, 6.86789283]
+    datum: [-0.86566364, 0.0, 6.90349566]
     global_rotation: [0, 0, 0.785398]
     isr_enable: true
     k1: 55.9853
@@ -281,9 +281,9 @@ elements:
   CLA-C2V-MAG-DIP-02:
     PV: CLA-C2V-MAG-DIP-03
     angle: -0.785398
-    centre: [-1.25, 0.0, 7.28783]
+    centre: [-1.25000038, 0.0, 7.28783043]
     csr_bins: 20.0
-    datum: [-1.25, 0.0, 7.498789]
+    datum: [-1.25000038, 0.0, 7.49878924]
     edge_field_integral: 0.4
     global_rotation: [0, 0, 0.785398]
     half_gap: 0.005
@@ -539,9 +539,9 @@ elements:
     type: watch_point
   EBT-BA1-MAG-DIP-01:
     angle: 1.0472
-    centre: [-1.25, 0.0, 28.829485]
+    centre: [-1.25, 0.0, 28.82948498]
     csr_bins: 20.0
-    datum: [-1.488751, 0.0, 28.967327]
+    datum: [-1.48875054, 0.0, 28.96732689]
     edge_field_integral: 0.4
     global_rotation: [0, 0, 0]
     half_gap: 0.005
@@ -550,16 +550,16 @@ elements:
     sr_enable: true
     type: dipole
   EBT-BA1-MAG-QUAD-07:
-    centre: [-1.941684, 0.0, 29.2288]
-    datum: [-2.071588, 0.0, 29.303799]
+    centre: [-1.94168399, 0.0, 29.22879968]
+    datum: [-2.07158799, 0.0, 29.30379936]
     global_rotation: [0, 0, 1.0472]
     isr_enable: true
     length: 0.3
     sr_enable: true
     type: quadrupole
   EBT-BA1-DIA-BPM-04:
-    centre: [-2.409768, 0.0, 29.49905]
-    datum: [-2.511526, 0.0, 29.5578]
+    centre: [-2.40976813, 0.0, 29.49904975]
+    datum: [-2.51152626, 0.0, 29.5577995]
     global_rotation: [0, 0, 1.0472]
     length: 0.235
     type: beam_position_monitor

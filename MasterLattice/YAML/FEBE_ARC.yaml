@@ -314,8 +314,8 @@ elements:
     type: aperture
     vertical_size: 0.017
   CLA-FEA-BAM-01:
-    centre: [3.68075, 0.0, 59.7005]
-    datum: [3.68075, 0.0, 59.7005]
+    centre: [3.68075, 0.0, 59.7115]
+    datum: [3.68075, 0.0, 59.7115]
     global_rotation: [0, 0, 0]
     length: 0.2
     type: beam_arrival_monitor

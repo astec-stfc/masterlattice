@@ -14,16 +14,16 @@ elements:
     global_rotation: [0, 0, 0]
     type: marker
   CLA-S04-MAG-HVCOR-01:
-    centre: [0.0, 0.0, 16.3602]
-    datum: [0.0, 0.0, 16.3852]
+    centre: [0.0, 0.0, 16.353768]
+    datum: [0.0, 0.0, 16.378768]
     global_rotation: [0, 0, 0]
     isr_enable: true
     length: 0.05
     sr_enable: true
     type: kicker
   CLA-S04-MAG-QUAD-01:
-    centre: [0.0, 0.0, 16.4992]
-    datum: [0.0, 0.0, 16.5802]
+    centre: [0.0, 0.0, 16.499268]
+    datum: [0.0, 0.0, 16.580268]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: 0.100731
@@ -31,20 +31,20 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-S04-DIA-ICT-01:
-    centre: [0.0, 0.0, 16.6557]
-    datum: [0.0, 0.0, 16.6807]
+    centre: [0.0, 0.0, 16.655768]
+    datum: [0.0, 0.0, 16.680768]
     global_rotation: [0, 0, 0]
     length: 0.05
     type: integrated_current_transformer
   CLA-S04-DIA-BPM-01:
-    centre: [0.0, 0.0, 16.7857]
-    datum: [0.0, 0.0, 16.8907]
+    centre: [0.0, 0.0, 16.785768]
+    datum: [0.0, 0.0, 16.890768]
     global_rotation: [0, 0, 0]
     length: 0.21
     type: beam_position_monitor
   CLA-S04-MAG-QUAD-02:
-    centre: [0.0, 0.0, 17.0192]
-    datum: [0.0, 0.0, 17.1002]
+    centre: [0.0, 0.0, 17.019268]
+    datum: [0.0, 0.0, 17.100268]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: 0.0269461
@@ -52,13 +52,13 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-S04-DIA-SCR-01:
-    centre: [0.0, 0.0, 17.3136]
-    datum: [0.0, 0.0, 17.3136]
+    centre: [0.0, 0.0, 17.313563]
+    datum: [0.0, 0.0, 17.313563]
     global_rotation: [0, 0, 0]
     type: screen
   CLA-S04-MAG-QUAD-03:
-    centre: [0.0, 0.0, 17.5192]
-    datum: [0.0, 0.0, 17.6002]
+    centre: [0.0, 0.0, 17.519268]
+    datum: [0.0, 0.0, 17.600268]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: -0.0628161
@@ -72,8 +72,8 @@ elements:
     length: 0.21
     type: beam_position_monitor
   CLA-S04-MAG-QUAD-04:
-    centre: [0.0, 0.0, 18.0192]
-    datum: [0.0, 0.0, 18.1002]
+    centre: [0.0, 0.0, 18.019268]
+    datum: [0.0, 0.0, 18.100268]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: -0.033758
@@ -81,8 +81,8 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-S04-MAG-HVCOR-02:
-    centre: [0.0, 0.0, 18.3502]
-    datum: [0.0, 0.0, 18.3752]
+    centre: [0.0, 0.0, 18.349768]
+    datum: [0.0, 0.0, 18.374768]
     global_rotation: [0, 0, 0]
     isr_enable: true
     length: 0.05
@@ -94,9 +94,9 @@ elements:
     global_rotation: [0, 0, 0]
     type: screen
   CLA-S04-MAG-DIP-01:
-    angle: 0.0001
+    angle: 0.000
     centre: [0.0, 0.0, 18.6402]
-    datum: [-5.0e-06, 0.0, 18.6902]
+    datum: [0, 0.0, 18.6902]
     edge_field_integral: 0.4
     exit_edge_angle: angle
     global_rotation: [0, 0, 0]
@@ -106,39 +106,39 @@ elements:
     sr_enable: true
     type: dipole
   CLA-S04-MAG-DIP-02:
-    angle: -0.0001
-    centre: [-4.5e-05, 0.0, 19.0902]
-    datum: [-4.5e-05, 0.0, 19.1402]
+    angle: -0.000
+    centre: [0, 0.0, 19.0902]
+    datum: [0, 0.0, 19.1402]
     edge_field_integral: 0.4
     entrance_edge_angle: angle
-    global_rotation: [0, 0, 0.0001]
+    global_rotation: [0, 0, 0.000]
     half_gap: 0.005
     isr_enable: true
     length: 0.1
     sr_enable: true
     type: dipole
   CLA-S04-DIA-SCR-03:
-    centre: [-4.5e-05, 0.0, 19.2336]
-    datum: [-4.5e-05, 0.0, 19.2336]
+    centre: [0, 0.0, 19.233568]
+    datum: [0, 0.0, 19.233568]
     global_rotation: [0, 0, 0]
     type: screen
   CLA-S04-MAG-HVCOR-03:
-    centre: [-4.5e-05, 0.0, 19.4102]
-    datum: [-4.5e-05, 0.0, 19.4352]
+    centre: [0, 0.0, 19.4102]
+    datum: [0, 0.0, 19.4352]
     global_rotation: [0, 0, 0]
     isr_enable: true
     length: 0.05
     sr_enable: true
     type: kicker
   CLA-S04-DIA-BPM-03:
-    centre: [-4.5e-05, 0.0, 19.5027]
-    datum: [-4.5e-05, 0.0, 19.5202]
+    centre: [0, 0.0, 19.5027]
+    datum: 0, 0.0, 19.5202]
     global_rotation: [0, 0, 0]
     length: 0.035
     type: beam_position_monitor
   CLA-S04-LH-SCA:
-    centre: [-4.5e-05, 0.0, 19.87]
-    datum: [-4.5e-05, 0.0, 19.87]
+    centre: [0, 0.0, 19.87]
+    datum: [0, 0.0, 19.87]
     global_rotation: [0, 0, 0]
     horizontal_momentum_scatter: 0
     horizontal_scatter: 0
@@ -148,26 +148,26 @@ elements:
     vertical_momentum_scatter: 0
     vertical_scatter: 0
   CLA-S04-MAG-LASER0-M:
-    centre: [-4.5e-05, 0.0, 19.8777]
-    datum: [-4.5e-05, 0.0, 19.8777]
+    centre: [0, 0.0, 19.8777]
+    datum: [0, 0.0, 19.8777]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
   CLA-S04-DIA-BPM-04:
-    centre: [-4.5e-05, 0.0, 20.3402]
-    datum: [-4.5e-05, 0.0, 20.4452]
+    centre: [0, 0.0, 20.340268]
+    datum: [0, 0.0, 20.445268]
     global_rotation: [0, 0, 0]
     length: 0.21
     type: beam_position_monitor
   CLA-S04-DIA-SCR-04:
-    centre: [-4.5e-05, 0.0, 20.4886]
-    datum: [-4.5e-05, 0.0, 20.4886]
+    centre: [0, 0.0, 20.488568]
+    datum: [0, 0.0, 20.488568]
     global_rotation: [0, 0, 0]
     type: screen
   CLA-S04-MAG-DIP-03:
-    angle: -0.0001
-    centre: [-4.5e-05, 0.0, 20.6652]
-    datum: [-4.0e-05, 0.0, 20.7152]
+    angle: -0.000
+    centre: [0, 0.0, 20.6652]
+    datum: [0, 0.0, 20.7152]
     edge_field_integral: 0.4
     exit_edge_angle: angle
     global_rotation: [0, 0, 0]
@@ -177,12 +177,12 @@ elements:
     sr_enable: true
     type: dipole
   CLA-S04-MAG-DIP-04:
-    angle: 0.0001
+    angle: 0.000
     centre: [-0.0, 0.0, 21.1152]
     datum: [0.0, 0.0, 21.1652]
     edge_field_integral: 0.4
     entrance_edge_angle: angle
-    global_rotation: [0, 0, -0.0001]
+    global_rotation: [0, 0, 0]
     half_gap: 0.005
     isr_enable: true
     length: 0.1
@@ -194,8 +194,8 @@ elements:
     global_rotation: [0, 0, 0]
     type: screen
   CLA-S04-MAG-QUAD-05:
-    centre: [0.0, 0.0, 21.5342]
-    datum: [0.0, 0.0, 21.6152]
+    centre: [0.0, 0.0, 21.534268]
+    datum: [0.0, 0.0, 21.615268]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: 0.0410889
@@ -203,16 +203,16 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-S04-MAG-HVCOR-04:
-    centre: [0.0, 0.0, 21.7302]
-    datum: [0.0, 0.0, 21.7552]
+    centre: [0.0, 0.0, 21.729768]
+    datum: [0.0, 0.0, 21.754768]
     global_rotation: [0, 0, 0]
     isr_enable: true
     length: 0.05
     sr_enable: true
     type: kicker
   CLA-S04-MAG-QUAD-06:
-    centre: [0.0, 0.0, 22.0342]
-    datum: [0.0, 0.0, 22.1152]
+    centre: [0.0, 0.0, 22.034268]
+    datum: [0.0, 0.0, 22.115268]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: 0.070186
@@ -220,14 +220,14 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-S04-DIA-BPM-05:
-    centre: [0.0, 0.0, 22.3002]
-    datum: [0.0, 0.0, 22.4052]
+    centre: [0.0, 0.0, 22.300268]
+    datum: [0.0, 0.0, 22.405268]
     global_rotation: [0, 0, 0]
     length: 0.21
     type: beam_position_monitor
   CLA-S04-MAG-QUAD-07:
-    centre: [0.0, 0.0, 22.5342]
-    datum: [0.0, 0.0, 22.6152]
+    centre: [0.0, 0.0, 22.534268]
+    datum: [0.0, 0.0, 22.615268]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: 0.0845327
@@ -235,16 +235,16 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-S04-MAG-HVCOR-05:
-    centre: [0.0, 0.0, 22.7902]
-    datum: [0.0, 0.0, 22.8152]
+    centre: [0.0, 0.0, 22.789768]
+    datum: [0.0, 0.0, 22.814768]
     global_rotation: [0, 0, 0]
     isr_enable: true
     length: 0.05
     sr_enable: true
     type: kicker
   CLA-S04-MAG-QUAD-08:
-    centre: [0.0, 0.0, 23.0442]
-    datum: [0.0, 0.0, 23.1252]
+    centre: [0.0, 0.0, 23.044268]
+    datum: [0.0, 0.0, 23.125268]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: -0.043544
@@ -252,8 +252,8 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-S04-DIA-BPM-06:
-    centre: [0.0, 0.0, 23.2802]
-    datum: [0.0, 0.0, 23.3852]
+    centre: [0.0, 0.0, 23.280269]
+    datum: [0.0, 0.0, 23.385269]
     global_rotation: [0, 0, 0]
     length: 0.21
     type: beam_position_monitor

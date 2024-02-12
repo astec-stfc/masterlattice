@@ -394,8 +394,8 @@ elements:
     length: 0.15
     type: screen
   CLA-FED-DUMP-01-START:
-    centre: [2.691232, 0.0, 82.351408]
-    datum: [2.691232, 0.0, 82.351408]
+    centre: [2.691179, 0.0, 82.351408]
+    datum: [2.691179, 0.0, 82.351408]
     fit_point: 1.0
     global_rotation: [0, 0, 0.3490658504]
     type: marker

@@ -5,6 +5,7 @@ elements:
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
+elements:
   CLA-S07-APER-01:
     centre: [0.0, 0.0, 38.2678]
     datum: [0.0, 0.0, 38.2678]
@@ -14,22 +15,22 @@ elements:
     type: aperture
     vertical_size: 0.017
   CLA-S07-DIA-BPM-01:
-    centre: [0.0, 0.0, 38.3728]
-    datum: [0.0, 0.0, 38.4778]
+    centre: [0.0, 0.0, 38.372988]
+    datum: [0.0, 0.0, 38.477988]
     global_rotation: [0, 0, 0]
     length: 0.21
     type: beam_position_monitor
   CLA-S07-MAG-HVCOR-01:
-    centre: [0.0, 0.0, 38.6528]
-    datum: [0.0, 0.0, 38.6778]
+    centre: [0.0, 0.0, 38.653487]
+    datum: [0.0, 0.0, 38.678487]
     global_rotation: [0, 0, 0]
     isr_enable: true
     length: 0.05
     sr_enable: true
     type: kicker
   CLA-S07-MAG-QUAD-01:
-    centre: [0.0, 0.0, 38.8528]
-    datum: [0.0, 0.0, 38.9278]
+    centre: [0.0, 0.0, 38.852988]
+    datum: [0.0, 0.0, 38.927988]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: 0.362686
@@ -43,8 +44,8 @@ elements:
     global_rotation: [0, 0, 0]
     type: marker
   CLA-S07-MAG-QUAD-02:
-    centre: [0.0, 0.0, 39.3028]
-    datum: [0.0, 0.0, 39.3778]
+    centre: [0.0, 0.0, 39.302988]
+    datum: [0.0, 0.0, 39.377988]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: -0.116033
@@ -52,22 +53,22 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-S07-DIA-BPM-02:
-    centre: [0.0, 0.0, 39.5828]
-    datum: [0.0, 0.0, 39.6878]
+    centre: [0.0, 0.0, 39.582988]
+    datum: [0.0, 0.0, 39.687988]
     global_rotation: [0, 0, 0]
     length: 0.21
     type: beam_position_monitor
   CLA-S07-MAG-HVCOR-02:
-    centre: [0.0, 0.0, 39.813]
-    datum: [0.0, 0.0, 39.838]
+    centre: [0.0, 0.0, 39.813464]
+    datum: [0.0, 0.0, 39.838464]
     global_rotation: [0, 0, 0]
     isr_enable: true
     length: 0.05
     sr_enable: true
     type: kicker
   CLA-S07-DIA-SCR-01:
-    centre: [0.0, 0.0, 39.9311]
-    datum: [0.0, 0.0, 39.9311]
+    centre: [0.0, 0.0, 39.931277]
+    datum: [0.0, 0.0, 39.931277]
     global_rotation: [0, 0, 0]
     type: screen
   CLA-S07-TDC-01-APER:
@@ -102,13 +103,13 @@ elements:
     sr_enable: true
     type: kicker
   CLA-S07-DIA-BPM-03:
-    centre: [0.0, 0.0, 41.3078]
-    datum: [0.0, 0.0, 41.3078]
+    centre: [0.0, 0.0, 41.307988]
+    datum: [0.0, 0.0, 41.307988]
     global_rotation: [0, 0, 0]
     type: beam_position_monitor
   CLA-S07-MAG-QUAD-03:
-    centre: [0.0, 0.0, 41.4828]
-    datum: [0.0, 0.0, 41.5578]
+    centre: [0.0, 0.0, 41.482988]
+    datum: [0.0, 0.0, 41.557988]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: -0.190473
@@ -116,8 +117,8 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-S07-MAG-QUAD-04:
-    centre: [0.0, 0.0, 42.2328]
-    datum: [0.0, 0.0, 42.3078]
+    centre: [0.0, 0.0, 42.232988]
+    datum: [0.0, 0.0, 42.307988]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: -0.169476
@@ -125,19 +126,19 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-S07-DIA-BPM-04:
-    centre: [0.0, 0.0, 42.5128]
-    datum: [0.0, 0.0, 42.6178]
+    centre: [0.0, 0.0, 42.512988]
+    datum: [0.0, 0.0, 42.617988]
     global_rotation: [0, 0, 0]
     length: 0.21
     type: beam_position_monitor
   CLA-S07-DIA-SCR-02:
-    centre: [0.0, 0.0, 42.6611]
-    datum: [0.0, 0.0, 42.6611]
+    centre: [0.0, 0.0, 42.661277]
+    datum: [0.0, 0.0, 42.661277]
     global_rotation: [0, 0, 0]
     type: screen
   CLA-S07-MAG-QUAD-05:
-    centre: [0.0, 0.0, 42.9128]
-    datum: [0.0, 0.0, 42.9878]
+    centre: [0.0, 0.0, 42.912988]
+    datum: [0.0, 0.0, 42.987988]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: 0.154365
@@ -145,8 +146,8 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-S07-MAG-HVCOR-04:
-    centre: [0.0, 0.0, 43.183]
-    datum: [0.0, 0.0, 43.208]
+    centre: [0.0, 0.0, 43.183528]
+    datum: [0.0, 0.0, 43.208528]
     global_rotation: [0, 0, 0]
     isr_enable: true
     length: 0.05
@@ -160,8 +161,8 @@ elements:
     length: 0.3
     type: monitor
   CLA-S07-MAG-QUAD-06:
-    centre: [0.0, 0.0, 43.6628]
-    datum: [0.0, 0.0, 43.7378]
+    centre: [0.0, 0.0, 43.662960]
+    datum: [0.0, 0.0, 43.737960]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: 0.019829
@@ -177,16 +178,16 @@ elements:
   CLA-S07-DCP-01:
     allow_long_beam: 1
     bunched_beam: 0
-    cell_length: 0.0
-    centre: [0.0, 0.0, 44.2298]
+    cell_length: 0.596
+    centre: [0.0, 0.0, 44.5278]
     change_momentum: 1
-    datum: [0.0, 0.0, 44.2298]
+    datum: [0.0, 0.0, 44.8258]
     factor: 1
     field_definition: $master_lattice_location$Data_Files/DCP_200um_G1200um.txt
     field_definition_sdds: $master_lattice_location$Data_Files/DCP_200um_G1200um.sdds
     global_rotation: [0, 0, 0]
     interpolate: 1
-    length: 0.0
+    length: 0.596
     n_bins: 0
     n_cells: 1
     scale_kick: 1
@@ -202,14 +203,14 @@ elements:
     type: aperture
     vertical_size: 0.017
   CLA-S07-DIA-BPM-05:
-    centre: [0.0, 0.0, 44.6328]
-    datum: [0.0, 0.0, 44.7378]
+    centre: [0.0, 0.0, 44.632960]
+    datum: [0.0, 0.0, 44.737960]
     global_rotation: [0, 0, 0]
     length: 0.21
     type: beam_position_monitor
   CLA-S07-MAG-QUAD-07:
-    centre: [0.0, 0.0, 44.9128]
-    datum: [0.0, 0.0, 44.9878]
+    centre: [0.0, 0.0, 44.912960]
+    datum: [0.0, 0.0, 44.987960]
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: -0.225272
@@ -217,30 +218,30 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-S07-MAG-HVCOR-05:
-    centre: [0.0, 0.0, 45.1368]
-    datum: [0.0, 0.0, 45.1618]
+    centre: [0.0, 0.0, 45.137300]
+    datum: [0.0, 0.0, 45.162300]
     global_rotation: [0, 0, 0]
     isr_enable: true
     length: 0.05
     sr_enable: true
     type: kicker
   CLA-S07-MAG-HVCOR-06:
-    centre: [0.0, 0.0, 45.9978]
-    datum: [0.0, 0.0, 46.0228]
+    centre: [0.0, 0.0, 45.998300]
+    datum: [0.0, 0.0, 46.023300]
     global_rotation: [0, 0, 0]
     isr_enable: true
     length: 0.05
     sr_enable: true
     type: kicker
   CLA-S07-DIA-BPM-06:
-    centre: [0.0, 0.0, 46.2728]
-    datum: [0.0, 0.0, 46.2978]
+    centre: [0.0, 0.0, 46.272968]
+    datum: [0.0, 0.0, 46.297968]
     global_rotation: [0, 0, 0]
     length: 0.05
     type: beam_position_monitor
   CLA-S07-DIA-SCR-03:
-    centre: [0.0, 0.0, 46.4411]
-    datum: [0.0, 0.0, 46.4411]
+    centre: [0.0, 0.0, 46.440923]
+    datum: [0.0, 0.0, 46.440923]
     global_rotation: [0, 0, 0]
     type: screen
   CLA-S07-MARK-02:
@@ -268,22 +269,22 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-S07-DIA-BPM-07:
-    centre: [0.0, 0.0, 47.6228]
-    datum: [0.0, 0.0, 47.7278]
+    centre: [0.0, 0.0, 47.662633]
+    datum: [0.0, 0.0, 47.767633]
     global_rotation: [0, 0, 0]
     length: 0.21
     type: beam_position_monitor
   CLA-S07-MAG-HVCOR-07:
-    centre: [0.0, 0.0, 47.7778]
-    datum: [0.0, 0.0, 47.8028]
+    centre: [0.0, 0.0, 47.672800]
+    datum: [0.0, 0.0, 47.697800]
     global_rotation: [0, 0, 0]
     isr_enable: true
     length: 0.05
     sr_enable: true
     type: kicker
   CLA-S07-DIA-SCR-04:
-    centre: [0.0, 0.0, 47.8711]
-    datum: [0.0, 0.0, 47.8711]
+    centre: [0.0, 0.0, 47.810933]
+    datum: [0.0, 0.0, 47.810933]
     global_rotation: [0, 0, 0]
     type: screen
   CLA-S07-MAG-QUAD-10:
@@ -302,27 +303,27 @@ elements:
     global_rotation: [0, 0, 0]
     type: marker
   CLA-S07-MAG-QUAD-11:
-    centre: [0.0, 0.0, 49.4645]
-    datum: [0.0, 0.0, 49.5695]
+    centre: [0.0, 0.0, 49.464511]
+    datum: [0.0, 0.0, 49.569511]
     global_rotation: [0, 0, 0]
-    k1l: 1.59249
-    length: 0.21
+    k1l: 1.91536
+    length: 0.162
     type: quadrupole
   CLA-S07-MAG-HVCOR-08:
-    centre: [0.0, 0.0, 49.8007]
-    datum: [0.0, 0.0, 49.9007]
+    centre: [0.0, 0.0, 49.800701]
+    datum: [0.0, 0.0, 49.900701]
     global_rotation: [0, 0, 0]
     length: 0.2
     type: kicker
   CLA-S07-DIA-BPM-08:
-    centre: [0.0, 0.0, 50.0571]
-    datum: [0.0, 0.0, 50.1571]
+    centre: [0.0, 0.0, 50.057196]
+    datum: [0.0, 0.0, 50.157196]
     global_rotation: [0, 0, 0]
     length: 0.2
     type: beam_position_monitor
   CLA-S07-DIA-SCR-05:
-    centre: [0.0, 0.0, 50.1355]
-    datum: [0.0, 0.0, 50.2005]
+    centre: [0.0, 0.0, 50.135496]
+    datum: [0.0, 0.0, 50.200496]
     global_rotation: [0, 0, 0]
     length: 0.13
     type: screen

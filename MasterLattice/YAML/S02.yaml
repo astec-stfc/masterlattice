@@ -10,8 +10,8 @@ elements:
   CLA-S02-MAG-HVCOR-01:
     Horizontal_PV: CLA-S02-MAG-HCOR-01
     Vertical_PV: CLA-S02-MAG-VCOR-01
-    centre: [0.0, 0.0, 3.4097735]
-    datum: [0.0, 0.0, 3.448077]
+    centre: [0.0, 0.0, 3.335237]
+    datum: [0.0, 0.0, 3.373540]
     field_integral_coefficients_horizontal: [0.299132052459495, 0.00869167241506522]
     field_integral_coefficients_vertical: [0.299132052459495, 0.00869167241506522]
     global_rotation: [0, 0, 0]
@@ -31,8 +31,8 @@ elements:
     type: quadrupole
   CLA-S02-DIA-BPM-01:
     PV: CLA-S02-DIA-BPM-01
-    centre: [0.0, 0.0, 3.60014]
-    datum: [0.0, 0.0, 3.62278]
+    centre: [0.0, 0.0, 3.597360]
+    datum: [0.0, 0.0, 3.620000]
     global_rotation: [0, 0, 0]
     length: 0.04528
     type: beam_position_monitor
@@ -48,15 +48,15 @@ elements:
     type: quadrupole
   CLA-S02-DIA-SCR-01:
     camera_PV: CLA-S02-DIA-CAM-01
-    centre: [0.0, 0.0, 4.08983]
-    datum: [0.0, 0.0, 4.08983]
+    centre: [0.0, 0.0, 4.089100]
+    datum: [0.0, 0.0, 4.089100]
     global_rotation: [0, 0, 0]
     type: screen
   CLA-S02-MAG-HVCOR-02:
     Horizontal_PV: CLA-S02-MAG-HCOR-02
     Vertical_PV: CLA-S02-MAG-VCOR-02
-    centre: [0.0, 0.0, 4.25307]
-    datum: [0.0, 0.0, 4.26807]
+    centre: [0.0, 0.0, 4.236610]
+    datum: [0.0, 0.0, 4.251610]
     field_integral_coefficients_horizontal: [0.299132052459495, 0.00869167241506522]
     field_integral_coefficients_vertical: [0.299132052459495, 0.00869167241506522]
     global_rotation: [0, 0, 0]
@@ -84,8 +84,8 @@ elements:
   CLA-S02-MAG-HVCOR-03:
     Horizontal_PV: CLA-S02-MAG-HCOR-03
     Vertical_PV: CLA-S02-MAG-VCOR-03
-    centre: [0.0, 0.0, 4.83056]
-    datum: [0.0, 0.0, 4.84556]
+    centre: [0.0, 0.0, 4.809000]
+    datum: [0.0, 0.0, 4.824000]
     field_integral_coefficients_horizontal: [0.299132052459495, 0.00869167241506522]
     field_integral_coefficients_vertical: [0.299132052459495, 0.00869167241506522]
     global_rotation: [0, 0, 0]
@@ -95,8 +95,8 @@ elements:
     type: kicker
   CLA-S02-DIA-SCR-02:
     camera_PV: CLA-S02-DIA-CAM-02
-    centre: [0.0, 0.0, 5.01083]
-    datum: [0.0, 0.0, 5.01083]
+    centre: [0.0, 0.0, 5.010100]
+    datum: [0.0, 0.0, 5.010100]
     global_rotation: [0, 0, 0]
     type: screen
   CLA-S02-MAG-QUAD-03:
@@ -138,15 +138,15 @@ elements:
     type: beam_position_monitor
   CLA-S02-DIA-SCR-03:
     camera_PV: CLA-S02-DIA-CAM-03
-    centre: [0.0, 0.0, 6.5853]
-    datum: [0.0, 0.0, 6.5853]
+    centre: [0.0, 0.0, 6.584600]
+    datum: [0.0, 0.0, 6.584600]
     global_rotation: [0, 0, 0]
     type: screen
   CLA-S02-MAG-HVCOR-04:
     Horizontal_PV: CLA-S02-MAG-HCOR-04
     Vertical_PV: CLA-S02-MAG-VCOR-04
-    centre: [0.0, 0.0, 6.7006635]
-    datum: [0.0, 0.0, 6.738967]
+    centre: [0.0, 0.0, 6.683746]
+    datum: [0.0, 0.0, 6.722050]
     field_integral_coefficients_horizontal: [0.299132052459495, 0.00869167241506522]
     field_integral_coefficients_vertical: [0.299132052459495, 0.00869167241506522]
     global_rotation: [0, 0, 0]

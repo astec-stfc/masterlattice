@@ -132,7 +132,7 @@ elements:
     type: kicker
   CLA-S04-DIA-BPM-03:
     centre: [0, 0.0, 19.5027]
-    datum: 0, 0.0, 19.5202]
+    datum: [0, 0.0, 19.5202]
     global_rotation: [0, 0, 0]
     length: 0.035
     type: beam_position_monitor

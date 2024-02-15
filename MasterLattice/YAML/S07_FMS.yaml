@@ -26,10 +26,10 @@ elements:
     length: 0.162
     type: quadrupole
   CLA-S07-DIA-BPM-07:
-    centre: [0.0, 0.0, 47.6228]
-    datum: [0.0, 0.0, 47.7278]
+    centre: [0.0, 0.0, 47.6478]
+    datum: [0.0, 0.0, 47.6478]
     global_rotation: [0, 0, 0]
-    length: 0.21
+    length: 0.0
     type: beam_position_monitor
   CLA-S07-DIA-SCR-04W:
     centre: [0.0, 0.0, 47.8711]

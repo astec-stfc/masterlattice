@@ -1,7 +1,7 @@
 elements:
   CLA-S02-APER-01:
-    centre: [0.0, 0.0, 3.37147]
-    datum: [0.0, 0.0, 3.37147]
+    centre: [0.0, 0.0, 3.29693]
+    datum: [0.0, 0.0, 3.29693]
     global_rotation: [0, 0, 0]
     horizontal_size: 0.017
     shape: rectangular
@@ -34,7 +34,7 @@ elements:
     centre: [0.0, 0.0, 3.597360]
     datum: [0.0, 0.0, 3.620000]
     global_rotation: [0, 0, 0]
-    length: 0.04528
+    length: 0.039721
     type: beam_position_monitor
   CLA-S02-MAG-QUAD-02:
     PV: CLA-S02-MAG-QUAD-02

@@ -170,8 +170,8 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-S07-DCP-01-SCR:
-    centre: [0.0, 0.0, 43.9318]
-    datum: [0.0, 0.0, 43.9318]
+    centre: [0.0, 0.0, 43.9298]
+    datum: [0.0, 0.0, 43.9298]
     global_rotation: [0, 0, 0]
     length: 0.0
     type: screen
@@ -179,7 +179,7 @@ elements:
     allow_long_beam: 1
     bunched_beam: 0
     cell_length: 0.596
-    centre: [0.0, 0.0, 44.5278]
+    centre: [0.0, 0.0, 44.2278]
     change_momentum: 1
     datum: [0.0, 0.0, 44.8258]
     factor: 1
@@ -195,8 +195,8 @@ elements:
     type: longitudinal_wakefield
     wcolumn: Ez
   CLA-S07-APER-03:
-    centre: [0.0, 0.0, 44.5278]
-    datum: [0.0, 0.0, 44.5278]
+    centre: [0.0, 0.0, 44.527]
+    datum: [0.0, 0.0, 44.527]
     global_rotation: [0, 0, 0]
     horizontal_size: 0.017
     shape: rectangular
@@ -269,10 +269,10 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-S07-DIA-BPM-07:
-    centre: [0.0, 0.0, 47.662633]
-    datum: [0.0, 0.0, 47.767633]
+    centre: [0.0, 0.0, 47.6478]
+    datum: [0.0, 0.0, 47.6478]
     global_rotation: [0, 0, 0]
-    length: 0.21
+    length: 0.0
     type: beam_position_monitor
   CLA-S07-MAG-HVCOR-07:
     centre: [0.0, 0.0, 47.672800]

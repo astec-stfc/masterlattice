@@ -252,8 +252,8 @@ elements:
     sr_enable: true
     type: quadrupole
   CLA-S04-DIA-BPM-06:
-    centre: [0.0, 0.0, 23.280269]
-    datum: [0.0, 0.0, 23.385269]
+    centre: [0.0, 0.0, 23.28026850]
+    datum: [0.0, 0.0, 23.38526850]
     global_rotation: [0, 0, 0]
     length: 0.21
     type: beam_position_monitor

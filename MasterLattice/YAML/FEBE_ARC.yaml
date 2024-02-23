@@ -63,8 +63,8 @@ elements:
     length: 0.2
     type: beam_position_monitor
   CLA-FEA-DIA-SCR-01:
-    centre: [0.57347619, 0.0, 50.69832957]
-    datum: [0.5694361, 0.0, 50.6821256]
+    centre: [0.57346165, 0.0, 50.69832957]
+    datum: [0.56942154, 0.0, 50.6821256]
     global_rotation: [0, 0, -0.2443460953]
     length: 0.2
     type: screen
@@ -76,8 +76,8 @@ elements:
     length: 0.21
     type: quadrupole
   CLA-FEA-MAG-SEXT-01:
-    centre: [0.70887409, 0.0, 51.24141279]
-    datum: [0.70887409, 0.0, 51.24141279]
+    centre: [0.70886750, 0.0, 51.24141279]
+    datum: [0.70886750, 0.0, 51.24141279]
     global_rotation: [0, 0, -0.2443460953]
     k2l: -22.6172
     length: 0.1
@@ -90,8 +90,8 @@ elements:
     length: 0.21
     type: quadrupole
   CLA-FEA-DIA-BPM-02:
-    centre: [0.86257219, 0.0, 51.85792957]
-    datum: [0.8457102, 0.0, 51.7903]
+    centre: [0.86258240, 0.0, 51.85792957]
+    datum: [0.84572045, 0.0, 51.7903]
     global_rotation: [0, 0, -0.2443460953]
     length: 0.2
     type: beam_position_monitor
@@ -141,8 +141,8 @@ elements:
     length: 0.21
     type: quadrupole
   CLA-FEA-MAG-HVCOR-02:
-    centre: [1.71831716, 0.0, 53.61959476]
-    datum: [1.71831716, 0.0, 53.61959476]
+    centre: [1.71832451, 0.0, 53.61959476]
+    datum: [1.71832451, 0.0, 53.61959476]
     global_rotation: [0, 0, -0.4886921906]
     length: 0.2
     type: kicker
@@ -153,8 +153,8 @@ elements:
     length: 0.2
     type: beam_position_monitor
   CLA-FEA-DIA-SCR-02:
-    centre: [2.04694716, 0.0, 54.23759476]
-    datum: [2.039107, 0.0, 54.2228495]
+    centre: [2.04692094, 0.0, 54.23759476]
+    datum: [2.03908075, 0.0, 54.2228495]
     global_rotation: [0, 0, -0.4886921906]
     length: 0.2
     type: screen
@@ -173,8 +173,8 @@ elements:
     length: 0.21
     type: quadrupole
   CLA-FEA-DIA-BPM-04:
-    centre: [2.60795716, 0.0, 55.29279476]
-    datum: [2.575235, 0.0, 55.2312533]
+    centre: [2.60798073, 0.0, 55.29279476]
+    datum: [2.57525856, 0.0, 55.2312533]
     global_rotation: [0, 0, -0.4886921906]
     length: 0.2
     type: beam_position_monitor
@@ -224,8 +224,8 @@ elements:
     length: 0.21
     type: quadrupole
   CLA-FEA-MAG-HVCOR-03:
-    centre: [3.15082219, 0.0, 57.17452957]
-    datum: [3.15082219, 0.0, 57.17452957]
+    centre: [3.15081764, 0.0, 57.17452957]
+    datum: [3.15081764, 0.0, 57.17452957]
     global_rotation: [0, 0, -0.2443460953]
     length: 0.2
     type: kicker
@@ -277,8 +277,8 @@ elements:
     length: 0.21
     type: quadrupole
   CLA-FEA-DIA-BPM-06:
-    centre: [3.60926219, 0.0, 59.01322957]
-    datum: [3.5924002, 0.0, 58.9456]
+    centre: [3.60925704, 0.0, 59.01322957]
+    datum: [3.59239509, 0.0, 58.9456]
     global_rotation: [0, 0, -0.2443460953]
     length: 0.2
     type: beam_position_monitor
@@ -314,8 +314,8 @@ elements:
     type: aperture
     vertical_size: 0.017
   CLA-FEA-BAM-01:
-    centre: [3.68075, 0.0, 59.7115]
-    datum: [3.68075, 0.0, 59.7115]
+    centre: [3.680751, 0.0, 59.7115]
+    datum: [3.680751, 0.0, 59.7115]
     global_rotation: [0, 0, 0]
     length: 0.2
     type: beam_arrival_monitor

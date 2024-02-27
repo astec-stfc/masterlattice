@@ -5,7 +5,6 @@ elements:
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-elements:
   CLA-S07-APER-01:
     centre: [0.0, 0.0, 38.2678]
     datum: [0.0, 0.0, 38.2678]

@@ -11,7 +11,7 @@ elements:
     datum: [0.0, 0.0, 49.569511]
     global_rotation: [0, 0, 0]
     k1l: 1.91536
-    length: 0.162
+    length: 0.21
     type: quadrupole
   CLA-S07-MAG-HVCOR-08:
     centre: [0.0, 0.0, 49.800701]
@@ -26,10 +26,10 @@ elements:
     length: 0.2
     type: beam_position_monitor
   CLA-S07-DIA-SCR-05:
-    centre: [0.0, 0.0, 50.20496]
+    centre: [0.0, 0.0, 50.1805]
     datum: [0.0, 0.0, 50.200496]
     global_rotation: [0, 0, 0]
-    length: 0.05
+    length: 0.04
     type: screen
   CLA-S07-DUMP-01-START:
     centre: [0.0, 0.0, 53.997011]

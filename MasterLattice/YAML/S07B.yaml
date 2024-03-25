@@ -70,3 +70,9 @@ elements:
     length: 0.162
     sr_enable: true
     type: quadrupole
+  CLA-FEA-START-01:
+    type: marker
+    centre: [0.0, 0.0, 48.2978]
+    datum: [0.0, 0.0, 48.2978]
+    fit_point: 1.0
+    global_rotation: [0, 0, 0]

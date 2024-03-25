@@ -20,16 +20,15 @@ elements:
     length: 0.2
     type: kicker
   CLA-S07-DIA-BPM-08:
-    centre: [0.0, 0.0, 50.057196]
+    centre: [0.0, 0.0, 50.052196]
     datum: [0.0, 0.0, 50.157196]
     global_rotation: [0, 0, 0]
-    length: 0.2
+    length: 0.21
     type: beam_position_monitor
   CLA-S07-DIA-SCR-05:
-    centre: [0.0, 0.0, 50.1805]
+    centre: [0.0, 0.0, 50.200496]
     datum: [0.0, 0.0, 50.200496]
     global_rotation: [0, 0, 0]
-    length: 0.04
     type: screen
   CLA-S07-DUMP-01-START:
     centre: [0.0, 0.0, 53.997011]

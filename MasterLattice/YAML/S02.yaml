@@ -31,10 +31,10 @@ elements:
     type: quadrupole
   CLA-S02-DIA-BPM-01:
     PV: CLA-S02-DIA-BPM-01
-    centre: [0.0, 0.0, 3.597360]
+    centre: [0.0, 0.0, 3.59875]
     datum: [0.0, 0.0, 3.620000]
     global_rotation: [0, 0, 0]
-    length: 0.03972
+    length: 0.0425
     type: beam_position_monitor
   CLA-S02-MAG-QUAD-02:
     PV: CLA-S02-MAG-QUAD-02

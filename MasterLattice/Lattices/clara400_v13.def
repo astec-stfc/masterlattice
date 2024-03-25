@@ -1,4 +1,11 @@
 global:
+  SC_2D_Nrad: 30
+  SC_2D_Nlong: 45
+  SC_3D_Nxf: 8
+  SC_3D_Nyf: 8
+  SC_3D_Nzf: 8
+  accuracy: 6
+  initial_distribution: '../1k-250pC-76fsrms-1mm_TE09fixN12.ini'
   ASTRAsettings:
     High_res: True
     N_red: 1
@@ -27,7 +34,6 @@ global:
 generator:
   default: clara_400_3ps
 files:
-files:
   injector400:
     code: ASTRA
     charge:
@@ -40,53 +46,75 @@ files:
       zstart: 0
       end_element: CLA-S02-APER-01
   S02:
-    code: elegant
+    code: ASTRA
+    charge:
+      cathode: False
+      space_charge_mode: 3D
     output:
       start_element: CLA-S02-APER-01
       end_element: CLA-L02-APER
+    input: {}
   L02:
-    code: elegant
+    code: ASTRA
+    charge:
+      cathode: False
+      space_charge_mode: 3D
     output:
       start_element: CLA-L02-APER
       end_element: CLA-S03-APER
     input: {}
   S03:
-    code: elegant
+    code: ASTRA
+    charge:
+      cathode: False
+      space_charge_mode: 3D
     input: {}
     output:
       start_element: CLA-S03-APER
       end_element: CLA-L03-APER
   L03:
-    code: elegant
+    code: ASTRA
+    charge:
+      cathode: False
+      space_charge_mode: 3D
     input: {}
     output:
       start_element: CLA-L03-APER
       end_element: CLA-S04-APER
   S04:
-    code: elegant
+    code: ASTRA
+    charge:
+      cathode: False
+      space_charge_mode: 3D
     input: {}
     output:
       start_element: CLA-S04-APER
       end_element: CLA-L4H-APER
-    groups:
-      laser-heater:
-        dipoleangle: 0.0001
-        width: 0.2
-        gap: 0.02
   L4H:
-    code: elegant
+    code: ASTRA
+    charge:
+      cathode: False
+      space_charge_mode: 3D
     input: {}
     output:
       start_element: CLA-L4H-APER
       end_element: CLA-S05-APER
   S05:
-    code: elegant
+    code: ASTRA
+    charge:
+      cathode: False
+      space_charge_mode: 3D
     input: {}
     output:
       start_element: CLA-S05-APER
       end_element: CLA-S05-MARK-01
   VBC:
-    code: elegant
+    code: csrtrack
+    charge:
+      cathode: False
+      space_charge_mode: 3D
+    csr:
+      csr_mode: 1D
     input: {}
     output:
       start_element: CLA-S05-MARK-01
@@ -97,33 +125,41 @@ files:
         width: 0.2
         gap: 0.02
   S06:
-    code: elegant
+    code: ASTRA
+    charge:
+      cathode: False
+      space_charge_mode: 3D
     input: {}
     output:
       start_element: CLA-S06-MARK-01
       end_element: CLA-L04-APER
   L04:
-    code: elegant
+    code: ASTRA
+    charge:
+      cathode: False
+      space_charge_mode: 3D
     input: {}
     output:
       start_element: CLA-L04-APER
       end_element: CLA-S07-APER-01
   S07:
-    code: elegant
-    input: {}
+    code: ASTRA
     charge:
       cathode: False
       space_charge_mode: 3D
     input: {}
     output:
       start_element: CLA-S07-APER-01
-      end_element: CLA-SP3-DIA-FCUP
+      end_element: CLA-FMS-APER-01
 groups:
   bunch_compressor:
     type: chicane
     elements: [CLA-VBC-MAG-DIP-01, CLA-VBC-MAG-DIP-02, CLA-VBC-MAG-DIP-03, CLA-VBC-MAG-DIP-04]
+  modulator1_chicane:
+    type: chicane
+    elements: [CLA-FMS-DIP-01, CLA-FMS-DIP-02, CLA-FMS-DIP-03, CLA-FMS-DIP-04]
+  modulator2_chicane:
+    type: s_chicane
+    elements: [CLA-FMS-DIP-05, CLA-FMS-DIP-06, CLA-FMS-DIP-07, CLA-FMS-DIP-08]
 elements:
-  filename: [YAML/Injector400.yaml, YAML/S02.yaml, YAML/L02.yaml,
-             YAML/S03.yaml, YAML/L03.yaml, YAML/S04.yaml, YAML/L4H.yaml,
-             YAML/S05.yaml, YAML/VBC.yaml, YAML/S06.yaml, YAML/L04.yaml,
-             YAML/S07_SP3.yaml]
+  filename: YAML/CLA_Gun400.yaml

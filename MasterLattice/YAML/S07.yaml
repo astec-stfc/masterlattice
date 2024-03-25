@@ -1,5 +1,5 @@
 elements:
-  filename: YAML/S07_FEBE.YAML
+  filename: YAML/S07_FEBE.yaml
   CLA-S07-MAG-QUAD-11:
     centre: [0.0, 0.0, 48.6668]
     datum: [0.0, 0.0, 48.7478]

@@ -1,5 +1,5 @@
 elements:
-  CLA-LRG1-APER:
+  CLA-LRG1-APER-01:
     centre: [0, 0, 0]
     datum: [0, 0, 0]
     global_rotation: [0, 0, 0]
@@ -7,7 +7,7 @@ elements:
     shape: rectangular
     type: aperture
     vertical_size: 0.017
-  CLA-LRG1-GUN-CAV:
+  CLA-LRG1-GUN-CAV-01:
     Structure_Type: StandingWave
     centre: [0.0, 0.0, 0.085]
     datum: [0.0, 0.0, 0.17]
@@ -22,7 +22,7 @@ elements:
     n_cells: 2.5
     phase: -16
     sub_elements:
-      CLA-LRG1-GUN-SOL:
+      CLA-LRG1-GUN-SOL-01:
         centre: [0, 0, 0]
         datum: [0, 0, 0]
         field_amplitude: 0.237
@@ -32,7 +32,7 @@ elements:
         length: 0
         type: solenoid
     type: cavity
-  CLA-S01-APER:
+  CLA-S01-APER-01:
     centre: [0.0, 0.0, 0.32482]
     datum: [0.0, 0.0, 0.32482]
     global_rotation: [0, 0, 0]
@@ -80,7 +80,7 @@ elements:
     datum: [0.0, 0.0, 0.981033]
     global_rotation: [0, 0, 0]
     type: screen
-  CLA-L01-APER:
+  CLA-L01-APER-01:
     centre: [0.0, 0.0, 1.0577]
     datum: [0.0, 0.0, 1.0577]
     global_rotation: [0, 0, 0]
@@ -88,7 +88,7 @@ elements:
     shape: rectangular
     type: aperture
     vertical_size: 0.01
-  CLA-L01-CAV:
+  CLA-L01-CAV-01:
     PV: CLA-L01-LRF-CTRL-01
     Structure_Type: TravellingWave
     cell_length: 0.0333333
@@ -107,7 +107,7 @@ elements:
     lsc_enable: true
     phase: 0
     sub_elements:
-      CLA-L01-WAKE:
+      CLA-L01-WAKE-01:
         cell_length: 0.0333333333333333
         centre: [0.0, 0.0, 2.210235]
         coupling_cell_length: 0.0495

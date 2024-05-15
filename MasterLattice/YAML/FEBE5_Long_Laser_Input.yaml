@@ -80,7 +80,7 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.21
     type: beam_position_monitor
-  CLA-FEH-MAG-QUAD-01-CORR:
+  CLA-FEH-MAG-QUAD-01:
     centre: [3.6807505, 0.0, 67.0275]
     datum: [3.6807505, 0.0, 67.0275]
     global_rotation: [0, 0, 0]
@@ -93,7 +93,7 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.0
     type: kicker
-  CLA-FEH-MAG-QUAD-02-CORR:
+  CLA-FEH-MAG-QUAD-02:
     centre: [3.6807505, 0.0, 67.33]
     datum: [3.6807505, 0.0, 67.33]
     global_rotation: [0, 0, 0]
@@ -152,7 +152,7 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.15
     type: screen
-  CLA-FEH-MAG-QUAD-03-CORR:
+  CLA-FEH-MAG-QUAD-03:
     centre: [3.6807505, 0.0, 69.98]
     datum: [3.6807505, 0.0, 69.98]
     global_rotation: [0, 0, 0]
@@ -165,7 +165,7 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.0
     type: kicker
-  CLA-FEH-MAG-QUAD-04-CORR:
+  CLA-FEH-MAG-QUAD-04:
     centre: [3.6807505, 0.0, 70.2825]
     datum: [3.6807505, 0.0, 70.2825]
     global_rotation: [0, 0, 0]
@@ -220,13 +220,13 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.04
     type: integrated_current_transformer
-  CLA-FEH-DIA-BPM-03-INSIDE:
+  CLA-FEH-DIA-BPM-03:
     centre: [3.6807505, 0.0, 71.7895]
     datum: [3.6807505, 0.0, 71.7953]
     global_rotation: [0, 0, 0]
     length: 0.059
     type: beam_position_monitor
-  CLA-FEH-MAG-QUAD-05-CORR:
+  CLA-FEH-MAG-QUAD-05:
     centre: [3.6807505, 0.0, 71.9575]
     datum: [3.6807505, 0.0, 71.9575]
     global_rotation: [0, 0, 0]
@@ -239,7 +239,7 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.0
     type: kicker
-  CLA-FEH-MAG-QUAD-06-CORR:
+  CLA-FEH-MAG-QUAD-06:
     centre: [3.6807505, 0.0, 72.26]
     datum: [3.6807505, 0.0, 72.26]
     global_rotation: [0, 0, 0]
@@ -282,7 +282,7 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.15
     type: screen
-  CLA-FEH-MAG-QUAD-07-CORR:
+  CLA-FEH-MAG-QUAD-07:
     centre: [3.6807505, 0.0, 74.91]
     datum: [3.6807505, 0.0, 74.91]
     global_rotation: [0, 0, 0]
@@ -295,7 +295,7 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.0
     type: kicker
-  CLA-FEH-MAG-QUAD-08-CORR:
+  CLA-FEH-MAG-QUAD-08:
     centre: [3.6807505, 0.0, 75.2125]
     datum: [3.6807505, 0.0, 75.2125]
     global_rotation: [0, 0, 0]
@@ -308,7 +308,7 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.0
     type: kicker
-  CLA-FEH-DIA-BPM-04-INSIDE:
+  CLA-FEH-DIA-BPM-04:
     centre: [3.6807505, 0.0, 75.4986725]
     datum: [3.6807505, 0.0, 75.4858]
     global_rotation: [0, 0, 0]
@@ -359,7 +359,7 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.21
     type: beam_position_monitor
-  CLA-FED-DIA-SCR-01-OTR:
+  CLA-FED-DIA-SCR-01:
     centre: [3.6807505, 0.0, 78.93001]
     datum: [3.6807505, 0.0, 78.91331]
     global_rotation: [0, 0, 0]
@@ -387,7 +387,7 @@ elements:
     k1l: 0.3542677
     length: 0.277
     type: quadrupole
-  CLA-FED-DIA-SCR-02-WIDE:
+  CLA-FED-DIA-SCR-02:
     centre: [2.9391941, 0.0, 81.67007795]
     datum: [2.9391941, 0.0, 81.67007795]
     global_rotation: [0, 0, 0.3490658504]

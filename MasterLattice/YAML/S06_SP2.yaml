@@ -59,9 +59,9 @@ elements:
     global_rotation: [0, 0, 0.523599]
     length: 0.0
     type: screen
-  CLA-SP2-DIA-FCUP:
+  CLA-SP2-DIA-FCUP-01:
     centre: [-1.5830055, 0., 36.054337]
     datum: [-1.5830055, 0., 36.054337]
     global_rotation: [0, 0, 0.523599]
     length: 0.0
-    type: screen
+    type: faraday_cup

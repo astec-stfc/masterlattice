@@ -30,8 +30,8 @@ elements:
         centre: [0.0, 0.0, 0.085]
         datum: [0.0, 0.0, 0.17]
         field_amplitude: 0.255
-        field_definition: $master_lattice_location$Data_Files/Measured_Main_Solenoid_2019.txt
-        field_definition_gdf: $master_lattice_location$Data_Files/Measured_Main_Solenoid_2019.gdf
+        field_definition: $master_lattice_location$Data_Files/LRRG_Measured_Main_Solenoid_2019.txt
+        field_definition_gdf: $master_lattice_location$Data_Files/LRRG_Measured_Main_Solenoid_2019.gdf
         field_integral_coefficients: [2.17321571, -0.858179277, 0.17212713, -0.0171033399,
           0.00067037153, -3.53922e-08, 1.53138e-05, 0.167819191, 0.0]
         global_rotation: [0, 0, 0]
@@ -41,8 +41,8 @@ elements:
         centre: [0.0, 0.0, 0.085]
         datum: [0.0, 0.0, 0.17]
         field_amplitude: $0.9 * 0.255$
-        field_definition: $master_lattice_location$Data_Files/Measured_Bucking_Solenoid_2019.txt
-        field_definition_gdf: $master_lattice_location$Data_Files/Measured_Bucking_Solenoid_2019.gdf
+        field_definition: $master_lattice_location$Data_Files/LRRG_Measured_Bucking_Solenoid_2019.txt
+        field_definition_gdf: $master_lattice_location$Data_Files/LRRG_Measured_Bucking_Solenoid_2019.gdf
         field_integral_coefficients: [0.000513431, -1.27695e-07, 1.61655e-10, -0.032733798,
           -4.29885e-06, 2.28967e-08, 0.001833327, -2.5354e-06, -1.04715e-09, -1.61177e-12,
           -2.94837e-05, 2.13938e-07, -0.003957362, 0.246073139, -4.393602393, 0.0]

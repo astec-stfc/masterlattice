@@ -26,8 +26,17 @@ elements:
         centre: [0.0, 0.0, 0.16241]
         datum: [0.0, 0.0, 0.32]
         field_amplitude: 0.345
-        field_definition: $master_lattice_location$Data_Files/HRRG_combined_sols_100mm_onaxis.dat
-        field_definition_gdf: $master_lattice_location$Data_Files/HRRG_combined_sols_100mm_onaxis.gdf
+        field_definition: $master_lattice_location$Data_Files/HRRG_main_sol_100mm_onaxis.dat
+        field_definition_gdf: $master_lattice_location$Data_Files/HRRG_main_sol_100mm_onaxis.gdf
+        global_rotation: [0, 0, 0]
+        length: 0.32
+        type: solenoid
+      CLA-GUN-MAG-SOL-02:
+        centre: [0.0, 0.0, 0.16241]
+        datum: [0.0, 0.0, 0.32]
+        field_amplitude: 0.345
+        field_definition: $master_lattice_location$Data_Files/HRRG_bucking_sol_100mm_onaxis.dat
+        field_definition_gdf: $master_lattice_location$Data_Files/HRRG_bucking_sol_100mm_onaxis.gdf
         global_rotation: [0, 0, 0]
         length: 0.32
         type: solenoid
@@ -88,7 +97,7 @@ elements:
     shape: rectangular
     type: aperture
     vertical_size: 0.01
-  CLA-L01-LIN-CAV-01:
+  CLA-L01-CAV:
     PV: CLA-L01-LRF-CTRL-01
     Structure_Type: TravellingWave
     attenuation_constant: 0.42

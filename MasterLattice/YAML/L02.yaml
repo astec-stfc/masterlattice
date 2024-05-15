@@ -22,7 +22,7 @@ elements:
     field_definition_gdf: $master_lattice_location$Data_Files/mockup4m_moved.gdf
     frequency: 2998500000.0
     global_rotation: [0, 0, 0]
-    length: 4.0839
+    length: 4.06667
     longitudinal_wakefield_sdds: $master_lattice_location$Data_Files/Sz5um10mm.sdds
     lsc_bins: 20.0
     lsc_cutoff_high: [0.2, 0.25]

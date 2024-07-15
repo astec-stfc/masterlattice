@@ -1,4 +1,5 @@
 elements:
+  filename: YAML/S02_EBT.yaml
   CLA-C2V-SIM-MARK-01:
     PV: None
     centre: [0.0, 0.0, 5.72609]
@@ -79,24 +80,46 @@ elements:
     datum: [-0.944068, 0.0, 6.9819]
     global_rotation: [0, 0, 0.785398]
     type: screen
-  CLA-C2V-MAG-DIP-02:
-    PV: CLA-C2V-MAG-DIP-03
-    angle: -0.785398
-    centre: [-1.25000093, 0.0, 7.28783098]
-    datum: [-1.25000093, 0.0, 7.49760263]
-    deltaL: -0.0001
-    edge_field_integral: 0.5
-    field_integral_coefficients: [-9.5201e-07, 0.000151557, 0.894506059, 0.126202232]
+  CLA-SP1-DIA-BPM-01:
+    centre: [-1.65407873, 0.0, 7.74183874]
+    datum: [-1.67882747, 0.0, 7.76658748]
     global_rotation: [0, 0, 0.785398]
-    half_gap: 0.02
+    length: 0.07
+    type: beam_position_monitor
+  CLA-SP1-MAG-HVCOR-01:
+    centre: [-1.69650767, 0.0, 7.78426767]
+    datum: [-1.71418533, 0.0, 7.80194534]
+    global_rotation: [0, 0, 0.785398]
     isr_enable: true
-    length: 0.397752
+    length: 0.05
     sr_enable: true
-    type: dipole
-  CLA-C2V-SIM-MARK-02:
-    PV: None
-    centre: [-1.25, 0.0, 7.59879]
-    datum: [-1.25, 0.0, 7.59879]
+    type: kicker
+  CLA-SP1-MAG-QUAD-01:
+    centre: [-1.83085533, 0.0, 7.91861534]
+    datum: [-1.86621067, 0.0, 7.95397069]
+    global_rotation: [0, 0, 0.785398]
+    isr_enable: true
+    k1l: -1.597658628810405
+    length: 0.1
+    sr_enable: true
+    type: quadrupole
+  CLA-SP1-MAG-QUAD-02:
+    centre: [-2.04298533, 0.0, 8.13074534]
+    datum: [-2.07834067, 0.0, 8.16610069]
+    global_rotation: [0, 0, 0.785398]
+    isr_enable: true
+    k1l: -1.597658628810405
+    length: 0.1
+    sr_enable: true
+    type: quadrupole
+  CLA-SP1-DIA-SCR-01:
+    centre: [-2.75505, 0.0, 8.8428]
+    datum: [-2.75505, 0.0, 8.8428]
+    global_rotation: [0, 0, 0.785398]
+    type: screen
+  CLA-SP1-DIA-FCUP-01:
+    centre: [-2.82434, 0.0, 8.9121]
+    datum: [-2.82434, 0.0, 8.9121]
     fit_point: 1.0
-    global_rotation: [0, 0, 0]
+    global_rotation: [0, 0, 0.785398]
     type: marker

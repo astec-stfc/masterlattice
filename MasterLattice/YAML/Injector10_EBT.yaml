@@ -1,5 +1,5 @@
 elements:
-  CLA-LRG1-APER:
+  CLA-LRG1-SIM-APER-01:
     centre: [0, 0, 0]
     datum: [0, 0, 0]
     global_rotation: [0, 0, 0]
@@ -26,7 +26,7 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0
     type: solenoid
-  CLA-S01-APER:
+  CLA-S01-SIM-APER-01:
     centre: [0.0, 0.0, 0.32482]
     datum: [0.0, 0.0, 0.32482]
     global_rotation: [0, 0, 0]
@@ -73,7 +73,7 @@ elements:
     datum: [0.0, 0.0, 0.981033]
     global_rotation: [0, 0, 0]
     type: screen
-  CLA-L01-APER:
+  CLA-L01-SIM-APER-01:
     centre: [0.0, 0.0, 1.0577]
     datum: [0.0, 0.0, 1.0577]
     global_rotation: [0, 0, 0]

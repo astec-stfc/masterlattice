@@ -44,31 +44,31 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.32
     type: shutter
-  CLA-FEH-WALL-01-START:
+  CLA-FEH-SIM-WALL-01-START:
     centre: [3.6807505, 0.0, 63.86084]
     datum: [3.6807505, 0.0, 63.86084]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-  CLA-FEH-WALL-01-END:
+  CLA-FEH-SIM-WALL-01-END:
     centre: [3.6807505, 0.0, 65.45184]
     datum: [3.6807505, 0.0, 65.45184]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-  CLA-FMB1-START:
+  CLA-FMB1-SIM-START-01:
     centre: [3.6807505, 0.0, 65.64]
     datum: [3.6807505, 0.0, 65.64]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-  CLA-FMB1-MIRROR:
+  CLA-FMB1-OPT-MIRROR-01:
     centre: [3.6807505, 0.0, 65.88]
     datum: [3.6807505, 0.0, 65.88]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-  CLA-FMB1-END:
+  CLA-FMB1-SIM-END-01:
     centre: [3.6807505, 0.0, 66.62]
     datum: [3.6807505, 0.0, 66.62]
     fit_point: 1.0
@@ -112,13 +112,13 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.15
     type: screen
-  CLA-FEC1-START:
+  CLA-FEC1-SIM-START-01:
     centre: [3.6807505, 0.0, 67.7345]
     datum: [3.6807505, 0.0, 67.7345]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-  CLA-FEC1-ECOLL-01:
+  CLA-FEC1-DIA-ECOL-01:
     centre: [3.6807505, 0.0, 68.6425]
     datum: [3.6807505, 0.0, 68.6425]
     elliptical: true
@@ -126,13 +126,13 @@ elements:
     horizontal_size: 1.0
     type: aperture
     vertical_size: 1.0
-  CLA-FEC1-FOCUS:
+  CLA-FEC1-SIM-FOCUS-01:
     centre: [3.6807505, 0.0, 68.655]
     datum: [3.6807505, 0.0, 68.655]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-  CLA-FEC1-ECOLL-02:
+  CLA-FEC1-DIA-ECOL-02:
     centre: [3.6807505, 0.0, 68.6625]
     datum: [3.6807505, 0.0, 68.6625]
     elliptical: true
@@ -140,7 +140,7 @@ elements:
     horizontal_size: 1.0
     type: aperture
     vertical_size: 1.0
-  CLA-FEC1-END:
+  CLA-FEC1-SIM-END-01:
     centre: [3.6807505, 0.0, 69.5755]
     datum: [3.6807505, 0.0, 69.5755]
     fit_point: 1.0
@@ -184,31 +184,31 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.21
     type: beam_position_monitor
-  CLA-FMB2-START:
+  CLA-FMB2-SIM-START-01:
     centre: [3.6807505, 0.0, 70.695]
     datum: [3.6807505, 0.0, 70.695]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-  CLA-FEH-MID-01:
+  CLA-FEH-SIM-MIDDLE-01:
     centre: [3.6807505, 0.0, 71.12]
     datum: [3.6807505, 0.0, 71.12]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-  CLA-FMB2-MIDDLE:
+  CLA-FMB2-SIM-MIDDLE-01:
     centre: [3.6807505, 0.0, 71.1825]
     datum: [3.6807505, 0.0, 71.1825]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-  CLA-FMB2-MIRROR:
+  CLA-FMB2-OPT-MIRROR-01:
     centre: [3.6807505, 0.0, 71.45]
     datum: [3.6807505, 0.0, 71.45]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-  CLA-FMB2-END:
+  CLA-FMB2-SIM-END-01:
     centre: [3.6807505, 0.0, 71.695]
     datum: [3.6807505, 0.0, 71.695]
     fit_point: 1.0
@@ -258,19 +258,19 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.15
     type: screen
-  CLA-FEC2-START:
+  CLA-FEC2-SIM-START-01:
     centre: [3.6807505, 0.0, 72.6645]
     datum: [3.6807505, 0.0, 72.6645]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-  CLA-FEC2-FOCUS:
+  CLA-FEC2-SIM-FOCUS-01:
     centre: [3.6807505, 0.0, 73.585]
     datum: [3.6807505, 0.0, 73.585]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-  CLA-FEC2-END:
+  CLA-FEC2-SIM-END-01:
     centre: [3.6807505, 0.0, 74.5055]
     datum: [3.6807505, 0.0, 74.5055]
     fit_point: 1.0
@@ -314,13 +314,13 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.096345
     type: beam_position_monitor
-  CLA-FEH-WALL-02-START:
+  CLA-FEH-SIM-WALL-02-START:
     centre: [3.6807505, 0.0, 75.546845]
     datum: [3.6807505, 0.0, 75.546845]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-  CLA-FEH-WALL-02-END:
+  CLA-FEH-SIM-WALL-02-END:
     centre: [3.6807505, 0.0, 77.13784]
     datum: [3.6807505, 0.0, 77.13784]
     fit_point: 1.0
@@ -393,7 +393,7 @@ elements:
     global_rotation: [0, 0, 0.3490658504]
     length: 0.15
     type: screen
-  CLA-FED-DUMP-01-START:
+  CLA-FED-SIM-DUMP-01-START:
     centre: [2.69121020, 0.0, 82.351408]
     datum: [2.69121020, 0.0, 82.351408]
     fit_point: 1.0

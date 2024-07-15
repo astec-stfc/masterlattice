@@ -1,6 +1,6 @@
 {
 	"elements":{
-		"CLA-S07-APER-01":{
+		"CLA-S07-SIM-APER-01":{
 			"type":"aperture",
 			"shape":"rectangular",
 			"horizontal_size":1.7e-2,
@@ -97,7 +97,7 @@
 				3.877779178915257e1
 			]
 		},
-		"CLA-S07-MARK-01":{
+		"CLA-S07-SIM-MARK-01":{
 			"type":"marker",
 			"fit_point":1.0,
 			"global_rotation":[
@@ -266,7 +266,7 @@
 				4.035445778915257e1
 			]
 		},
-		"CLA-S07-APER-02":{
+		"CLA-S07-SIM-APER-02":{
 			"type":"aperture",
 			"shape":"rectangular",
 			"horizontal_size":1.7e-2,
@@ -529,7 +529,7 @@
 				4.4027791789152566e1
 			]
 		},
-		"CLA-S07-APER-03":{
+		"CLA-S07-SIM-APER-03":{
 			"type":"aperture",
 			"shape":"rectangular",
 			"horizontal_size":1.7e-2,
@@ -690,7 +690,7 @@
 				4.644112478915255e1
 			]
 		},
-		"CLA-S07-MARK-02":{
+		"CLA-S07-SIM-MARK-02":{
 			"type":"marker",
 			"fit_point":1.0,
 			"global_rotation":[

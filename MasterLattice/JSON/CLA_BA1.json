@@ -273,7 +273,7 @@
                 1.19357
             ]
         },
-        "CLA-S02-APER-01": {
+        "CLA-S02-SIM-APER-01": {
             "type": "aperture",
             "shape": "rectangular",
             "horizontal_size": 0.017,
@@ -478,7 +478,7 @@
                 4.34362
             ]
         },
-        "CLA-S02-APER-02": {
+        "CLA-S02-SIM-APER-02": {
             "type": "aperture",
             "shape": "rectangular",
             "horizontal_size": 0.017,
@@ -610,7 +610,7 @@
                 5.5768
             ]
         },
-        "CLA-C2V-MARK-01": {
+        "CLA-C2V-SIM-MARK-01": {
             "type": "marker",
             "fit_point": 1.0,
             "global_rotation": [

@@ -18,7 +18,7 @@ elements:
     datum: [0.0, 0.0, 33.985278]
     global_rotation: [0, 0, 0]
     type: screen
-  CLA-S06-MARK-02:
+  CLA-S06-SIM-MARK-02:
     centre: [0.0, 0.0, 34.118]
     datum: [0.0, 0.0, 34.118]
     fit_point: 1.0

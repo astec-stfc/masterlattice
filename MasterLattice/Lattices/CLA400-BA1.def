@@ -45,7 +45,7 @@ files:
       particle_definition: 'initial_distribution'
     output:
       start_element: CLA-HRG1-APER
-      end_element: CLA-S02-APER-01
+      end_element: CLA-S02-SIM-APER-01
   S02:
     code: ASTRA
     charge:
@@ -54,8 +54,8 @@ files:
     input:
       {}
     output:
-      start_element: CLA-S02-APER-01
-      end_element: CLA-C2V-MARK-01
+      start_element: CLA-S02-SIM-APER-01
+      end_element: CLA-C2V-SIM-MARK-01
   C2V:
     starting_offset: $self.getElement('CLA-C2V-MAG-DIP-01','position_end')$
     starting_rotation: 0
@@ -66,7 +66,7 @@ files:
     input:
       {}
     output:
-      start_element: CLA-C2V-MARK-01
+      start_element: CLA-C2V-SIM-MARK-01
       end_element: CLA-C2V-DIA-SCR-01-W
   VELA:
     starting_offset: $self.getElement('CLA-C2V-MAG-DIP-02','position_end')$

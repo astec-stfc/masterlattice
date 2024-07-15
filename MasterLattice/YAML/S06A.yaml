@@ -1,11 +1,11 @@
 elements:
-  CLA-S06-MARK-01:
+  CLA-S06-SIM-MARK-01:
     centre: [0.0, 0.0, 31.2678]
     datum: [0.0, 0.0, 31.2678]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-  CLA-S06-APER:
+  CLA-S06-SIM-APER-01:
     centre: [0.0, 0.0, 31.2678]
     datum: [0.0, 0.0, 31.2678]
     global_rotation: [0, 0, 0]

@@ -45,7 +45,7 @@ files:
       particle_definition: 'initial_distribution'
     output:
       zstart: 0
-      end_element: CLA-S02-APER-01
+      end_element: CLA-S02-SIM-APER-01
   S02:
     code: ASTRA
     charge:
@@ -53,7 +53,7 @@ files:
       space_charge_mode: 3D
     input: {}
     output:
-      start_element: CLA-S02-APER-01
+      start_element: CLA-S02-SIM-APER-01
       end_element: CLA-VHEE-END-01
 elements:
   filename: [YAML/Injector400.yaml, YAML/S02_VHEE.yaml]

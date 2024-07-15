@@ -1,5 +1,5 @@
 elements:
-  CLA-HRG1-APER-01:
+  CLA-HRG1-SIM-APER-01:
     centre: [0, 0, 0]
     datum: [0, 0, 0]
     global_rotation: [0, 0, 0]
@@ -32,7 +32,7 @@ elements:
         length: 0.32
         type: solenoid
     type: cavity
-  CLA-S01-APER:
+  CLA-S01-SIM-APER-01:
     centre: [0.0, 0.0, 0.32]
     datum: [0.0, 0.0, 0.32]
     global_rotation: [0, 0, 0]
@@ -61,7 +61,7 @@ elements:
     Horizontal_PV: CLA-S01-MAG-HCOR-02
     Vertical_PV: CLA-S01-MAG-VCOR-02
     centre: [0.0, 0.0, 0.81361]
-    datum: [0.0, 0.0, 0.827610]
+    datum: [0.0, 0.0, 0.828610]
     global_rotation: [0, 0, 0]
     isr_enable: true
     length: 0.075
@@ -80,7 +80,7 @@ elements:
     datum: [0.0, 0.0, 0.980300]
     global_rotation: [0, 0, 0]
     type: screen
-  CLA-L01-APER:
+  CLA-L01-SIM-APER-01:
     centre: [0.0, 0.0, 1.0577]
     datum: [0.0, 0.0, 1.0577]
     global_rotation: [0, 0, 0]
@@ -113,7 +113,7 @@ elements:
     phase: 16
     shunt_impedance: 1.30693e8
     sub_elements:
-      CLA-L01-WAKE:
+      CLA-L01-SIM-WAKE-01:
         cell_length: 0.0333333333333333
         centre: [0.0, 0.0, 2.210235]
         coupling_cell_length: 0.0495
@@ -123,7 +123,7 @@ elements:
         length: 2.03333
         scale_kick: 1
         type: longitudinal_wakefield
-      CLA-L01-CAV-SOL-01:
+      CLA-L01-MAG-SOL-01:
         centre: [0.0, 0.0, 1.95]
         datum: [0.0, 0.0, 2.2]
         field_amplitude: 0.05
@@ -132,7 +132,7 @@ elements:
         global_rotation: [0, 0, 0]
         length: 0.5
         type: solenoid
-      CLA-L01-CAV-SOL-02:
+      CLA-L01-MAG-SOL-02:
         centre: [0.0, 0.0, 2.95]
         datum: [0.0, 0.0, 3.2]
         field_amplitude: -0.05

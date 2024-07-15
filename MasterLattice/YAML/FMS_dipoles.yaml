@@ -1,11 +1,11 @@
 elements:
-  CLA-FMS-APER-01:
+  CLA-FMS-SIM-APER-01:
     centre: [0.0, 0.0, 49.4778]
     datum: [0.0, 0.0, 49.4778]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-  CLA-FMS-MARK-01:
+  CLA-FMS-SIM-MARK-01:
     centre: [0.0, 0.0, 49.4778]
     datum: [0.0, 0.0, 49.4778]
     fit_point: 1.0
@@ -33,7 +33,7 @@ elements:
     k1: 0.0
     length: 0.100167
     type: dipole
-  CLA-FMS-MARK-02:
+  CLA-FMS-SIM-MARK-02:
     centre: [-0.0300252, 0.0, 49.9873]
     datum: [-0.0300252, 0.0, 49.9873]
     fit_point: 1.0
@@ -61,7 +61,7 @@ elements:
     k1: 0.0
     length: 0.100167
     type: dipole
-  CLA-FMS-MARK-03:
+  CLA-FMS-SIM-MARK-03:
     centre: [0.0, 0.0, 50.4968]
     datum: [0.0, 0.0, 50.4968]
     fit_point: 1.0
@@ -308,7 +308,7 @@ elements:
     global_rotation: [0, 0, -2.0e-06]
     length: 0.21
     type: beam_position_monitor
-  CLA-FMS-CBPM-APER-01:
+  CLA-FMS-CBPM-SIM-APER-01:
     centre: [-2.703e-05, 0.0, 53.4741]
     datum: [-2.703e-05, 0.0, 53.4741]
     fit_point: 1.0
@@ -333,7 +333,7 @@ elements:
     fit_point: 1.0
     global_rotation: [0, 0, -2.0e-06]
     type: marker
-  CLA-FMS-MU2-APER:
+  CLA-FMS-MU2-SIM-APER-01:
     centre: [-2.65e-05, 0.0, 53.7421]
     datum: [-2.65e-05, 0.0, 53.7421]
     fit_point: 1.0
@@ -438,7 +438,7 @@ elements:
     k1: 0.0
     length: 0.016719
     type: dipole
-  CLA-FMS-MU2-MARK-01:
+  CLA-FMS-MU2-SIM-MARK-01:
     centre: [-2.513e-05, 0.0, 54.2921]
     datum: [-2.513e-05, 0.0, 54.2921]
     fit_point: 1.0
@@ -594,7 +594,7 @@ elements:
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-  CLA-FMS-APER-02:
+  CLA-FMS-SIM-APER-02:
     centre: [0.0, 0.0, 55.5021]
     datum: [0.0, 0.0, 55.5021]
     fit_point: 1.0

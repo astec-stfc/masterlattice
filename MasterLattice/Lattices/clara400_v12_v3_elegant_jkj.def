@@ -44,15 +44,15 @@ files:
       particle_definition: 'initial_distribution'
     output:
       zstart: 0
-      end_element: CLA-S02-APER-01
+      end_element: CLA-S02-SIM-APER-01
   POSTINJ:
     code: elegant
     charge:
       cathode: False
       space_charge_mode: 3D
     output:
-      start_element: CLA-S02-APER-01
-      end_element: CLA-FMS-MU1-MARK-01 #CLA-FMS-APER-02
+      start_element: CLA-S02-SIM-APER-01
+      end_element: CLA-FMS-MU1-SIM-MARK-01 #CLA-FMS-SIM-APER-02
     input: {}
     groups:
       laser-heater:

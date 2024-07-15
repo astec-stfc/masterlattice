@@ -1,5 +1,5 @@
 elements:
-  CLA-L04-APER:
+  CLA-L04-SIM-APER-01:
     centre: [0.0, 0.0, 34.118]
     datum: [0.0, 0.0, 34.118]
     global_rotation: [0, 0, 0]
@@ -173,7 +173,7 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.0
     type: screen
-  CLA-S07-APER-01:
+  CLA-S07-SIM-APER-01:
     centre: [0.0, 0.0, 55.0]
     datum: [0.0, 0.0, 55.0]
     global_rotation: [0, 0, 0]

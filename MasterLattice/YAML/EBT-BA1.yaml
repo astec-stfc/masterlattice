@@ -1,5 +1,5 @@
 elements:
-  EBT-BA1-START-01:
+  EBT-BA1-SIM-START-01:
     centre: [-1.25, 0.0, 21.0538]
     datum: [-1.25, 0.0, 21.0538]
     global_rotation: [0, 0, 0]

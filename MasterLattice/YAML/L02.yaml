@@ -1,5 +1,5 @@
 elements:
-  CLA-L02-APER:
+  CLA-L02-SIM-APER-01:
     centre: [0.0, 0.0, 6.7485]
     datum: [0.0, 0.0, 6.7485]
     global_rotation: [0, 0, 0]
@@ -31,7 +31,7 @@ elements:
     phase: 23
     shunt_impedance: 1.30693e8
     sub_elements:
-      CLA-L02-WAKE:
+      CLA-L02-SIM-WAKE-01:
         cell_length: 0.0333333
         centre: [0.0, 0.0, 8.83099]
         coupling_cell_length: 0.0495
@@ -44,7 +44,7 @@ elements:
     transverse_wakefield_sdds: $master_lattice_location$Data_Files/Sx5um10mm.sdds
     type: cavity
     wakefield_gdf: $master_lattice_location$Data_Files/SxSz5um10mm.gdf
-  CLA-L02-APER-02:
+  CLA-L02-SIM-APER-02:
     centre: [0.0, 0.0, 10.8965]
     datum: [0.0, 0.0, 10.8965]
     global_rotation: [0, 0, 0]

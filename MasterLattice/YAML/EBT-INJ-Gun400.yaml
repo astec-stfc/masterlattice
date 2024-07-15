@@ -29,7 +29,7 @@ elements:
         length: 0.32482
         type: solenoid
     type: cavity
-  EBT-HRG1-APER-01:
+  EBT-HRG1-SIM-APER-01:
     centre: [-1.25, 0.0, 3.61462]
     datum: [-1.25, 0.0, 3.61462]
     global_rotation: [0, 0, 0]

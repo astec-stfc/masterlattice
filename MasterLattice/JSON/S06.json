@@ -1,6 +1,6 @@
 {
     "elements": {
-        "CLA-S06-MARK-01": {
+        "CLA-S06-SIM-MARK-01": {
             "type": "marker",
             "fit_point": 1.0,
             "global_rotation": [
@@ -264,7 +264,7 @@
                 33.9851
             ]
         },
-        "CLA-S06-MARK-02": {
+        "CLA-S06-SIM-MARK-02": {
             "type": "marker",
             "fit_point": 1.0,
             "global_rotation": [

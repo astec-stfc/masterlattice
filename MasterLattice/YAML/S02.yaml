@@ -1,5 +1,5 @@
 elements:
-  CLA-S02-APER-01:
+  CLA-S02-SIM-APER-01:
     centre: [0.0, 0.0, 3.29693]
     datum: [0.0, 0.0, 3.29693]
     global_rotation: [0, 0, 0]
@@ -64,7 +64,7 @@ elements:
     length: 0.03
     sr_enable: true
     type: kicker
-  CLA-S02-COL-01:
+  CLA-S02-DIA-ECOL-01:
     centre: [0.0, 0.0, 4.51862]
     datum: [0.0, 0.0, 4.69362]
     global_rotation: [0, 0, 0]
@@ -73,7 +73,7 @@ elements:
     shape: elliptical
     type: collimator
     vertical_size: 0.01
-  CLA-S02-APER-02:
+  CLA-S02-SIM-APER-02:
     centre: [0.0, 0.0, 4.69362]
     datum: [0.0, 0.0, 4.69362]
     global_rotation: [0, 0, 0]

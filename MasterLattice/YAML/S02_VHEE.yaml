@@ -22,7 +22,7 @@ elements:
     datum: [0.0, 0.0, 6.58343]
     global_rotation: [0, 0, 0]
     type: screen
-  CLA-S02-APER-03:
+  CLA-S02-SIM-APER-03:
     centre: [0.0, 0.0, 6.63]
     datum: [0.0, 0.0, 6.63]
     global_rotation: [0, 0, 0]

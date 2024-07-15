@@ -1,5 +1,5 @@
 elements:
-  CLA-HRG1-APER-01:
+  CLA-HRG1-SIM-APER-01:
     centre: [0, 0, 0]
     datum: [0, 0, 0]
     global_rotation: [0, 0, 0]
@@ -22,26 +22,26 @@ elements:
     n_cells: 1.5
     phase: 9
     sub_elements:
-      EBT-HRG1-MAG-SOL-01:
-        centre: [0.0, 0.0, 0.16241]
+      CLA-HRG1-MAG-SOL-01:
+        centre: [0.0, 0.0, 0.16]
         datum: [0.0, 0.0, 0.32]
-        field_amplitude: 0.345
-        field_definition: $master_lattice_location$Data_Files/HRRG_main_sol_100mm_onaxis.dat
-        field_definition_gdf: $master_lattice_location$Data_Files/HRRG_main_sol_100mm_onaxis.gdf
+        field_amplitude: 0.344
+        field_definition: $master_lattice_location$Data_Files/HRRG_Simulated_Main_Solenoid_2024.txt
+        field_definition_gdf: $master_lattice_location$Data_Files/HRRG_Simulated_Main_Solenoid_2024.gdf
         global_rotation: [0, 0, 0]
         length: 0.32
         type: solenoid
-      CLA-GUN-MAG-SOL-02:
-        centre: [0.0, 0.0, 0.16241]
+      CLA-HRG1-MAG-SOL-02:
+        centre: [0.0, 0.0, 0.16]
         datum: [0.0, 0.0, 0.32]
-        field_amplitude: 0.345
-        field_definition: $master_lattice_location$Data_Files/HRRG_bucking_sol_100mm_onaxis.dat
-        field_definition_gdf: $master_lattice_location$Data_Files/HRRG_bucking_sol_100mm_onaxis.gdf
+        field_amplitude: 0.11
+        field_definition: $master_lattice_location$Data_Files/HRRG_Simulated_Bucking_Solenoid_2024.txt
+        field_definition_gdf: $master_lattice_location$Data_Files/HRRG_Simulated_Bucking_Solenoid_2024.gdf
         global_rotation: [0, 0, 0]
         length: 0.32
         type: solenoid
     type: cavity
-  CLA-S01-APER:
+  CLA-S01-SIM-APER-01:
     centre: [0.0, 0.0, 0.32]
     datum: [0.0, 0.0, 0.32]
     global_rotation: [0, 0, 0]
@@ -89,7 +89,7 @@ elements:
     datum: [0.0, 0.0, 0.980300]
     global_rotation: [0, 0, 0]
     type: screen
-  CLA-L01-APER:
+  CLA-L01-SIM-APER-01:
     centre: [0.0, 0.0, 1.0577]
     datum: [0.0, 0.0, 1.0577]
     global_rotation: [0, 0, 0]
@@ -97,7 +97,7 @@ elements:
     shape: rectangular
     type: aperture
     vertical_size: 0.01
-  CLA-L01-CAV:
+  CLA-L01-LIN-CAV-01:
     PV: CLA-L01-LRF-CTRL-01
     Structure_Type: TravellingWave
     attenuation_constant: 0.42
@@ -132,7 +132,7 @@ elements:
         length: 2.03333
         scale_kick: 1
         type: longitudinal_wakefield
-      CLA-L01-CAV-SOL-01:
+      CLA-L01-MAG-SOL-01:
         centre: [0.0, 0.0, 1.95]
         datum: [0.0, 0.0, 2.2]
         field_amplitude: 0.05
@@ -141,7 +141,7 @@ elements:
         global_rotation: [0, 0, 0]
         length: 0.5
         type: solenoid
-      CLA-L01-CAV-SOL-02:
+      CLA-L01-MAG-SOL-02:
         centre: [0.0, 0.0, 2.95]
         datum: [0.0, 0.0, 3.2]
         field_amplitude: -0.05

@@ -1,5 +1,5 @@
 elements:
-  CLA-S04-APER:
+  CLA-S04-SIM-APER-01:
     centre: [0.0, 0.0, 16.2002]
     datum: [0.0, 0.0, 16.2002]
     global_rotation: [0, 0, 0]
@@ -7,7 +7,7 @@ elements:
     shape: rectangular
     type: aperture
     vertical_size: 0.017
-  CLA-S04-MARK-01:
+  CLA-S04-SIM-MARK-01:
     centre: [0.0, 0.0, 16.2002]
     datum: [0.0, 0.0, 16.2002]
     fit_point: 1.0
@@ -136,23 +136,6 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.035
     type: beam_position_monitor
-  CLA-S04-LH-SCA:
-    centre: [0, 0.0, 19.87]
-    datum: [0, 0.0, 19.87]
-    global_rotation: [0, 0, 0]
-    horizontal_momentum_scatter: 0
-    horizontal_scatter: 0
-    probability: 1.0
-    relative_momentum_scatter: 0.0
-    type: scatter
-    vertical_momentum_scatter: 0
-    vertical_scatter: 0
-  CLA-S04-MAG-LASER0-M:
-    centre: [0, 0.0, 19.8777]
-    datum: [0, 0.0, 19.8777]
-    fit_point: 1.0
-    global_rotation: [0, 0, 0]
-    type: marker
   CLA-S04-DIA-BPM-04:
     centre: [0, 0.0, 20.340268]
     datum: [0, 0.0, 20.445268]
@@ -257,7 +240,7 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.21
     type: beam_position_monitor
-  CLA-S04-MARK-02:
+  CLA-S04-SIM-MARK-02:
     centre: [0.0, 0.0, 23.4572]
     datum: [0.0, 0.0, 23.4572]
     fit_point: 1.0

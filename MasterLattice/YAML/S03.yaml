@@ -1,5 +1,5 @@
 elements:
-  CLA-S03-APER:
+  CLA-S03-SIM-APER-01:
     centre: [0.0, 0.0, 10.8974]
     datum: [0.0, 0.0, 10.8974]
     global_rotation: [0, 0, 0]

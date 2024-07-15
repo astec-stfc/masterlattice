@@ -1,5 +1,5 @@
 elements:
-  CLA-L4H-APER:
+  CLA-L4H-SIM-APER-01:
     centre: [0.0, 0.0, 23.4572]
     datum: [0.0, 0.0, 23.4572]
     global_rotation: [0, 0, 0]
@@ -28,7 +28,7 @@ elements:
     n_cells: 89
     phase: -184
     sub_elements:
-      CLA-L4H-WAKE:
+      CLA-L4H-SIM-WAKE-01:
         cell_length: 0.00833333
         centre: [0.0, 0.0, 23.9397]
         coupling_cell_length: 0.012375

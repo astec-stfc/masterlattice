@@ -37,7 +37,7 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.0312
     type: beam_position_monitor
-  CLA-VBC-RCOL-01:
+  CLA-VBC-DIA-RCOL-01:
     centre: [0.161944, 0.0, 28.6393]
     datum: [0.161944, 0.0, 28.8793]
     global_rotation: [0, 0, 0]
@@ -75,7 +75,7 @@ elements:
     length: 0.200981
     sr_enable: true
     type: dipole
-  CLA-VBC-MARK-01:
+  CLA-VBC-SIM-MARK-01:
     centre: [0.0, 0.0, 31.26780]
     datum: [0.0, 0.0, 31.2678]
     fit_point: 1.0

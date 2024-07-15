@@ -1,11 +1,11 @@
 elements:
-  CLA-S07-START-01:
+  CLA-S07-SIM-START-01:
     centre: [0.0, 0.0, 38.2678]
     datum: [0.0, 0.0, 38.2678]
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     type: marker
-  CLA-S07-APER-01:
+  CLA-S07-SIM-APER-01:
     centre: [0.0, 0.0, 38.2678]
     datum: [0.0, 0.0, 38.2678]
     global_rotation: [0, 0, 0]
@@ -36,7 +36,7 @@ elements:
     length: 0.15
     sr_enable: true
     type: quadrupole
-  CLA-S07-MARK-01:
+  CLA-S07-SIM-MARK-01:
     centre: [0.0, 0.0, 39.0278]
     datum: [0.0, 0.0, 39.0278]
     fit_point: 1.0
@@ -70,7 +70,7 @@ elements:
     datum: [0.0, 0.0, 39.931277]
     global_rotation: [0, 0, 0]
     type: screen
-  CLA-S07-TDC-01-APER:
+  CLA-S07-SIM-TDC-01-APER:
     centre: [0.0, 0.0, 40.0078]
     datum: [0.0, 0.0, 40.0078]
     global_rotation: [0, 0, 0]
@@ -78,14 +78,14 @@ elements:
     shape: rectangular
     type: aperture
     vertical_size: 0.005
-  CLA-S07-TDC-01-R:
+  CLA-S07-DIA-TDC-01:
     centre: [0.0, 0.0, 40.5795]
     datum: [0.0, 0.0, 40.8045]
     global_rotation: [0, 0, 0]
     length: 0.45
     phase: 0.0
     type: rf_deflecting_cavity
-  CLA-S07-APER-02:
+  CLA-S07-SIM-APER-02:
     centre: [0.0, 0.0, 41.1078]
     datum: [0.0, 0.0, 41.1078]
     global_rotation: [0, 0, 0]
@@ -158,7 +158,7 @@ elements:
     fit_point: 1.0
     global_rotation: [0, 0, 0]
     length: 0.3
-    type: monitor
+    type: bunch_length_monitor
   CLA-S07-MAG-QUAD-06:
     centre: [0.0, 0.0, 43.662960]
     datum: [0.0, 0.0, 43.737960]
@@ -168,13 +168,13 @@ elements:
     length: 0.15
     sr_enable: true
     type: quadrupole
-  CLA-S07-DCP-01-SCR:
+  CLA-S07-DCP-SCR-01:
     centre: [0.0, 0.0, 43.9318]
     datum: [0.0, 0.0, 43.9318]
     global_rotation: [0, 0, 0]
     length: 0.0
     type: marker
-  CLA-S07-DCP-01:
+  CLA-S07-DCP-EM-01:
     allow_long_beam: 1
     bunched_beam: 0
     cell_length: 0.596
@@ -193,7 +193,7 @@ elements:
     tcolumn: t
     type: longitudinal_wakefield
     wcolumn: Ez
-  CLA-S07-APER-03:
+  CLA-S07-SIM-APER-03:
     centre: [0.0, 0.0, 44.5278]
     datum: [0.0, 0.0, 44.5278]
     global_rotation: [0, 0, 0]

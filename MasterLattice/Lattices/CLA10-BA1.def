@@ -44,7 +44,7 @@ files:
       particle_definition: 'initial_distribution'
     output:
       zstart: 0
-      end_element: CLA-S02-APER-01
+      end_element: CLA-S02-SIM-APER-01
   S02:
     code: ASTRA
     charge:
@@ -53,8 +53,8 @@ files:
     input:
       {}
     output:
-      start_element: CLA-S02-APER-01
-      end_element: CLA-C2V-MARK-01
+      start_element: CLA-S02-SIM-APER-01
+      end_element: CLA-C2V-SIM-MARK-01
   C2V:
     code: ASTRA
     charge:
@@ -63,7 +63,7 @@ files:
     input:
       {}
     output:
-      start_element: CLA-C2V-MARK-01
+      start_element: CLA-C2V-SIM-MARK-01
       end_element: CLA-C2V-DIA-SCR-01-W
   VELA:
     code: ASTRA
@@ -103,7 +103,7 @@ files:
     input:
       {}
     output:
-      start_element: CLA-S02-APER-01
+      start_element: CLA-S02-SIM-APER-01
       end_element: EBT-BA1-DIA-FCUP-01
 groups:
 elements:

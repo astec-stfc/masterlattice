@@ -7,7 +7,7 @@ elements:
     shape: rectangular
     type: aperture
     vertical_size: 0.01
-  CLA-L04-CAV:
+  CLA-L04-LIN-CAV-01:
     Structure_Type: TravellingWave
     cell_length: 0.0333333333333333
     centre: [0.0, 0.0, 36.192935]

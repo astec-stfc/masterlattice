@@ -7,7 +7,7 @@ elements:
     shape: rectangular
     type: aperture
     vertical_size: 0.01
-  CLA-L02-CAV:
+  CLA-L02-LIN-CAV-01:
     Structure_Type: TravellingWave
     attenuation_constant: 0.42
     cell_length: 0.0333333333333333

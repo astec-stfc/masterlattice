@@ -84,12 +84,16 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.45
     phase: 0.0
+    frequency: 2998500000.0
+    n_cells: 13
+    cell_length: 0.0333333333333333
+    tilt_angle: 1.5708
     type: rf_deflecting_cavity
   CLA-S07-SIM-APER-02:
     centre: [0.0, 0.0, 41.1078]
     datum: [0.0, 0.0, 41.1078]
     global_rotation: [0, 0, 0]
-    horizontal_size: 0.017
+    horizontal_size: 1
     shape: rectangular
     type: aperture
     vertical_size: 0.017
@@ -197,7 +201,7 @@ elements:
     centre: [0.0, 0.0, 44.5278]
     datum: [0.0, 0.0, 44.5278]
     global_rotation: [0, 0, 0]
-    horizontal_size: 0.017
+    horizontal_size: 1
     shape: rectangular
     type: aperture
     vertical_size: 0.017

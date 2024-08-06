@@ -1,5 +1,11 @@
 elements:
   filename: YAML/S07A.yaml
+  CLA-SP3-SIM-MARK-01:
+    centre: [0.0, 0.0, 45.287822]
+    datum: [0.0, 0.0, 45.287822]
+    fit_point: 1.0
+    global_rotation: [0, 0, 0]
+    type: marker
   CLA-SP3-MAG-DIP-01:
     angle: 0.523599
     centre: [0., 0., 45.492521]

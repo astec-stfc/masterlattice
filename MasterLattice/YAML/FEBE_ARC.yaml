@@ -34,15 +34,15 @@ elements:
     centre: [0.1960768, 0.0, 49.18471805]
     datum: [0.1960768, 0.0, 49.18471805]
     global_rotation: [0, 0, -0.2443460953]
-    k1l: 1.59249
-    length: 0.21
+    k1l: 1.56483
+    length: 0.15
     type: quadrupole
   CLA-FEA-MAG-QUAD-02:
     centre: [0.3291338, 0.0, 49.71838005]
     datum: [0.3291338, 0.0, 49.71838005]
     global_rotation: [0, 0, -0.2443460953]
-    k1l: -1.10639
-    length: 0.21
+    k1l: -1.11338
+    length: 0.15
     type: quadrupole
   CLA-FEA-MAG-HVCOR-01:
     centre: [0.40050119, 0.0, 50.00462957]
@@ -66,8 +66,8 @@ elements:
     centre: [0.6629858, 0.0, 51.05738805]
     datum: [0.6629858, 0.0, 51.05738805]
     global_rotation: [0, 0, -0.2443460953]
-    k1l: 1.59249
-    length: 0.21
+    k1l: 1.56483
+    length: 0.15
     type: quadrupole
   CLA-FEA-MAG-SEXT-01:
     centre: [0.70886750, 0.0, 51.24141279]
@@ -80,8 +80,8 @@ elements:
     centre: [0.7960428, 0.0, 51.59105105]
     datum: [0.7960428, 0.0, 51.59105105]
     global_rotation: [0, 0, -0.2443460953]
-    k1l: -1.10639
-    length: 0.21
+    k1l: -1.11338
+    length: 0.15
     type: quadrupole
   CLA-FEA-DIA-BPM-02:
     centre: [0.86258240, 0.0, 51.85792957]
@@ -124,15 +124,15 @@ elements:
     centre: [1.31456751, 0.0, 52.8602345]
     datum: [1.31456751, 0.0, 52.8602345]
     global_rotation: [0, 0, -0.4886921906]
-    k1l: 1.59249
-    length: 0.21
+    k1l: 1.56483
+    length: 0.15
     type: quadrupole
   CLA-FEA-MAG-QUAD-06:
     centre: [1.57277651, 0.0, 53.3458555]
     datum: [1.57277651, 0.0, 53.3458555]
     global_rotation: [0, 0, -0.4886921906]
-    k1l: -1.10639
-    length: 0.21
+    k1l: -1.11338
+    length: 0.15
     type: quadrupole
   CLA-FEA-MAG-HVCOR-02:
     centre: [1.71832451, 0.0, 53.61959476]
@@ -156,15 +156,15 @@ elements:
     centre: [2.22064751, 0.0, 54.5643235]
     datum: [2.22064751, 0.0, 54.5643235]
     global_rotation: [0, 0, -0.4886921906]
-    k1l: 1.59249
-    length: 0.21
+    k1l: 1.56483
+    length: 0.15
     type: quadrupole
   CLA-FEA-MAG-QUAD-08:
     centre: [2.47885751, 0.0, 55.0499445]
     datum: [2.47885751, 0.0, 55.0499445]
     global_rotation: [0, 0, -0.4886921906]
-    k1l: -1.10639
-    length: 0.21
+    k1l: -1.11338
+    length: 0.15
     type: quadrupole
   CLA-FEA-DIA-BPM-04:
     centre: [2.60798073, 0.0, 55.29279476]
@@ -207,15 +207,15 @@ elements:
     centre: [2.9427678, 0.0, 56.34009205]
     datum: [2.9427678, 0.0, 56.34009205]
     global_rotation: [0, 0, -0.2443460953]
-    k1l: 1.59249
-    length: 0.21
+    k1l: 1.56483
+    length: 0.15
     type: quadrupole
   CLA-FEA-MAG-QUAD-10:
     centre: [3.0758248, 0.0, 56.87375505]
     datum: [3.0758248, 0.0, 56.87375505]
     global_rotation: [0, 0, -0.2443460953]
-    k1l: -1.10639
-    length: 0.21
+    k1l: -1.11338
+    length: 0.15
     type: quadrupole
   CLA-FEA-MAG-HVCOR-03:
     centre: [3.15081764, 0.0, 57.17452957]
@@ -255,8 +255,8 @@ elements:
     centre: [3.4096768, 0.0, 58.21276305]
     datum: [3.4096768, 0.0, 58.21276305]
     global_rotation: [0, 0, -0.2443460953]
-    k1l: 1.59249
-    length: 0.21
+    k1l: 1.56483
+    length: 0.15
     type: quadrupole
   CLA-FEA-MAG-SEXT-02:
     centre: [3.45313409, 0.0, 58.38704779]
@@ -269,8 +269,8 @@ elements:
     centre: [3.5427338, 0.0, 58.74642505]
     datum: [3.5427338, 0.0, 58.74642505]
     global_rotation: [0, 0, -0.2443460953]
-    k1l: -1.10639
-    length: 0.21
+    k1l: -1.11338
+    length: 0.15
     type: quadrupole
   CLA-FEA-DIA-BPM-06:
     centre: [3.60925704, 0.0, 59.01322957]
@@ -319,8 +319,8 @@ elements:
     centre: [3.680751, 0.0, 60.110479]
     datum: [3.680751, 0.0, 60.110479]
     global_rotation: [0, 0, 0]
-    k1l: 2.76203
-    length: 0.21
+    k1l: 2.6151914446654203
+    length: 0.15
     type: quadrupole
   CLA-FEA-DIA-BPM-07:
     centre: [3.680751, 0.0, 60.385479]
@@ -332,8 +332,8 @@ elements:
     centre: [3.680751, 0.0, 60.660479]
     datum: [3.680751, 0.0, 60.660479]
     global_rotation: [0, 0, 0]
-    k1l: -1.263412
-    length: 0.21
+    k1l: -1.1524759946487748
+    length: 0.15
     type: quadrupole
   CLA-FEA-DIA-ICT-01:
     centre: [3.680751, 0.0, 60.95]

@@ -1,5 +1,5 @@
 elements:
-  CLA-FMS-SIM-SIM-APER-01:
+  CLA-FMS-SIM-APER-01:
     centre: [0.0, 0.0, 49.2778]
     datum: [0.0, 0.0, 49.2778]
     fit_point: 1.0

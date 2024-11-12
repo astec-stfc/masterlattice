@@ -39,7 +39,7 @@ elements:
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: 0.393205
-    length: 0.162
+    length: 0.15
     sr_enable: true
     type: quadrupole
   CLA-S07-DIA-BPM-07:
@@ -67,7 +67,7 @@ elements:
     global_rotation: [0, 0, 0]
     isr_enable: true
     k1l: -1.13485
-    length: 0.162
+    length: 0.15
     sr_enable: true
     type: quadrupole
   CLA-FEA-SIM-START-01:

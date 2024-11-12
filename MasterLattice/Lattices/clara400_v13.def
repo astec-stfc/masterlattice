@@ -52,7 +52,7 @@ files:
       space_charge_mode: 3D
     output:
       start_element: CLA-S02-SIM-APER-01
-      end_element: CLA-L02-APER
+      end_element: CLA-L02-SIM-APER-01
     input: {}
   L02:
     code: ASTRA
@@ -60,8 +60,8 @@ files:
       cathode: False
       space_charge_mode: 3D
     output:
-      start_element: CLA-L02-APER
-      end_element: CLA-S03-APER
+      start_element: CLA-L02-SIM-APER-01
+      end_element: CLA-S03-SIM-APER-01
     input: {}
   S03:
     code: ASTRA
@@ -70,8 +70,8 @@ files:
       space_charge_mode: 3D
     input: {}
     output:
-      start_element: CLA-S03-APER
-      end_element: CLA-L03-APER
+      start_element: CLA-S03-SIM-APER-01
+      end_element: CLA-L03-SIM-APER-01
   L03:
     code: ASTRA
     charge:
@@ -79,8 +79,8 @@ files:
       space_charge_mode: 3D
     input: {}
     output:
-      start_element: CLA-L03-APER
-      end_element: CLA-S04-APER
+      start_element: CLA-L03-SIM-APER-01
+      end_element: CLA-S04-SIM-APER-01
   S04:
     code: ASTRA
     charge:
@@ -88,8 +88,8 @@ files:
       space_charge_mode: 3D
     input: {}
     output:
-      start_element: CLA-S04-APER
-      end_element: CLA-L4H-APER
+      start_element: CLA-S04-SIM-APER-01
+      end_element: CLA-L4H-SIM-APER-01
   L4H:
     code: ASTRA
     charge:
@@ -97,8 +97,8 @@ files:
       space_charge_mode: 3D
     input: {}
     output:
-      start_element: CLA-L4H-APER
-      end_element: CLA-S05-APER
+      start_element: CLA-L4H-SIM-APER-01
+      end_element: CLA-S05-SIM-APER-01
   S05:
     code: ASTRA
     charge:
@@ -106,7 +106,7 @@ files:
       space_charge_mode: 3D
     input: {}
     output:
-      start_element: CLA-S05-APER
+      start_element: CLA-S05-SIM-APER-01
       end_element: CLA-S05-SIM-MARK-01
   VBC:
     code: csrtrack
@@ -132,7 +132,7 @@ files:
     input: {}
     output:
       start_element: CLA-S06-SIM-MARK-01
-      end_element: CLA-L04-APER
+      end_element: CLA-L04-SIM-APER-01
   L04:
     code: ASTRA
     charge:
@@ -140,7 +140,7 @@ files:
       space_charge_mode: 3D
     input: {}
     output:
-      start_element: CLA-L04-APER
+      start_element: CLA-L04-SIM-APER-01
       end_element: CLA-S07-SIM-APER-01
   S07:
     code: ASTRA

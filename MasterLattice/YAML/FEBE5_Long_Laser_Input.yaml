@@ -3,8 +3,8 @@ elements:
     centre: [3.6807505, 0.0, 61.840479]
     datum: [3.6807505, 0.0, 61.840479]
     global_rotation: [0, 0, 0]
-    k1l: 1.547866
-    length: 0.21
+    k1l: 1.5574639359695406
+    length: 0.15
     type: quadrupole
   CLA-FEA-DIA-BPM-08:
     centre: [3.6807505, 0.0, 62.115479]
@@ -16,8 +16,8 @@ elements:
     centre: [3.6807505, 0.0, 62.390479]
     datum: [3.6807505, 0.0, 62.390479]
     global_rotation: [0, 0, 0]
-    k1l: -0.853439
-    length: 0.21
+    k1l: -0.8653234440695463
+    length: 0.15
     type: quadrupole
   CLA-FEA-MAG-HVCOR-05:
     centre: [3.6807505, 0.0, 62.595479]

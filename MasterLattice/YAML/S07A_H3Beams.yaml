@@ -185,7 +185,7 @@ elements:
     global_rotation: [0, 0, 0]
     length: 0.0
     type: marker
-  CLA-S07-DCP-01:
+  CLA-S07-DCP-EM-01:
     allow_long_beam: 1
     bunched_beam: 0
     cell_length: 0.596

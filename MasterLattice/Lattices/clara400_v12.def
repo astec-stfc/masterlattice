@@ -41,7 +41,7 @@ files:
       particle_definition: 'initial_distribution'
     output:
       zstart: 0
-      end_element: CLA-S02-APER-01
+      end_element: CLA-S02-SIM-APER-01
   S02:
     code: ASTRA
     charge:
@@ -50,7 +50,7 @@ files:
     input:
       particle_definition: $output['start_element']$.astra
     output:
-      start_element: CLA-S02-APER-01
+      start_element: CLA-S02-SIM-APER-01
       end_element: CLA-L02-APER
   L02:
     code: ASTRA
@@ -116,7 +116,7 @@ files:
       particle_definition: $output['start_element']$.astra
     output:
       start_element: CLA-S05-APER
-      end_element: CLA-S05-MARK-01
+      end_element: CLA-S05-SIM-MARK-01
   VBC:
     code: CSRTrack
     charge:
@@ -125,8 +125,8 @@ files:
     input:
       particle_definition: $output['start_element']$.astra
     output:
-      start_element: CLA-S05-MARK-01
-      end_element: CLA-S06-MARK-01
+      start_element: CLA-S05-SIM-MARK-01
+      end_element: CLA-S06-SIM-MARK-01
     CSRTrack_Options:
       online_monitors:
         sub_bunch.dat:
@@ -191,7 +191,7 @@ files:
     input:
       particle_definition: $output['start_element']$.astra
     output:
-      start_element: CLA-S06-MARK-01
+      start_element: CLA-S06-SIM-MARK-01
       end_element: CLA-L04-APER
   L04:
     code: ASTRA
@@ -202,7 +202,7 @@ files:
       particle_definition: $output['start_element']$.astra
     output:
       start_element: CLA-L04-APER
-      end_element: CLA-S07-APER-01
+      end_element: CLA-S07-SIM-APER-01
   S07:
     code: ASTRA
     charge:
@@ -211,8 +211,8 @@ files:
     input:
       particle_definition: $output['start_element']$.astra
     output:
-      start_element: CLA-S07-APER-01
-      end_element: CLA-S07-MARK-03
+      start_element: CLA-S07-SIM-APER-01
+      end_element: CLA-S07-SIM-MARK-03
 groups:
   laser-heater:
     type: chicane

@@ -42,8 +42,8 @@ files:
       space_charge_mode: 3D
     input: {}
     output:
-      start_element: CLA-S02-APER-01
-      end_element: CLA-S07-APER-01
+      start_element: CLA-S02-SIM-APER-01
+      end_element: CLA-S07-SIM-APER-01
     csr:
       csr_mode: 1D
     groups:

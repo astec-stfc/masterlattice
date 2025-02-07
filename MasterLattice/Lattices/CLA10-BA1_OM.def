@@ -61,7 +61,7 @@ files:
       {}
     output:
       start_element: CLA-L01-APER
-      end_element: CLA-S02-APER-01
+      end_element: CLA-S02-SIM-APER-01
   CLA-S02:
     code: elegant
     starting_rotation: 0
@@ -71,8 +71,8 @@ files:
     input:
       {}
     output:
-      start_element: CLA-S02-APER-01
-      end_element: CLA-C2V-MARK-01
+      start_element: CLA-S02-SIM-APER-01
+      end_element: CLA-C2V-SIM-MARK-01
   CLA-C2V:
     code: elegant
     charge:
@@ -81,8 +81,8 @@ files:
     input:
       {}
     output:
-      start_element: CLA-C2V-MARK-01
-      end_element: CLA-C2V-MARK-02
+      start_element: CLA-C2V-SIM-MARK-01
+      end_element: CLA-C2V-SIM-MARK-02
   EBT-INJ:
     code: elegant
     charge:
@@ -91,7 +91,7 @@ files:
     input:
       {}
     output:
-      start_element: CLA-C2V-MARK-02
+      start_element: CLA-C2V-SIM-MARK-02
       end_element: EBT-INJ-PSS-SHUT-02
   EBT-BA1:
     code: elegant

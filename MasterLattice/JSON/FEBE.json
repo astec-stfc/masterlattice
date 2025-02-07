@@ -1,6 +1,6 @@
 {
 	"elements":{
-		"CLA-FEB-W-START-01":{
+		"CLA-FEB-W-SIM-START-01":{
 			"type":"marker",
 			"fit_point":1.0,
 			"global_rotation":[
@@ -1155,7 +1155,7 @@
 				7.177607436814785e1
 			]
 		},
-		"CLA-FEB-LAS-EXIT-START-01":{
+		"CLA-FEB-LAS-EXIT-SIM-START-01":{
 			"type":"marker",
 			"fit_point":1.0,
 			"global_rotation":[

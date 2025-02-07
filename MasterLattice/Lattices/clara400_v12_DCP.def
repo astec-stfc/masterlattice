@@ -40,8 +40,8 @@ files:
     input:
       particle_definition: $output['start_element']$.astra
     output:
-      start_element: CLA-S07-APER-01
-      end_element: CLA-S07-MARK-03
+      start_element: CLA-S07-SIM-APER-01
+      end_element: CLA-S07-SIM-MARK-03
 groups:
 elements:
   filename: [YAML/S07.yaml]

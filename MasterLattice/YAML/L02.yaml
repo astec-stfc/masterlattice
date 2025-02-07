@@ -1,57 +1,54 @@
 elements:
-  CLA-L02-APER:
-    type: aperture
-    shape: rectangular
-    horizontal_size: 0.01
-    vertical_size: 0.01
+  CLA-L02-SIM-APER-01:
+    centre: [0.0, 0.0, 6.7485]
+    datum: [0.0, 0.0, 6.7485]
     global_rotation: [0, 0, 0]
-    position_end: [0, 0, 6.7485]
-    position_start: [0, 0, 6.7485]
-  CLA-L02-CAV:
-    type: cavity
-    length: 4.083900
-    Structure_Type: 'TravellingWave'
-    cell_length: 0.0333333333333333
-    coupling_cell_length: 0.0495
-    n_cells: 121
-    field_amplitude: 30000000.0
-    frequency: 2998500000.0
-    phase: 23
-    crest: 92.381
+    horizontal_size: 0.01
+    shape: rectangular
+    type: aperture
+    vertical_size: 0.01
+  CLA-L02-LIN-CAV-01:
+    Structure_Type: TravellingWave
     attenuation_constant: 0.42
-    shunt_impedance: 1.30693e8
-    design_power: 25e6
+    cell_length: 0.0333333333333333
+    centre: [0.0, 0.0, 8.83099]
+    coupling_cell_length: 0.0495
+    crest: 92.381
+    datum: [0.0, 0.0, 10.87294]
     design_gamma: 100
-    longitudinal_wakefield_sdds: $master_lattice_location$Data_Files/Sz5um10mm.sdds
-    transverse_wakefield_sdds: $master_lattice_location$Data_Files/Sx5um10mm.sdds
-    wakefield_gdf: $master_lattice_location$Data_Files/SxSz5um10mm.gdf
+    design_power: 25e6
+    field_amplitude: 30000000.0
     field_definition: $master_lattice_location$Data_Files/TWS_S-DL.dat
     field_definition_gdf: $master_lattice_location$Data_Files/mockup4m_moved.gdf
-    lsc_enable: true
+    frequency: 2998500000.0
+    global_rotation: [0, 0, 0]
+    length: 4.06667
+    longitudinal_wakefield_sdds: $master_lattice_location$Data_Files/Sz5um10mm.sdds
     lsc_bins: 20.0
     lsc_cutoff_high: [0.2, 0.25]
-    buffer_start: [0, 0, 6.7485]
-    buffer_start_length: 0.040538
-    buffer_end_length: 0.0416666
-    global_rotation: [0, 0, 0]
-    position_end: [0, 0, 10.8729]
-    position_start: [0, 0, 6.78904]
+    lsc_enable: true
+    n_cells: 121
+    phase: 23
+    shunt_impedance: 1.30693e8
     sub_elements:
-      CLA-L02-WAKE:
-        type: longitudinal_wakefield
-        length: 4.083900
+      CLA-L02-SIM-WAKE-01:
         cell_length: 0.0333333
+        centre: [0.0, 0.0, 8.83099]
         coupling_cell_length: 0.0495
+        datum: [0.0, 0.0, 10.87294]
         field_definition: $master_lattice_location$Data_Files/SzSx5um10mm.dat
         global_rotation: [0, 0, 0]
-        position_end: [0, 0, 10.8729]
-        position_start: [0, 0, 6.78904]
+        length: 4.0839
         scale_kick: 1
-  CLA-L02-APER-02:
-    type: aperture
-    shape: rectangular
-    horizontal_size: 0.01
-    vertical_size: 0.01
+        type: longitudinal_wakefield
+    transverse_wakefield_sdds: $master_lattice_location$Data_Files/Sx5um10mm.sdds
+    type: cavity
+    wakefield_gdf: $master_lattice_location$Data_Files/SxSz5um10mm.gdf
+  CLA-L02-SIM-APER-02:
+    centre: [0.0, 0.0, 10.8965]
+    datum: [0.0, 0.0, 10.8965]
     global_rotation: [0, 0, 0]
-    position_end: [0, 0, 10.8965]
-    position_start: [0, 0, 10.8965]
+    horizontal_size: 0.01
+    shape: rectangular
+    type: aperture
+    vertical_size: 0.01

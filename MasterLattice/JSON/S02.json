@@ -1,6 +1,6 @@
 {
     "elements": {
-        "CLA-S02-APER-01": {
+        "CLA-S02-SIM-APER-01": {
             "type": "aperture",
             "shape": "rectangular",
             "horizontal_size": 0.017,
@@ -205,7 +205,7 @@
                 4.34362
             ]
         },
-        "CLA-S02-APER-02": {
+        "CLA-S02-SIM-APER-02": {
             "type": "aperture",
             "shape": "rectangular",
             "horizontal_size": 0.017,

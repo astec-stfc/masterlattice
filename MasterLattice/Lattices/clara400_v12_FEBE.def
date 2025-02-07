@@ -95,7 +95,7 @@ files:
       particle_definition: $output['start_element']$.astra
     output:
       start_element: CLA-S05-APER
-      end_element: CLA-S05-MARK-01
+      end_element: CLA-S05-SIM-MARK-01
   VBC:
     code: csrtrack
     charge:
@@ -106,8 +106,8 @@ files:
     input:
       particle_definition: $output['start_element']$.astra
     output:
-      start_element: CLA-S05-MARK-01
-      end_element: CLA-S06-MARK-01
+      start_element: CLA-S05-SIM-MARK-01
+      end_element: CLA-S06-SIM-MARK-01
     groups:
       bunch_compressor:
         dipoleangle: 0.1185
@@ -121,7 +121,7 @@ files:
     input:
       prefix: ''
     output:
-      start_element: CLA-S06-MARK-01
+      start_element: CLA-S06-SIM-MARK-01
       end_element: CLA-L04-APER
   L04:
     code: ASTRA
@@ -132,7 +132,7 @@ files:
       particle_definition: $output['start_element']$.astra
     output:
       start_element: CLA-L04-APER
-      end_element: CLA-S07-APER-01
+      end_element: CLA-S07-SIM-APER-01
   S07:
     code: elegant
     charge:
@@ -141,8 +141,8 @@ files:
     input:
       particle_definition: $output['start_element']$.astra
     output:
-      start_element: CLA-S07-APER-01
-      end_element: CLA-FEA-START-01
+      start_element: CLA-S07-SIM-APER-01
+      end_element: CLA-FEA-SIM-START-01
   FEBE:
     code: elegant
     charge:
@@ -151,7 +151,7 @@ files:
     input:
       particle_definition: $output['start_element']$.astra
     output:
-      start_element: CLA-FEA-START-01
+      start_element: CLA-FEA-SIM-START-01
       end_element: CLA-FED-DUMP-01
 groups:
   laser-heater:

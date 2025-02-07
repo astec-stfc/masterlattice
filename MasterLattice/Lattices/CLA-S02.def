@@ -46,7 +46,7 @@ files:
       particle_definition: 'initial_distribution'
     output:
       zstart: 0
-      end_element: CLA-S02-APER-01
+      end_element: CLA-S02-SIM-APER-01
   CLA-S02:
     code: elegant
     starting_rotation: 0
@@ -56,7 +56,7 @@ files:
     input:
       {}
     output:
-      start_element: CLA-S02-APER-01
+      start_element: CLA-S02-SIM-APER-01
       end_element: CLA-S02-DIA-SCR-03
 groups:
 elements:

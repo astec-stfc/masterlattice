@@ -172,6 +172,7 @@ elements:
     factor: 1
     field_definition: $master_lattice_location$Data_Files/DCP_200um_G1200um.txt
     field_definition_sdds: $master_lattice_location$Data_Files/DCP_200um_G1200um.sdds
+    field_reference_position: start
     global_rotation: [0, 0, 0]
     interpolate: 1
     length: 0.596

@@ -12,6 +12,7 @@ elements:
     datum: [0, 0, 0]
     field_amplitude: 70000000.0
     field_definition: ../bas_gun.txt
+    field_reference_position: start
     frequency: 2997440000.0
     global_rotation: [0, 0, 0]
     length: 0
@@ -23,6 +24,7 @@ elements:
     datum: [0, 0, 0]
     field_amplitude: 0.237
     field_definition: ../bas_sol.txt
+    field_reference_position: start
     global_rotation: [0, 0, 0]
     length: 0
     type: solenoid
@@ -88,6 +90,7 @@ elements:
     datum: [0.0, 0.0, 3.2269]
     field_amplitude: 21000000.0
     field_definition: ../TWS_S-DL.dat
+    field_reference_position: start
     frequency: 2998500000.0
     global_rotation: [0, 0, 0]
     length: 2.03333

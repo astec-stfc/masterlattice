@@ -17,6 +17,7 @@ elements:
     field_amplitude: 32000000.0
     field_definition: $master_lattice_location$Data_Files/TWS_S-DL.dat
     field_definition_gdf: $master_lattice_location$Data_Files/mockup4m_moved.gdf
+    field_reference_position: start
     frequency: 2998500000.0
     global_rotation: [0, 0, 0]
     length: 4.06667

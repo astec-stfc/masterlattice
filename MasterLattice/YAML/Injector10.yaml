@@ -14,6 +14,7 @@ elements:
     field_amplitude: 70000000.0
     field_definition: $master_lattice_location$Data_Files/bas_gun.txt
     field_definition_gdf: $master_lattice_location$Data_Files/bas_gun_norm.gdf
+    field_reference_position: start
     frequency: 2997440000.0
     global_rotation: [0, 0, 0]
     gpt_phase_offset: 141
@@ -28,6 +29,7 @@ elements:
         field_amplitude: 0.237
         field_definition: $master_lattice_location$Data_Files/bas_sol.txt
         field_definition_gdf: $master_lattice_location$Data_Files/bas_sol_norm.gdf
+        field_reference_position: start
         global_rotation: [0, 0, 0]
         length: 0
         type: solenoid
@@ -98,6 +100,7 @@ elements:
     field_amplitude: 21000000.0
     field_definition: $master_lattice_location$Data_Files/TWS_S-DL.dat
     field_definition_gdf: $master_lattice_location$Data_Files/mockup2m_moved.gdf
+    field_reference_position: start
     frequency: 2998500000.0
     global_rotation: [0, 0, 0]
     length: 2.03333
@@ -113,6 +116,7 @@ elements:
         coupling_cell_length: 0.0495
         datum: [0.0, 0.0, 3.2269]
         field_definition: $master_lattice_location$Data_Files/SzSx5um10mm.dat
+        field_reference_position: start
         global_rotation: [0, 0, 0]
         length: 2.03333
         scale_kick: 1
@@ -122,6 +126,7 @@ elements:
         datum: [0.0, 0.0, 1.7]
         field_amplitude: 0.05
         field_definition: $master_lattice_location$Data_Files/SwissFEL_linac_sols.dat
+        field_reference_position: start
         global_rotation: [0, 0, 0]
         length: 0
         type: solenoid
@@ -130,6 +135,7 @@ elements:
         datum: [0.0, 0.0, 2.7]
         field_amplitude: -0.05
         field_definition: $master_lattice_location$Data_Files/SwissFEL_linac_sols.dat
+        field_reference_position: start
         global_rotation: [0, 0, 0]
         length: 0
         type: solenoid

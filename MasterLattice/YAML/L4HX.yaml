@@ -13,6 +13,7 @@ elements:
     datum: [0.0, 0.0, 24.3147]
     field_amplitude: 80000000.0
     field_definition: $master_lattice_location$Data_Files/TWS_X-DL.dat
+    field_reference_position: start
     frequency: 11994000000.0
     global_rotation: [0, 0, 0]
     length: 0.75

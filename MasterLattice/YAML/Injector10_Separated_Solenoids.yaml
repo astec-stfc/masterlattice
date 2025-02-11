@@ -19,6 +19,7 @@ elements:
     field_amplitude: 70000000.0
     field_definition: $master_lattice_location$Data_Files/bas_gun.txt
     field_definition_gdf: $master_lattice_location$Data_Files/bas_gun_norm.gdf
+    field_reference_position: start
     frequency: 2997440000.0
     global_rotation: [0, 0, 0]
     length: 0.17
@@ -32,6 +33,7 @@ elements:
         field_amplitude: 0.255
         field_definition: $master_lattice_location$Data_Files/LRRG_Measured_Main_Solenoid_2019.txt
         field_definition_gdf: $master_lattice_location$Data_Files/LRRG_Measured_Main_Solenoid_2019.gdf
+        field_reference_position: start
         field_integral_coefficients: [2.17321571, -0.858179277, 0.17212713, -0.0171033399,
           0.00067037153, -3.53922e-08, 1.53138e-05, 0.167819191, 0.0]
         global_rotation: [0, 0, 0]
@@ -43,6 +45,7 @@ elements:
         field_amplitude: $0.9 * 0.255$
         field_definition: $master_lattice_location$Data_Files/LRRG_Measured_Bucking_Solenoid_2019.txt
         field_definition_gdf: $master_lattice_location$Data_Files/LRRG_Measured_Bucking_Solenoid_2019.gdf
+        field_reference_position: start
         field_integral_coefficients: [0.000513431, -1.27695e-07, 1.61655e-10, -0.032733798,
           -4.29885e-06, 2.28967e-08, 0.001833327, -2.5354e-06, -1.04715e-09, -1.61177e-12,
           -2.94837e-05, 2.13938e-07, -0.003957362, 0.246073139, -4.393602393, 0.0]
@@ -133,6 +136,7 @@ elements:
     field_amplitude: 21000000.0
     field_definition: $master_lattice_location$Data_Files/TWS_S-DL.dat
     field_definition_gdf: $master_lattice_location$Data_Files/mockup2m_moved.gdf
+    field_reference_position: start
     frequency: 2998500000.0
     global_rotation: [0, 0, 0]
     length: 2.03333
@@ -148,6 +152,7 @@ elements:
         coupling_cell_length: 0.0495
         datum: [0.0, 0.0, 3.2269]
         field_definition: $master_lattice_location$Data_Files/SzSx5um10mm.dat
+        field_reference_position: start
         global_rotation: [0, 0, 0]
         length: 2.03333
         scale_kick: 1
@@ -158,6 +163,7 @@ elements:
         field_amplitude: 0.05
         field_definition: $master_lattice_location$Data_Files/SwissFEL_linac_sols.dat
         field_definition_gdf: $master_lattice_location$Data_Files/SwissFEL_linac_sols.gdf
+        field_reference_position: start
         field_integral_coefficients: [0.911580969, -0.0374385376, 0.00106926073, -1.64644381e-05,
           1.01769629e-07, 0, 0, 0.37651102, 0.12171419]
         global_rotation: [0, 0, 0]
@@ -169,6 +175,7 @@ elements:
         field_amplitude: -0.05
         field_definition: $master_lattice_location$Data_Files/SwissFEL_linac_sols.dat
         field_definition_gdf: $master_lattice_location$Data_Files/SwissFEL_linac_sols.gdf
+        field_reference_position: start
         field_integral_coefficients: [0.84768888, -0.0653499119, 0.00243270133, -4.29020066e-05,
           2.87019853e-07, 0, 0, 0.37651102, 0.12171419]
         global_rotation: [0, 0, 0]

@@ -20,6 +20,7 @@ elements:
     field_amplitude: 30000000.0
     field_definition: $master_lattice_location$Data_Files/TWS_S-DL.dat
     field_definition_gdf: $master_lattice_location$Data_Files/mockup4m_moved.gdf
+    field_reference_position: start
     frequency: 2998500000.0
     global_rotation: [0, 0, 0]
     length: 4.06667
@@ -37,6 +38,7 @@ elements:
         coupling_cell_length: 0.0495
         datum: [0.0, 0.0, 10.87294]
         field_definition: $master_lattice_location$Data_Files/SzSx5um10mm.dat
+        field_reference_position: start
         global_rotation: [0, 0, 0]
         length: 4.0839
         scale_kick: 1

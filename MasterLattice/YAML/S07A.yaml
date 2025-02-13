@@ -185,7 +185,7 @@ elements:
     centre: [0.0, 0.0, 44.2298]
     change_momentum: 1
     datum: [0.0, 0.0, 44.2298]
-    factor: 1
+    factor: 0
     field_definition: $master_lattice_location$Data_Files/DCP_200um_G1200um.hdf5
     field_reference_position: start
     global_rotation: [0, 0, 0]

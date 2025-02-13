@@ -13,8 +13,7 @@ elements:
     crest: 145.789
     datum: [0.0, 0.0, 0.32]
     field_amplitude: 120000000.0
-    field_definition: $master_lattice_location$Data_Files/HRRG_1D_RF.dat
-    field_definition_gdf: $master_lattice_location$Data_Files/HRRG_1D_RF.gdf
+    field_definition: $master_lattice_location$Data_Files/HRRG_1D_RF.hdf5
     field_reference_position: start
     frequency: 2998500000.0
     global_rotation: [0, 0, 0]
@@ -27,8 +26,7 @@ elements:
         centre: [0.0, 0.0, 0.16]
         datum: [0.0, 0.0, 0.32]
         field_amplitude: 0.344
-        field_definition: $master_lattice_location$Data_Files/HRRG_Simulated_Main_Solenoid_2024.txt
-        field_definition_gdf: $master_lattice_location$Data_Files/HRRG_Simulated_Main_Solenoid_2024.gdf
+        field_definition: $master_lattice_location$Data_Files/HRRG_Simulated_Main_Solenoid_2024.hdf5
         field_reference_position: start
         global_rotation: [0, 0, 0]
         length: 0.32
@@ -37,8 +35,7 @@ elements:
         centre: [0.0, 0.0, 0.16]
         datum: [0.0, 0.0, 0.32]
         field_amplitude: 0.11
-        field_definition: $master_lattice_location$Data_Files/HRRG_Simulated_Bucking_Solenoid_2024.txt
-        field_definition_gdf: $master_lattice_location$Data_Files/HRRG_Simulated_Bucking_Solenoid_2024.gdf
+        field_definition: $master_lattice_location$Data_Files/HRRG_Simulated_Bucking_Solenoid_2024.hdf5
         field_reference_position: start
         global_rotation: [0, 0, 0]
         length: 0.32
@@ -112,14 +109,12 @@ elements:
     design_gamma: 10
     design_power: 25e6
     field_amplitude: 21000000.0
-    field_definition: $master_lattice_location$Data_Files/TWS_S-DL.dat
-    field_definition_gdf: $master_lattice_location$Data_Files/mockup2m_moved.gdf
+    field_definition: $master_lattice_location$Data_Files/TWS_S-DL.hdf5
+    wakefield_definition: $master_lattice_location$Data_Files/SzSx5um10mm.hdf5
     field_reference_position: start
     frequency: 2998500000.0
     global_rotation: [0, 0, 0]
     length: 2.03333
-    wakefield: $master_lattice_location$Data_Files/SzSx5um10mm.dat
-    longitudinal_wakefield_sdds: $master_lattice_location$Data_Files/Sz5um10mm.sdds
     lsc_bins: 20.0
     lsc_cutoff_high: [0.2, 0.25]
     lsc_enable: true
@@ -131,8 +126,7 @@ elements:
         centre: [0.0, 0.0, 1.95]
         datum: [0.0, 0.0, 2.2]
         field_amplitude: 0.05
-        field_definition: $master_lattice_location$Data_Files/SwissFEL_linac_sols.dat
-        field_definition_gdf: $master_lattice_location$Data_Files/SwissFEL_linac_sols.gdf
+        field_definition: $master_lattice_location$Data_Files/SwissFEL_linac_sols.hdf5
         global_rotation: [0, 0, 0]
         length: 0.5
         type: solenoid
@@ -140,11 +134,8 @@ elements:
         centre: [0.0, 0.0, 2.95]
         datum: [0.0, 0.0, 3.2]
         field_amplitude: -0.05
-        field_definition: $master_lattice_location$Data_Files/SwissFEL_linac_sols.dat
-        field_definition_gdf: $master_lattice_location$Data_Files/SwissFEL_linac_sols.gdf
+        field_definition: $master_lattice_location$Data_Files/SwissFEL_linac_sols.hdf5
         global_rotation: [0, 0, 0]
         length: 0.5
         type: solenoid
-    transverse_wakefield_sdds: $master_lattice_location$Data_Files/Sx5um10mm.sdds
     type: cavity
-    wakefield_gdf: $master_lattice_location$Data_Files/SxSz5um10mm.gdf

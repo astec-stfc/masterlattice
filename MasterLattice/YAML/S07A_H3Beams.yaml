@@ -193,8 +193,7 @@ elements:
     change_momentum: 1
     datum: [0.0, 0.0, 44.2298]
     factor: 1
-    field_definition: $master_lattice_location$Data_Files/DCP_200um_G1200um.txt
-    field_definition_sdds: $master_lattice_location$Data_Files/DCP_200um_G1200um.sdds
+    field_definition: $master_lattice_location$Data_Files/DCP_200um_G1200um.hdf5
     field_reference_position: start
     global_rotation: [0, 0, 0]
     interpolate: 1
@@ -203,7 +202,7 @@ elements:
     n_cells: 1
     scale_kick: 1
     tcolumn: t
-    type: longitudinal_wakefield
+    type: wakefield
     wcolumn: Ez
   CLA-S07-SIM-APER-03:
     centre: [0.0, 0.0, 44.5278]

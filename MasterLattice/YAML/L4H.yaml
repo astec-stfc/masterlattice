@@ -15,31 +15,15 @@ elements:
     crest: 250.639
     datum: [0.0, 0.0, 24.3147]
     field_amplitude: 24000000.0
-    field_definition: $master_lattice_location$Data_Files/TWS_X-DL.dat
-    field_definition_gdf: $master_lattice_location$Data_Files/mockupl4h_moved.gdf
+    field_definition: $master_lattice_location$Data_Files/TWS_X-DL.hdf5
+    wakefield_definition: $master_lattice_location$Data_Files/SzSx20um25mmxband.hdf5
     field_reference_position: start
     frequency: 11994000000.0
     global_rotation: [0, 0, 0]
     length: 0.75
-    longitudinal_wakefield_gdf: $master_lattice_location$Data_Files/Sz20um25mmxband.gdf
-    longitudinal_wakefield_sdds: $master_lattice_location$Data_Files/Sz20um25mmxband.sdds
     lsc_bins: 20.0
     lsc_cutoff_high: [0.2, 0.25]
     lsc_enable: true
     n_cells: 89
     phase: -184
-    sub_elements:
-      CLA-L4H-SIM-WAKE-01:
-        cell_length: 0.00833333
-        centre: [0.0, 0.0, 23.9397]
-        coupling_cell_length: 0.012375
-        datum: [0.0, 0.0, 24.3147]
-        field_definition: $master_lattice_location$Data_Files/SzSx20um25mmxband.dat
-        field_reference_position: start
-        global_rotation: [0, 0, 0]
-        length: 0.75
-        scale_kick: 1
-        type: longitudinal_wakefield
-    transverse_wakefield_gdf: $master_lattice_location$Data_Files/Sx50um10mmxband.gdf
-    transverse_wakefield_sdds: $master_lattice_location$Data_Files/Sx50um10mmxband.sdds
     type: cavity

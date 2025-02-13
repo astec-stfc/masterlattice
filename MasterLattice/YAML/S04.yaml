@@ -93,30 +93,6 @@ elements:
     datum: [0.0, 0.0, 18.4536]
     global_rotation: [0, 0, 0]
     type: screen
-  CLA-S04-MAG-DIP-01:
-    angle: 0.000
-    centre: [0.0, 0.0, 18.6402]
-    datum: [0, 0.0, 18.6902]
-    edge_field_integral: 0.4
-    exit_edge_angle: angle
-    global_rotation: [0, 0, 0]
-    half_gap: 0.005
-    isr_enable: true
-    length: 0.1
-    sr_enable: true
-    type: dipole
-  CLA-S04-MAG-DIP-02:
-    angle: -0.000
-    centre: [0, 0.0, 19.0902]
-    datum: [0, 0.0, 19.1402]
-    edge_field_integral: 0.4
-    entrance_edge_angle: angle
-    global_rotation: [0, 0, 0.000]
-    half_gap: 0.005
-    isr_enable: true
-    length: 0.1
-    sr_enable: true
-    type: dipole
   CLA-S04-DIA-SCR-03:
     centre: [0, 0.0, 19.233568]
     datum: [0, 0.0, 19.233568]
@@ -147,30 +123,6 @@ elements:
     datum: [0, 0.0, 20.488568]
     global_rotation: [0, 0, 0]
     type: screen
-  CLA-S04-MAG-DIP-03:
-    angle: -0.000
-    centre: [0, 0.0, 20.6652]
-    datum: [0, 0.0, 20.7152]
-    edge_field_integral: 0.4
-    exit_edge_angle: angle
-    global_rotation: [0, 0, 0]
-    half_gap: 0.005
-    isr_enable: true
-    length: 0.1
-    sr_enable: true
-    type: dipole
-  CLA-S04-MAG-DIP-04:
-    angle: 0.000
-    centre: [-0.0, 0.0, 21.1152]
-    datum: [0.0, 0.0, 21.1652]
-    edge_field_integral: 0.4
-    entrance_edge_angle: angle
-    global_rotation: [0, 0, 0]
-    half_gap: 0.005
-    isr_enable: true
-    length: 0.1
-    sr_enable: true
-    type: dipole
   CLA-S04-DIA-SCR-05:
     centre: [0.0, 0.0, 21.3152]
     datum: [0.0, 0.0, 21.3152]

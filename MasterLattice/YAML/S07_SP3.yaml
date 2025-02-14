@@ -40,6 +40,8 @@ elements:
     k1l: 1.59249
     length: 0.162
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-SP3-MAG-QUAD-02:
     centre: [-0.929743, 0., 47.1028831]
     datum: [-0.967243, 0., 47.167835]
@@ -47,6 +49,8 @@ elements:
     k1l: 1.59249
     length: 0.162
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-SP3-DIA-BPM-02:
     centre: [-1.06939, 0., 47.3447588]
     datum: [-1.12189, 0., 47.4356915]

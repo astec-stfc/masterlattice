@@ -29,6 +29,8 @@ elements:
     length: 0.1007
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-S02-DIA-BPM-01:
     PV: CLA-S02-DIA-BPM-01
     centre: [0.0, 0.0, 3.59875]
@@ -46,6 +48,8 @@ elements:
     length: 0.1007
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-S02-DIA-SCR-01:
     camera_PV: CLA-S02-DIA-CAM-01
     centre: [0.0, 0.0, 4.089100]
@@ -109,6 +113,8 @@ elements:
     length: 0.1007
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-S02-MAG-QUAD-04:
     PV: CLA-S02-MAG-QUAD-04
     centre: [0.0, 0.0, 5.62715]
@@ -119,6 +125,8 @@ elements:
     length: 0.1007
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-S02-MAG-QUAD-05:
     PV: CLA-S02-MAG-QUAD-05
     centre: [0.0, 0.0, 6.4403]
@@ -129,6 +137,8 @@ elements:
     length: 0.1007
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-S02-DIA-BPM-02:
     PV: CLA-S02-DIA-BPM-02
     centre: [0.0, 0.0, 6.515975]

@@ -36,6 +36,8 @@ elements:
     length: 0.15
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-S06-DIA-BAM-01:
     centre: [0.0, 0.0, 32.103988]
     datum: [0.0, 0.0, 32.143988]
@@ -58,6 +60,8 @@ elements:
     length: 0.15
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-S06-DIA-SCR-01:
     centre: [0.0, 0.0, 32.925234]
     datum: [0.0, 0.0, 32.925234]

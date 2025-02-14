@@ -22,6 +22,8 @@ elements:
     length: 0.162
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-S03-MAG-HVCOR-01:
     centre: [0.0, 0.0, 11.7974]
     datum: [0.0, 0.0, 11.8224]

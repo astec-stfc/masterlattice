@@ -42,6 +42,8 @@ elements:
     length: 0.1
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   EBT-INJ-MAG-QUAD-06:
     centre: [-2.04298533, 0.0, 8.13074534]
     datum: [-2.07834067, 0.0, 8.16610069]
@@ -51,6 +53,8 @@ elements:
     length: 0.1
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   EBT-INJ-DIA-YAG-04:
     centre: [-2.75505, 0.0, 8.8428]
     datum: [-2.75505, 0.0, 8.8428]

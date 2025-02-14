@@ -52,6 +52,8 @@ elements:
     length: 0.121567
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-C2V-MAG-QUAD-02:
     centre: [-0.62527697, 0.0, 6.66310099]
     datum: [-0.66823795, 0.0, 6.70606197]
@@ -63,6 +65,8 @@ elements:
     length: 0.121512
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-C2V-MAG-QUAD-03:
     centre: [-0.83006076, 0.0, 6.86789478]
     datum: [-0.87303552, 0.0, 6.91086955]
@@ -74,6 +78,8 @@ elements:
     length: 0.121551
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-C2V-DIA-SCR-01:
     camera_PV: CLA-C2V-DIA-CAM-01
     centre: [-0.944068, 0.0, 6.9819]
@@ -103,6 +109,8 @@ elements:
     length: 0.1
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-SP1-MAG-QUAD-02:
     centre: [-2.04298533, 0.0, 8.13074534]
     datum: [-2.07834067, 0.0, 8.16610069]
@@ -112,6 +120,8 @@ elements:
     length: 0.1
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-SP1-DIA-SCR-01:
     centre: [-2.75505, 0.0, 8.8428]
     datum: [-2.75505, 0.0, 8.8428]

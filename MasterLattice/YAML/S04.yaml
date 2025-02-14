@@ -30,6 +30,8 @@ elements:
     length: 0.162
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-S04-DIA-ICT-01:
     centre: [0.0, 0.0, 16.655768]
     datum: [0.0, 0.0, 16.680768]
@@ -51,6 +53,8 @@ elements:
     length: 0.162
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-S04-DIA-SCR-01:
     centre: [0.0, 0.0, 17.313563]
     datum: [0.0, 0.0, 17.313563]
@@ -65,6 +69,8 @@ elements:
     length: 0.162
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-S04-DIA-BPM-02:
     centre: [0.0, 0.0, 17.7552]
     datum: [0.0, 0.0, 17.8602]
@@ -80,6 +86,8 @@ elements:
     length: 0.162
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-S04-MAG-HVCOR-02:
     centre: [0.0, 0.0, 18.349768]
     datum: [0.0, 0.0, 18.374768]
@@ -137,6 +145,8 @@ elements:
     length: 0.162
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-S04-MAG-HVCOR-04:
     centre: [0.0, 0.0, 21.729768]
     datum: [0.0, 0.0, 21.754768]
@@ -154,6 +164,8 @@ elements:
     length: 0.162
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-S04-DIA-BPM-05:
     centre: [0.0, 0.0, 22.300268]
     datum: [0.0, 0.0, 22.405268]
@@ -169,6 +181,8 @@ elements:
     length: 0.162
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-S04-MAG-HVCOR-05:
     centre: [0.0, 0.0, 22.789768]
     datum: [0.0, 0.0, 22.814768]
@@ -186,6 +200,8 @@ elements:
     length: 0.162
     sr_enable: true
     type: quadrupole
+    smooth: 2
+    bore: 0.037
   CLA-S04-DIA-BPM-06:
     centre: [0.0, 0.0, 23.28026850]
     datum: [0.0, 0.0, 23.38526850]

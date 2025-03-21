@@ -1,0 +1,34 @@
+generator:
+  default: clara_400_3ps
+  code: opal
+files:
+  injector400:
+    code: opal
+    charge:
+      cathode: True
+      space_charge_mode: 2D
+      mirror_charge: True
+    input:
+      particle_definition: 'initial_distribution'
+    output:
+      zstart: 0
+      end_element: CLA-S01-DIA-SCR-01
+  L01:
+    code: opal
+    starting_rotation: 0
+    charge:
+      cathode: False
+      space_charge_mode: 3D
+    input:
+      {}
+    output:
+      start_element: CLA-S01-DIA-SCR-01
+      end_element: CLA-S02-SIM-APER-01
+groups:
+  bunch_compressor:
+    type: chicane
+    elements: [CLA-VBC-MAG-DIP-01, CLA-VBC-MAG-DIP-02, CLA-VBC-MAG-DIP-03, CLA-VBC-MAG-DIP-04]
+elements:
+  filename: [YAML/Injector400.yaml, YAML/S02.yaml, YAML/L02.yaml,
+             YAML/S03.yaml, YAML/L03.yaml, YAML/S04.yaml, YAML/L4H.yaml,
+             YAML/S05.yaml, YAML/VBC.yaml, YAML/S06_SP2.yaml]

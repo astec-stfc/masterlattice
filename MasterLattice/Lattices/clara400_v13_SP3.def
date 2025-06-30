@@ -25,6 +25,7 @@ global:
     min_grid: 3.424657e-13
     Lmagnetized: False
 generator:
+  code: astra
   default: clara_400_3ps
 
 files:

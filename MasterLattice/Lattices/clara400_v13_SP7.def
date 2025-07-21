@@ -118,8 +118,8 @@ files:
     input: {}
     output:
       start_element: CLA-S07-SIM-APER-01
-      end_element: CLA-SP3-SIM-MARK-01
-  SP3:
+      end_element: CLA-FEA-SIM-START-01
+  SP7:
     code: elegant
     input: {}
     charge:
@@ -127,8 +127,8 @@ files:
       space_charge_mode: 3D
     input: {}
     output:
-      start_element: CLA-SP3-SIM-MARK-01
-      end_element: CLA-SP3-DIA-FCUP-01
+      start_element: CLA-FEA-SIM-START-01
+      end_element: CLA-S07-DUMP-01-START
 groups:
   bunch_compressor:
     type: chicane
@@ -137,4 +137,4 @@ elements:
   filename: [YAML/Injector400.yaml, YAML/S02.yaml, YAML/L02.yaml,
              YAML/S03.yaml, YAML/L03.yaml, YAML/S04.yaml, YAML/L4H.yaml,
              YAML/S05.yaml, YAML/VBC.yaml, YAML/S06.yaml, YAML/L04.yaml,
-             YAML/S07_SP3.yaml]
+             YAML/S07_FEBE_STRAIGHT_ON.yaml]

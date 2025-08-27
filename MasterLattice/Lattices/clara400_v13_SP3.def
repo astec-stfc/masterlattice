@@ -27,7 +27,6 @@ global:
 generator:
   code: astra
   default: clara_400_3ps
-
 files:
   injector400:
     code: ASTRA
@@ -92,6 +91,12 @@ files:
     output:
       start_element: CLA-S05-SIM-MARK-01
       end_element: CLA-S06-SIM-MARK-01
+    csr:
+      csr_mode: 1D
+      start: 
+        - CLA-VBC-MAG-DIP-01
+      end: 
+        - CLA-VBC-MAG-DIP-04
     groups:
       bunch_compressor:
         dipoleangle: 0.1185
@@ -111,10 +116,10 @@ files:
       end_element: CLA-S07-SIM-APER-01
   S07:
     code: elegant
-    input: {}
-    charge:
-      cathode: False
-      space_charge_mode: 3D
+#    input: {}
+#    charge:
+#      cathode: False
+#      space_charge_mode: 3D
     input: {}
     output:
       start_element: CLA-S07-SIM-APER-01

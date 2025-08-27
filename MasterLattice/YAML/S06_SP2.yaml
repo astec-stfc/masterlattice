@@ -1,5 +1,10 @@
 elements:
   filename: YAML/S06A.yaml
+  CLA-SP2-SIM-MARK-01:
+    datum: [0., 0., 33.10779289]
+    centre: [0., 0., 33.10779289]
+    type: marker
+    global_rotation: [0, 0, 0]
   CLA-SP2-MAG-DIP-01:
     angle: 0.523599
     centre: [0., 0., 33.312491]

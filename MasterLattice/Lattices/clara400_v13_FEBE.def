@@ -27,6 +27,7 @@ global:
 generator:
   code: astra
   default: clara_400_3ps
+
 files:
   injector400:
     code: ASTRA
@@ -91,12 +92,6 @@ files:
     output:
       start_element: CLA-S05-SIM-MARK-01
       end_element: CLA-S06-SIM-MARK-01
-    csr:
-      csr_mode: 1D
-      start: 
-        - CLA-VBC-MAG-DIP-01
-      end: 
-        - CLA-VBC-MAG-DIP-04
     groups:
       bunch_compressor:
         dipoleangle: 0.1185
@@ -116,24 +111,23 @@ files:
       end_element: CLA-S07-SIM-APER-01
   S07:
     code: elegant
-#    input: {}
-#    charge:
-#      cathode: False
-#      space_charge_mode: 3D
-    input: {}
-    output:
-      start_element: CLA-S07-SIM-APER-01
-      end_element: CLA-SP3-SIM-MARK-01
-  SP3:
-    code: elegant
     input: {}
     charge:
       cathode: False
       space_charge_mode: 3D
     input: {}
     output:
-      start_element: CLA-SP3-SIM-MARK-01
-      end_element: CLA-SP3-DIA-FCUP-01
+      start_element: CLA-S07-SIM-APER-01
+      end_element: CLA-FEA-SIM-START-01
+  FEBE:
+    code: elegant
+    charge:
+      cathode: False
+      space_charge_mode: 3D
+    input: {}
+    output:
+      start_element: CLA-FEA-SIM-START-01
+      end_element: CLA-FED-SIM-DUMP-01-START
 groups:
   bunch_compressor:
     type: chicane
@@ -142,4 +136,4 @@ elements:
   filename: [YAML/Injector400.yaml, YAML/S02.yaml, YAML/L02.yaml,
              YAML/S03.yaml, YAML/L03.yaml, YAML/S04.yaml, YAML/L4H.yaml,
              YAML/S05.yaml, YAML/VBC.yaml, YAML/S06.yaml, YAML/L04.yaml,
-             YAML/S07_SP3.yaml]
+             YAML/S07_FEBE.yaml, YAML/FEBE_ARC.yaml, YAML/FEBE5_Long_Laser_Input.yaml]

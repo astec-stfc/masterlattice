@@ -128,7 +128,7 @@ files:
         dipoleangle: 0.1185
         width: 0.2
         gap: 0.02
-  SP2:
+  S06:
     code: elegant
     charge:
       cathode: False
@@ -136,6 +136,15 @@ files:
     input: {}
     output:
       start_element: CLA-S06-SIM-MARK-01
+      end_element: CLA-SP2-SIM-MARK-01
+  SP2:
+    code: elegant
+    charge:
+      cathode: False
+      space_charge_mode: 3D
+    input: {}
+    output:
+      start_element: CLA-SP2-SIM-MARK-01
       end_element: CLA-SP2-DIA-FCUP-01
 
 groups:

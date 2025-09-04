@@ -25,7 +25,7 @@ setup(
     description="Files defining the CLARA lattice",
     long_description=readme,
     long_description_content_type="text/markdown",
-    url="https://gitlab.stfc.ac.uk/jkj62/masterlattice",
+    url="https://github.com/astec-stfc/masterlattice",
     packages=find_packages(),
     install_requires=requirements,
     classifiers=[

@@ -1,16 +1,18 @@
-name: Publish to PyPI
+name: Publish Python Package
 
 on:
   release:
-    types: [published]
+    types: [published]   # 🚀 real release → PyPI
+  workflow_dispatch: {}  # 🧪 manual trigger → TestPyPI
 
 permissions:
-  id-token: write   # Required for OIDC / Trusted Publishers
+  id-token: write   # Required for PyPI Trusted Publishers
   contents: read    # checkout needs this
 
 jobs:
-  publish:
+  build-and-publish:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
 
@@ -19,11 +21,24 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Build package
+      - name: Install build tools
         run: |
           python -m pip install --upgrade pip build
+
+      - name: Build package
+        run: |
           python -m build
 
+      # 🧪 Publish to TestPyPI when triggered manually
+      - name: Publish to TestPyPI
+        if: github.event_name == 'workflow_dispatch'
+        uses: pypa/gh-action-pypi-publish@release/v1
+        with:
+          repository-url: https://test.pypi.org/legacy/
+          skip-existing: true   # don't fail if version already uploaded
+
+      # 🚀 Publish to real PyPI when a GitHub release is published
       - name: Publish to PyPI
+        if: github.event_name == 'release'
         uses: pypa/gh-action-pypi-publish@release/v1
 
